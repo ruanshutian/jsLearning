@@ -1,70 +1,32 @@
 "use strict"
-
-// function sayHi(){
-//     alert("Hello");
-// }
-
-// let sayHi2 = function sss(){
-//     alert("hello sayHi2");
-// }
-
-// sayHi()
-// // sayHi2();
-
-// // sss();
-
-// alert(sayHi);
+// //剪头函数
+// let func = (a,b)=>a+b;
+// alert(func(1,2));
 
 
-// let sayH3 = sayHi;
-// sayH3();
+// //如果我们只有一个参数，还可以省略掉参数外的圆括号
+// let double = n =>n+2;
+// alert(double(3));
+
+// //如果没有参数，括号则是空的（但括号必须保留）
+// let sayHi=()=>alert("Hello");
 // sayHi();
 
+// // 箭头函数可以像函数表达式一样使用。
+// let age =prompt("age is ?",18);
+// alert(age);
+// let welcome = (age <18 )?
+// ()=>alert("Hello"):
+// ()=>alert("Greetings");
 
-// function ask(question ,yes ,no)
-// {
-//     if(confirm(question))yes()
-//     else no();
-// }
-// function showOk()
-// {
-//     alert("you agreed");
-// }
-// function showCacel()
-// {
-//     alert("You  canceled the excution");
-// }
+// welcome();
 
-// ask("Do you agree?",showOk,showCacel);
+// 多行的箭头函数
 
 
-// function ask(question, yes, no) {
-//     if (confirm(question)) yes()
-//     else no();
-//   }
-  
-//   ask(
-//     "Do you agree?",
-//     function() { alert("You agreed."); },
-//     function() { alert("You canceled the execution."); }
-//   );
-
-let age = prompt("age is ?",18);
-let welcome;
-if(age < 18)
-{
-    welcome = function(){
-        alert("111");
-    };
-}
-else{
-    welcome = function(){
-        alert("222");
-    };
-    // welcome();
+let sum =(a,b)=>{
+    let result = a+b;
+    return result;
 }
 
-welcome();
-
-
-
+alert(sum(2,3));
