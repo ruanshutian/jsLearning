@@ -67,14 +67,13 @@ arr.unshift(...items) —— 从首端添加元素。
 // alert(arr.concat(arrayLike));
 
 
-// // 遍历：forEach
-// // ["ss","s2","s3"].forEach(alert);
-// // 对每个元素调用 alert
-// ["Bilbo", "Gandalf", "Nazgul"].forEach(alert);
-// ["Bilbo", "Gandalf", "Nazgul"].forEach((item, index, array) => {
-//     alert(`${item} is at index ${index} in ${array}`);
-//   });
-
+// 遍历：forEach
+// ["ss","s2","s3"].forEach(alert);
+// 对每个元素调用 alert
+["Bilbo", "Gandalf", "Nazgul"].forEach(printItem)
+function printItem(item) {
+  console.log('pi', item); 
+}
 
 // 在数组中搜索
 // let arr = [1, 0, false];
@@ -184,27 +183,27 @@ arr.map(func, thisArg);
 // ...
 // thisArg 是可选的最后一个参数
  */
-let army = {
-    minAge: 18,
-    maxAge: 27,
-    canJoin(user) {
-      return user.age >= this.minAge && user.age < this.maxAge;
-    }
-  };
+// let army = {
+//     minAge: 18,
+//     maxAge: 27,
+//     canJoin(user) {
+//       return user.age >= this.minAge && user.age < this.maxAge;
+//     }
+//   };
   
-  let users = [
-    {age: 16},
-    {age: 20},
-    {age: 23},
-    {age: 30}
-  ];
+//   let users = [
+//     {age: 16},
+//     {age: 20},
+//     {age: 23},
+//     {age: 30}
+//   ];
   
-  // 找到 army.canJoin 返回 true 的 user
-  let soldiers = users.filter(army.canJoin, army);
+//   // 找到 army.canJoin 返回 true 的 user
+//   let soldiers = users.filter(army.canJoin, army);
   
-  alert(soldiers.length); // 2
-  alert(soldiers[0].age); // 20
-  alert(soldiers[1].age); // 23
+//   alert(soldiers.length); // 2
+//   alert(soldiers[0].age); // 20
+//   alert(soldiers[1].age); // 23
 
 
 
