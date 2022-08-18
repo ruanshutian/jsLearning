@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js_info/06_07new Function/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_info/06_07new Function/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/06_08调度setTimeout/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/06_08调度setTimeout/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/06_09装饰器模式和转发call_apply/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/06_09装饰器模式和转发call_apply/script1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_info/06_07new Function/script1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js_info/06_07new Function/script1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +37,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/ruanshutian/Desktop/jsLearning/js_info",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js_info",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,8 +50,14 @@
       <recent name="$PROJECT_DIR$/js_info" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.hello.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.hello.html (3)">
     <configuration name="hello.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/06_07new Function/hello.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="hello.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/jsLearning/js_info/06_08调度setTimeout/hello.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="hello.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/jsLearning/js_info/06_09装饰器模式和转发call_apply/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/06_06函数对象/hello.html" useBuiltInWebServerPort="true">
@@ -55,6 +65,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.hello.html (3)" />
+        <item itemvalue="JavaScript Debug.hello.html (2)" />
         <item itemvalue="JavaScript Debug.hello.html (1)" />
         <item itemvalue="JavaScript Debug.hello.html" />
       </list>
@@ -70,6 +82,7 @@
       <updated>1660293623844</updated>
       <workItem from="1660293630513" duration="749000" />
       <workItem from="1660571771682" duration="1793000" />
+      <workItem from="1660786073557" duration="3992000" />
     </task>
     <servers />
   </component>

@@ -20,8 +20,22 @@
 /**
  * 闭包
  */
+function getFunc(){
+    let value ='test';
+    let str = 'alert("value")';
+    // let func = new function ('alert("ddd")');
+    return func;
+}
+getFunc()()
 
-
+// function getFunc(){
+//     let value ='test';
+//     let func = new function (){
+//         alert(value);
+//     };
+//     return func;
+// }
+// getFunc()()
 
 
 
