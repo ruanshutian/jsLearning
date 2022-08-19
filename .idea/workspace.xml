@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/ajaxTest.XML" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/ajaxTest1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/helloAjax.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/script1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ajax/01Ajax_xml/ajaxTest.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/ajaxTest.XML" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ajax/01Ajax_xml/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Ajax/01Ajax_xml/script1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axios/01axios/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axios/01axios/script1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/Ajax",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/axios/01axios",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,19 +52,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/axios/01axios" />
       <recent name="$PROJECT_DIR$/Ajax" />
       <recent name="$PROJECT_DIR$/Ajax/01Ajax" />
       <recent name="$PROJECT_DIR$/js_info" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.hello.html">
+  <component name="RunManager" selected="JavaScript Debug.hello.html (2)">
     <configuration name="ajaxTest1.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/jsLearning/Ajax/01Ajax_xml/ajaxTest1.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="hello.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/jsLearning/Ajax/01Ajax_json/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/jsLearning/Ajax/01Ajax/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="hello.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/jsLearning/axios/01axios/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/jsLearning/Ajax/01Ajax_xml/hello.html" useBuiltInWebServerPort="true">
@@ -82,11 +76,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.hello.html (2)" />
         <item itemvalue="JavaScript Debug.hello.html" />
         <item itemvalue="JavaScript Debug.ajaxTest1.html (1)" />
         <item itemvalue="JavaScript Debug.hello.html (1)" />
         <item itemvalue="JavaScript Debug.jsontest.html" />
-        <item itemvalue="JavaScript Debug.hello.html (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +96,7 @@
       <workItem from="1660571771682" duration="1793000" />
       <workItem from="1660786073557" duration="4776000" />
       <workItem from="1660875662315" duration="3921000" />
-      <workItem from="1660886559190" duration="11685000" />
+      <workItem from="1660886559190" duration="12076000" />
     </task>
     <servers />
   </component>
