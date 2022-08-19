@@ -123,51 +123,37 @@
  */
 window.onload = function (){
     // 1 获取a节点，并为其添加onclick响应函数
-    document.getElementsByTagName("a")[0].onclick = function (){
-        //3 创建xhttpRequest对象
-        let request = new XMLHttpRequest()
+    document.getElementById("request").addEventListener('click', handleClick)
+}
 
-        //4 准备发送请求的数据  ：url
-        let url = this.href + "?time" +new Date()
-        let method = "GET";
+function handleClick(event) {
+    console.log('handle click event', event);
+    const url = document.getElementById('url').value;
 
-        //5调用xtthpRequest 对象 open方法
-        request.open(method,url);
+    let request = new XMLHttpRequest()
+    let method = "GET";
 
-        //6调用 send方法
-        request.send(null);
+    //5调用xtthpRequest 对象 open方法
+    request.open(method, url);
 
-        //7为   添 加onreadstatechange响应函数
-        request.onreadystatechange = function (){
-            // alert(request.readyState )
-            //8 判断是否完成： xmlHttpRequest对象readyState属性值为4
-            if(request.readyState ==4){
-                //9在判断响应是否可用 ： XMLHTtpRequest对象status属性值为200
-                if(request.status ==200 || request.status ==304){
-                    //1 结果xml格式，获取
-                    let result = request.responseXML;
-                    //2 先创建响应节点，再把节点加入
-                    // let name = result.getElementsByTagName("name")[0].firstChild.nodeValue;
-                    // let email = result.getElementsByTagName("email")[0].firstChild.nodeValue;
-                    alert(request.responseXML)
+    //6调用 send方法
+    request.send(null);
 
-                    // let aNode = document.createElement("a");
-                    // aNode.appendChild(document.createTextNode(name));
-                    // aNode.href = "mailto:"+email;
-                    //
-                    // let hNode = document.createElement("h2")
-                    // hNode.appendChild(aNode)
-                    //
-                    // let Node = document.getElementById("ajaxTest");
-                    // Node.appendChild(hNode);
-
-                    // brNode = document.createElement("br");
-                    // Node.appendChild(brNode);
-
-                }
+    //7为   添 加onreadstatechange响应函数
+    request.onreadystatechange = function (){
+        // alert(request.readyState )
+        //8 判断是否完成： xmlHttpRequest对象readyState属性值为4
+        if(request.readyState === 4){
+            //9在判断响应是否可用 ： XMLHTtpRequest对象status属性值为200
+            if(request.status === 200 || request.status === 304){
+                //1 结果xml格式，获取
+                let result = request.responseXML;
+                //2 先创建响应节点，再把节点加入
+                // let name = result.getElementsByTagName("name")[0].firstChild.nodeValue;
+                // let email = result.getElementsByTagName("email")[0].firstChild.nodeValue;
+                console.log('request', request)
+                document.getElementById('response-text').innerText = request.responseText
             }
         }
-        //2 取消a节点默认行为
-        return false;
     }
 }

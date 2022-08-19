@@ -5,29 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax/ajaxTest1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax/helloAjax.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax/script1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_html/ajaxTest1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_html/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_html/helloAjax.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_html/script1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_json/ajaxTest.XML" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_json/ajaxTest1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_json/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_json/helloAjax.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_json/json.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_json/jsonTest.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_json/jsontest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_json/script1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/ajaxTest.XML" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/ajaxTest1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/helloAjax.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/ajaxTest.XML" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/ajaxTest1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/helloAjax.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/script1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_info/06_09装饰器模式和转发call_apply/script1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js_info/06_09装饰器模式和转发call_apply/script1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ajax/01Ajax_xml/ajaxTest.XML" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/ajaxTest.XML" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ajax/01Ajax_xml/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ajax/01Ajax_xml/script1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/01Ajax_xml/script1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +102,7 @@
       <workItem from="1660571771682" duration="1793000" />
       <workItem from="1660786073557" duration="4776000" />
       <workItem from="1660875662315" duration="3921000" />
-      <workItem from="1660886559190" duration="9028000" />
+      <workItem from="1660886559190" duration="11685000" />
     </task>
     <servers />
   </component>
