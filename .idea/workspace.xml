@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/axios/02axios使用/axios使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/axios/02axios使用/axios配置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/axios/02axios使用/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/axios/02axios使用/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/axios/02axios使用/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axios/02axios使用/axios其他请求方法的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axios/02axios使用/axios创建实实例对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axios/02axios使用/axios拦截器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axios/02axios使用/axios默认配置.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/axios/01axios/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/axios/01axios/db.json" afterDir="false" />
     </list>
@@ -64,17 +63,17 @@
       <recent name="$PROJECT_DIR$/Ajax" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.axios使用.html">
+  <component name="RunManager" selected="JavaScript Debug.axios创建实实例对象.html">
     <configuration name="axios使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/07_1属性/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="axios其他请求方法的使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios其他请求方法的使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/11_02Promise/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="axios默认配置.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios默认配置.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/07_2属性gettterAndSetter/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="axios创建实实例对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios创建实实例对象.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/hello.html" useBuiltInWebServerPort="true">
@@ -82,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.axios创建实实例对象.html" />
+        <item itemvalue="JavaScript Debug.axios默认配置.html" />
+        <item itemvalue="JavaScript Debug.axios其他请求方法的使用.html" />
         <item itemvalue="JavaScript Debug.axios使用.html" />
         <item itemvalue="JavaScript Debug.hello.html" />
-        <item itemvalue="JavaScript Debug.hello.html (5)" />
-        <item itemvalue="JavaScript Debug.hello.html (1)" />
-        <item itemvalue="JavaScript Debug.hello.html (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +104,7 @@
       <workItem from="1660886559190" duration="14059000" />
       <workItem from="1661135280388" duration="3160000" />
       <workItem from="1661138497747" duration="1063000" />
-      <workItem from="1661145866583" duration="12842000" />
+      <workItem from="1661145866583" duration="20216000" />
     </task>
     <servers />
   </component>
