@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js_info/9_01Class基本语法/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_info/9_01Class基本语法/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_01浏览器环境，规格/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_01浏览器环境，规格/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_02DOM树/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_02DOM树/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_03遍历DOM树/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_03遍历DOM树/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_04搜索：getElement*，querySelector*/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_04搜索：getElement*，querySelector*/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js_info",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/browse_",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,18 +59,18 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/browse_" />
       <recent name="$PROJECT_DIR$/js_info" />
       <recent name="$PROJECT_DIR$/axios/02axios使用" />
       <recent name="$PROJECT_DIR$/axios" />
       <recent name="$PROJECT_DIR$/axios/01axios" />
-      <recent name="$PROJECT_DIR$/Ajax" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.hello.html (5)">
-    <configuration name="hello.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/08_3原生的原型/hello.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.hello.html (2)">
+    <configuration name="hello.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_01浏览器环境，规格/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/08_4原型方法，没有 __proto__ 的对象/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="hello.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_04搜索：getElement*，querySelector*/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="hello.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/10_1错误处理，&quot;try...catch&quot;/hello.html" useBuiltInWebServerPort="true">
@@ -73,16 +79,16 @@
     <configuration name="hello.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/9_01Class基本语法/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/08_2F.prototype/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_03遍历DOM树/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.hello.html (5)" />
-        <item itemvalue="JavaScript Debug.hello.html (4)" />
-        <item itemvalue="JavaScript Debug.hello.html (3)" />
         <item itemvalue="JavaScript Debug.hello.html (2)" />
         <item itemvalue="JavaScript Debug.hello.html" />
+        <item itemvalue="JavaScript Debug.hello.html (1)" />
+        <item itemvalue="JavaScript Debug.hello.html (5)" />
+        <item itemvalue="JavaScript Debug.hello.html (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +107,7 @@
       <workItem from="1660886559190" duration="14059000" />
       <workItem from="1661135280388" duration="3160000" />
       <workItem from="1661138497747" duration="1063000" />
-      <workItem from="1661145866583" duration="37918000" />
+      <workItem from="1661145866583" duration="48302000" />
     </task>
     <servers />
   </component>
