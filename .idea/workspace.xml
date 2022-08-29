@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/browse_/01_06特性和属性（Attributes and properties）/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_06特性和属性（Attributes and properties）/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_07修改文档/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_07修改文档/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_08样式和类/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_08样式和类/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_09元素大小和滚动/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_09元素大小和滚动/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_10Window 大小和滚动/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_10Window 大小和滚动/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_11坐标/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_11坐标/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browse_/01_05节点的属性/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/browse_/01_05节点的属性/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/browse_/01_05节点的属性/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/browse_/01_05节点的属性/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/axios/02axios使用/axios拦截器.html" beforeDir="false" afterPath="$PROJECT_DIR$/axios/02axios使用/axios拦截器.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +36,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/browse_",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/AronRuan/Desktop/jsLearning/browse_&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/browse_" />
@@ -76,13 +63,13 @@
     <configuration name="axios创建实实例对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios创建实实例对象.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="axios拦截器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios拦截器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="hello.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_08样式和类/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="hello.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_10Window 大小和滚动/hello.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="hello.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_07修改文档/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_09元素大小和滚动/hello.html" useBuiltInWebServerPort="true">
@@ -94,7 +81,6 @@
         <item itemvalue="JavaScript Debug.hello.html (2)" />
         <item itemvalue="JavaScript Debug.hello.html" />
         <item itemvalue="JavaScript Debug.hello.html (1)" />
-        <item itemvalue="JavaScript Debug.hello.html (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -113,7 +99,8 @@
       <workItem from="1660886559190" duration="14059000" />
       <workItem from="1661135280388" duration="3160000" />
       <workItem from="1661138497747" duration="1063000" />
-      <workItem from="1661145866583" duration="70627000" />
+      <workItem from="1661145866583" duration="72432000" />
+      <workItem from="1661762662278" duration="419000" />
     </task>
     <servers />
   </component>
