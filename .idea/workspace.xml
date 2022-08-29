@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/browse_/01_05节点的属性/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/01_05节点的属性/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_06特性和属性（Attributes and properties）/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_06特性和属性（Attributes and properties）/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_07修改文档/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_07修改文档/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_08样式和类/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_08样式和类/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_09元素大小和滚动/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_09元素大小和滚动/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_10Window 大小和滚动/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_10Window 大小和滚动/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_11坐标/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/01_11坐标/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browse_/01_05节点的属性/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/browse_/01_05节点的属性/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/browse_/01_05节点的属性/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/browse_/01_05节点的属性/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,25 +72,25 @@
       <recent name="$PROJECT_DIR$/axios/01axios" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.hello.html (3)">
-    <configuration name="hello.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_01浏览器环境，规格/hello.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.axios创建实实例对象.html">
+    <configuration name="axios创建实实例对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios创建实实例对象.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_04搜索：getElement*，querySelector*/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="hello.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_08样式和类/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_05节点的属性/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="hello.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_10Window 大小和滚动/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_info/9_01Class基本语法/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="hello.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_07修改文档/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_03遍历DOM树/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_09元素大小和滚动/hello.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.hello.html (3)" />
+        <item itemvalue="JavaScript Debug.axios创建实实例对象.html" />
         <item itemvalue="JavaScript Debug.hello.html (2)" />
         <item itemvalue="JavaScript Debug.hello.html" />
         <item itemvalue="JavaScript Debug.hello.html (1)" />
@@ -101,7 +113,7 @@
       <workItem from="1660886559190" duration="14059000" />
       <workItem from="1661135280388" duration="3160000" />
       <workItem from="1661138497747" duration="1063000" />
-      <workItem from="1661145866583" duration="53565000" />
+      <workItem from="1661145866583" duration="70627000" />
     </task>
     <servers />
   </component>

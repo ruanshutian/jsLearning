@@ -61,18 +61,47 @@
 /**
  * outerHTML：元素的完整 HTML
  */
-console.log(elem.outerHTML);
+// console.log(elem.outerHTML);
+//
+// elem.innerHTML+="sssss";
+//
+// let div = document.querySelector('div');
+// div.outerHTML = '<p>A new element</p>';
+// console.log(div.outerHTML);
+// console.log(div.innerHTML);
 
-elem.innerHTML+="sssss";
+/**
+ * nodeValue/data：文本节点内容
+ */
 
-let div = document.querySelector('div');
-div.outerHTML = '<p>A new element</p>';
-console.log(div.outerHTML);
-console.log(div.innerHTML);
+// let text = document.body.firstChild;
+// console.log(text.data);
+// let comment = text.nextSibling;
+// console.log(comment);
+
+/**
+ * textContent：纯文本
+ */
+// console.log(document.body.textContent);
+// let name = prompt("what is your name?","<b>Winnie-the-Pooh</b>")
+// elem1.innerHTML =name;
+// elem2.textContent = name;
 
 
+/**
+ * “hidden” 属性
+ * “hidden” 特性（attribute）和 DOM 属性（property）指定元素是否可见
+ */
 
+// elem.hidden =true;
+// setInterval(()=>elem.hidden = !elem.hidden,1000);
 
+/**
+ * 更多属性
+ */
+console.log(elem.type);
+console.log(elem.id);
+console.log(elem.value);
 
 
 

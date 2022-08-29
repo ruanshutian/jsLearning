@@ -28,11 +28,14 @@ hello好的
         const zhihu = axios.create({
             // baseURL:'https://www.apishop.net/#/api/detail',
             baseURL:'http://localhost:3000/comments',
-            timeout:'2000',
+            timeout:2000,
             // method:'GET'
         });
         // console.log(zhihu);
-        // zhihu();
+        const another = axios.create({
+            baseURL:"http://localhost",
+            timeout:2000
+        })
         zhihu({
             url:'',
         }).then(response=>{
