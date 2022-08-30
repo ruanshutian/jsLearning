@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/axios/简单仿写axios/Axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/axios/简单仿写axios/axios.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/11_03Promise链/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/11_03Promise链/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/11_Promise/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/11_Promise/promise初体验.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/11_Promise/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/11_Promise/script1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_info/11_Promise/script2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/axios/02axios使用/axios拦截器.html" beforeDir="false" afterPath="$PROJECT_DIR$/axios/02axios使用/axios拦截器.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,13 +28,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/js实战/JavaScript-Example-100" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -36,51 +48,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/AronRuan/Desktop/jsLearning/browse_&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js_info",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/browse_" />
       <recent name="$PROJECT_DIR$/js_info" />
+      <recent name="$PROJECT_DIR$/browse_" />
       <recent name="$PROJECT_DIR$/axios/02axios使用" />
       <recent name="$PROJECT_DIR$/axios" />
       <recent name="$PROJECT_DIR$/axios/01axios" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/axios/简单仿写axios" />
+    </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.axios创建实实例对象.html">
-    <configuration name="axios创建实实例对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios创建实实例对象.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+    <configuration name="axios.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/简单仿写axios/axios.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="axios拦截器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios拦截器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_08样式和类/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/JavaScript-Example-100/chapter01/section01/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_10Window 大小和滚动/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/JavaScript-Example-100/chapter01/section02/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/01_09元素大小和滚动/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/axios-test/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Axios.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/axios/简单仿写axios/Axios.js" working-dir="$PROJECT_DIR$/axios/简单仿写axios">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.axios创建实实例对象.html" />
-        <item itemvalue="JavaScript Debug.hello.html (2)" />
-        <item itemvalue="JavaScript Debug.hello.html" />
-        <item itemvalue="JavaScript Debug.hello.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.axios.html" />
+        <item itemvalue="Node.js.Axios.js" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +119,7 @@
       <workItem from="1661135280388" duration="3160000" />
       <workItem from="1661138497747" duration="1063000" />
       <workItem from="1661145866583" duration="72432000" />
-      <workItem from="1661762662278" duration="419000" />
+      <workItem from="1661762662278" duration="8752000" />
     </task>
     <servers />
   </component>

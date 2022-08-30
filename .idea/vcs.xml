@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/axios/axios-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/axios/简单仿写axios/axios-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js实战/JavaScript-Example-100" vcs="Git" />
   </component>
 </project>
