@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+<div id ="search">
+<!--    <button >-->
+<!--        search-->
+<!--    </button>-->
+    <input type="text" id="val" placeholder="please input "/>
+    <input type="submit" id ="sub">
+</div>
+<div id ="show">
+
+</div>
+
+<script>
+
+    window.onload =function (){
+
+    }
+    let arr =['1','2','3','4567','444444','4353'];
+    let input =document.getElementById('val');
+    let show = document.getElementById('show');
+    input.onkeyup = function (){
+        show.style.display = "block";
+        let str ="";
+        arr.forEach(item=>{
+            let res =item.indexOf(input.value);
+            if(res!=-1){
+                str+='<p>'+item +'</p>';
+            }
+        });
+        if(!input.value ||!str){
+            show.innerHTML = '<p>no found</p>'
+        }
+        else {
+            show.innerHTML =str;
+        }
+
+    }
+    input.onblur =function (){
+        show.style.display = "block";
+        show.value="";
+    }
+
+
+
+</script>
+</body>
+</html>

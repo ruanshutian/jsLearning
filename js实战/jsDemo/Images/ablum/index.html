@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>相册图片可放大查看</title>
+	<style>
+		*{ margin: 0; padding: 0; }
+		#wrap{ width: 1000px; height: 630px; margin: 0 auto; }
+		.images li{ box-shadow: 2px 2px 5px #333; margin: 10px 20px; float: left; list-style: none; font-size: 0; border-radius: 5px; }
+		#black{ width: 100%; height: 100%;  position: absolute; top:0; left: 0;background: rgba(000,000,000,0.7); display: none;}
+		#big{ width: 650px; height: 406px; position: absolute; border: 10px solid #fff; display: none;}
+		#img{ width: 100%; height: 100%; }
+		#left,#right{ position: absolute; top: 180px; cursor: pointer; }
+		#left{ left: -60px;  }
+		#right{ right: -60px; }
+	</style>
+
+</head>
+<body>
+	<div id="wrap">
+		<div class="images">
+			<ul>
+				<li><a href="images/big1.jpg"><img src="images/s1.jpg" alt="" /></a></li>
+				<li><a href="images/big2.jpg"><img src="images/s2.jpg" alt="" /></a></li>
+				<li><a href="images/big3.jpg"><img src="images/s3.jpg" alt="" /></a></li>
+				<li><a href="images/big4.jpg"><img src="images/s4.jpg" alt="" /></a></li>
+				<li><a href="images/big5.jpg"><img src="images/s5.jpg" alt="" /></a></li>
+				<li><a href="images/big6.jpg"><img src="images/s6.jpg" alt="" /></a></li>
+				<li><a href="images/big7.jpg"><img src="images/s7.jpg" alt="" /></a></li>
+				<li><a href="images/big8.jpg"><img src="images/s8.jpg" alt="" /></a></li>
+				<li><a href="images/big9.jpg"><img src="images/s9.jpg" alt="" /></a></li>
+			</ul>
+		</div>
+		<div id="black"></div>
+		<div id="big">
+			<img src="images/dirl.png" id="left" />
+			<img src="images/dirr.png" id="right" />
+			<img src="" id="img"/>
+		</div>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>

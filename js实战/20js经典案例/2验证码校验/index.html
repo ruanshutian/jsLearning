@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id = "code_show">
+    <span id="checkCode">
+        ssssss
+    </span>
+    <a id ="linkbt">change</a>
+</div>
+<div id ="input_code">
+    <label >
+        验证码
+    </label>
+    <input id="inputCode"/>
+
+</div>
+
+<button id = "makeSure">make sure</button>
+<script>
+
+    window.onload =function (){
+
+        let res = getCode();
+        document.getElementById('checkCode').innerHTML = res;
+        function getCode(){
+            let arr=[];
+            for(let i=0;i<16;i++){
+                arr[i]=i;
+                if(i>=10){
+                    switch (i) {
+                        case 10:arr[i]='a';break;
+                        case 11:arr[i]='b';break;
+                        case 12:arr[i]='c';break;
+                        case 13:arr[i]='d';break;
+                        case 14:arr[i]='e';break;
+                        case 15:arr[i]='f';break;
+                    }
+                }
+            }
+            // console.log(arr);
+            str=''
+            for(let i=0;i<6;i++){
+                let num = Math.round(Math.random()*(15-0)+0);
+                str+=arr[num];
+            }
+            return str;
+        }
+
+        document.getElementById("linkbt").onclick=function (){
+            let res = getCode();
+            document.getElementById('checkCode').innerHTML = res;
+        }
+
+        document.getElementById('makeSure').onclick=function (){
+            let input =document.getElementById('inputCode').value;
+            if(input == res){
+                alert("true");
+            }else {
+                document.getElementById('inputCode').value='';
+                alert("not true");
+            }
+        }
+
+    }
+
+
+</script>
+</body>
+</html>
