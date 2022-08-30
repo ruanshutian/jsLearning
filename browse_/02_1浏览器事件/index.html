@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<span>事件处理程序</span>
+
+<br>HTML 特性
+<br>
+<input value="Click me" onclick="console.log('click!')" type="button">
+
+<script>
+function countRabbits(){
+    for(let i=1;i<=3;i++){
+        console.log("Rabbit number "+i);
+    }
+}
+</script>
+<input type="button" onclick="countRabbits()" value="Count Rabbits">
+
+<br>DOM 属性
+<br>
+<input id = "elem" type="button" value="click me">
+<script>
+    elem.onclick = function (){
+        console.log('thank you');
+    }
+</script>
+<input type="button" id="elem2" onclick="alert('Before')" value="Click me">
+<script>
+    elem2.onclick = function() { // 覆盖了现有的处理程序
+        alert('After'); // 只会显示此内容
+    };
+</script>
+
+<br>访问元素：this
+<br>
+<button onclick="console.log(this.innerHTML)">click</button>
+<br>可能出现的错误
+<br>
+<script>
+    function sayThanks() {
+        alert('Thanks!');
+    }
+</script>
+<input type="button" id="button" onclick="sayThanks()">
+
+<br>addEventListener
+<br>
+
+<input id = "addElem" type="button"value="clickAdd">
+<script>
+    function handler1(){
+        console.log("thanks!");
+    };
+    function handler2(){
+        console.log("thanks again");
+    };
+    addElem.onclick= ()=>console.log("hello");
+    addElem.addEventListener("click",handler1);
+    addElem.addEventListener("click",handler2);
+</script>
+
+<br>事件对象
+<br>
+
+<input type="button" value="click me" id="sjelem">
+<script>
+    sjelem.onclick = function (){
+        console.log(event.type + "  at "+ event.currentTarget);
+        console.log("Coordinates : " +event.clientX +" : " + event.clientY);
+    }
+</script>
+
+<br>对象处理程序：handleEvent
+<br>
+<button id ="dxelem">clieck me</button>
+
+<script>
+    let obj = {
+        handleEvent(event){
+            console.log(event.type + " at " +event.currentTarget);
+        }
+    }
+    dxelem.addEventListener('click',obj);
+
+</script>
+<br>
+<button id="dxelem2">dxelem2</button>
+<script>
+    class Menu{
+        handleEvent(event){
+            switch (event){
+                case 'mousedown':
+                    dxelem2.innerHTML = "Mouse button pressed";
+                    console.log("11")
+                    break;
+                case 'mouseup':
+                    dxelem2.innerHTML = "...and released";
+                    console.log("222")
+                    break;
+            }
+        }
+    }
+
+    let menu =new Menu();
+    dxelem2.addEventListener("mousedown",menu);
+    dxelem2.addEventListener("mouseup",menu);
+
+    // class Menu {
+    //     handleEvent(event) {
+    //         // mousedown -> onMousedown
+    //         let method = 'on' + event.type[0].toUpperCase() + event.type.slice(1);
+    //         this[method](event);
+    //     }
+    //
+    //     onMousedown() {
+    //         elem.innerHTML = "Mouse button pressed";
+    //     }
+    //
+    //     onMouseup() {
+    //         elem.innerHTML += "...and released.";
+    //     }
+    // }
+    //
+    // let menu = new Menu();
+    // elem.addEventListener('mousedown', menu);
+    // elem.addEventListener('mouseup', menu);
+
+</script>
+
+</body>
+</html>

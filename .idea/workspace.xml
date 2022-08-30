@@ -5,45 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js实战/ navigation/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/ navigation/js/indexScript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/ navigation/page/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/20js经典案例/1支付倒计时10s/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/20js经典案例/1支付倒计时10s/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/20js经典案例/2验证码校验/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/20js经典案例/2验证码校验/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/20js经典案例/3百度搜索数据展示/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/20js经典案例/3百度搜索数据展示/success.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/img/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/img/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/img/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/img/44.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/img/55.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/img/66.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/img/77.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/big1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/big2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/big3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/big4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/big5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/big6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/big7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/big8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/big9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/dirl.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/dirr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/s1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/s2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/s3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/s4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/s5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/s6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/s7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/s8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images/s9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/browse_/02_1浏览器事件/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/.gitignore" beforeDir="false" />
@@ -157,14 +119,14 @@
       <recent name="$PROJECT_DIR$/axios/简单仿写axios" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="axios拦截器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios拦截器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/20js经典案例/3百度搜索数据展示/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/jsDemo/Images/ablum/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/02_1浏览器事件/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/ navigation/index.html" useBuiltInWebServerPort="true">
@@ -178,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (5)" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +164,7 @@
       <workItem from="1661135280388" duration="3160000" />
       <workItem from="1661138497747" duration="1063000" />
       <workItem from="1661145866583" duration="72432000" />
-      <workItem from="1661762662278" duration="20735000" />
+      <workItem from="1661762662278" duration="25786000" />
     </task>
     <servers />
   </component>
