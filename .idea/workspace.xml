@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/browse_/02_1浏览器事件/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/01vueTest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/04vue本地应用text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/05vue本地应用html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/06vue本地应用on.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/06vue本地应用on计数器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/07vue本地应用show.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/08vue本地应用if.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/09vue本地应用bind.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/09vue本地应用bind图片切换.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/test.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/.gitignore" beforeDir="false" />
@@ -98,7 +109,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js实战/20js经典案例",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,43 +119,44 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue" />
       <recent name="$PROJECT_DIR$/js实战/20js经典案例" />
       <recent name="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images" />
       <recent name="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/img" />
       <recent name="$PROJECT_DIR$/js_info" />
-      <recent name="$PROJECT_DIR$/browse_" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue" />
       <recent name="$PROJECT_DIR$/js实战/jsDemo/Images/ablum" />
       <recent name="$PROJECT_DIR$/axios/简单仿写axios" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
+  <component name="RunManager" selected="JavaScript Debug.09vue本地应用bind.html">
+    <configuration name="06vue本地应用on.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/06vue本地应用on.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="06vue本地应用on计数器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/06vue本地应用on计数器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="07vue本地应用show.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/07vue本地应用show.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="08vue本地应用if.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/08vue本地应用if.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="09vue本地应用bind.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/09vue本地应用bind.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="axios拦截器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios拦截器.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/20js经典案例/3百度搜索数据展示/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/browse_/02_1浏览器事件/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/ navigation/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (5)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/20js经典案例/1支付倒计时10s/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/20js经典案例/2验证码校验/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.index.html (5)" />
-        <item itemvalue="JavaScript Debug.index.html (4)" />
+        <item itemvalue="JavaScript Debug.09vue本地应用bind.html" />
+        <item itemvalue="JavaScript Debug.08vue本地应用if.html" />
+        <item itemvalue="JavaScript Debug.07vue本地应用show.html" />
+        <item itemvalue="JavaScript Debug.06vue本地应用on计数器.html" />
+        <item itemvalue="JavaScript Debug.06vue本地应用on.html" />
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +176,7 @@
       <workItem from="1661135280388" duration="3160000" />
       <workItem from="1661138497747" duration="1063000" />
       <workItem from="1661145866583" duration="72432000" />
-      <workItem from="1661762662278" duration="25786000" />
+      <workItem from="1661762662278" duration="33299000" />
     </task>
     <servers />
   </component>

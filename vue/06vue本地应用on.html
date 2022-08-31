@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<body>
+
+<div id = 'app'>
+<!--  v-on-->
+
+    <input type="button" value="v-on" v-on:click="doIt">
+    <input type="button" value="v-on" @click="doIt">
+<!--    <input type="button" value="{{info}}" v-on:monseenter="doIt">-->
+    <input type="button" value="双击事件" v-on:dblclick="doIt">
+    <h2 @click = "changeFood">{{food}}</h2>
+
+</div>
+
+<script>
+  let app = new Vue({
+    el:"#app",
+    data:{
+      message:"<a href = 'http://www.baidu.com'>link</a>",
+      info:"ruan",
+        food:"food西兰花"
+    },
+      methods:{
+        doIt:function (){
+            alert("do It");
+        },
+          changeFood:function (){
+            console.log(this.food);
+              this.food +="好好吃"
+          }
+      }
+  })
+</script>
+
+</body>
+</html>

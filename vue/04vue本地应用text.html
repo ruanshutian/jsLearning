@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<body>
+
+<div id = 'app'>
+<!--  v-text-->
+  <h2 v-text="message+'!'">
+    hello
+  </h2>
+  <h2 v-text="info">
+    hello
+  </h2>
+
+  <h2 >
+    {{message+'!'}}hello
+  </h2>
+
+</div>
+
+<script>
+  let app = new Vue({
+    el:"#app",
+    data:{
+      message:"aron",
+      info:"ruan"
+    }
+  })
+</script>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<body>
+
+<div id = 'app'>
+<!--  v-on-->
+
+    <input type="button" value="-" v-on:click="plus">
+    <span>
+        {{number}}
+    </span>
+    <input type="button" value="+" @click="add">
+
+</div>
+
+<script>
+  let app = new Vue({
+    el:"#app",
+    data:{
+      message:"<a href = 'http://www.baidu.com'>link</a>",
+      info:"ruan",
+        food:"food西兰花",
+        number: 1
+    },
+      methods:{
+        plus:function (){
+            if(this.number<=0){
+                alert("this is min number");
+            }else {
+                this.number--;
+            }
+        },
+          add:function (){
+              if(this.number>=10) {
+                  alert("this is max number");
+              }else {
+                  this.number++;
+              }
+          }
+      }
+  })
+</script>
+
+</body>
+</html>
