@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<body >
+
+<input type="button"value="get " class="get">
+<input type="button" value="post" class="post">
+
+
+<script>
+
+    document.querySelector(".get").onclick = function (){
+        axios.get("http://localhost:3000/posts").then(respose=>{
+            console.log(respose);
+        })
+        axios.get("https://autumnfish.cn/apisssss").then(function (res){
+            // console.log(res);
+        },
+        function (err){
+            // console.log('111')
+            console.log(err)
+        });
+    }
+
+
+</script>
+
+</body>
+</html>

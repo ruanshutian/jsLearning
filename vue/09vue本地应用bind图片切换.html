@@ -3,48 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        .active{
-            border: 1px solid red;
-        }
-    </style>
+<!--    <style>-->
+<!--        .active{-->
+<!--            border: 1px solid red;-->
+<!--        }-->
+<!--    </style>-->
 </head>
 <!-- 开发环境版本，包含了有帮助的命令行警告 -->
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <body>
 
-<div id = 'app'>
-<!--  v-if-->
+<div id = 'mask'>
+<!--  v-bind-->
 
-    <img v-bind:src="imgSrc" alt="">
-    <br>
-    <img :src="imgSrc" alt="" :title="imgTitle+'!!!!'" :class="isActive?'active':''" @click="changeIsShow">
-    <br>
-    <img :src="imgSrc" alt="" :title="imgTitle+'!!!!'" :class="{active:isActive}" @click="changeIsShow">
+<!--    <img v-bind:src="imgSrc" alt="">-->
+<!--    <br>-->
+<!--    <img :src="imgSrc" alt="" :title="imgTitle+'!!!!'" :class="isActive?'active':''" @click="changeIsShow">-->
+<!--    <br>-->
+<!--    <img :src="imgSrc" alt="" :title="imgTitle+'!!!!'" :class="{active:isActive}" @click="changeIsShow">-->
 
-    <img :title="imgTitle">
+<!--    <img :title="imgTitle">-->
 
 
 <!--    <p v-bind:>我是一个p标签 </p>-->
 <!--    <p v-show="isShow"> 我是一个p标签</p>-->
 
-    <input type="button" @click="changeIsShow" value = "change the isShow">
+<!--    <input type="button" @click="changeIsShow" value = "change the isShow">-->
+    <img :src="imgArray[index]">
+    <input type="button" @click="prev" value="上一张" v-show="isShowLeft">
+    <input type="button" @click="next" value="下一张" v-show="isShowRight">
 
 
 </div>
 
 <script>
   let app = new Vue({
-    el:"#app",
+    el:"#mask",
     data:{
-        imgSrc:"test.png",
-        imgTitle:"aron.ruan哈哈哈",
-        isActive:false
+        imgArray:[
+            'img/01.jpg',
+            'img/02.jpg',
+            'img/03.jpg',
+            'img/04.jpg',
+            'img/05.jpg',
+            'img/06.jpg',
+            'img/07.jpg',
+        ],
+        index:0,
+        isShowLeft:true,
+        isShowRight:true,
     },
       methods:{
-        changeIsShow:function (){
-            this.isActive=!this.isActive;
-        }
+        prev:function (){
+            this.isShowRight =true;
+            if(this.index>0){
+                this.index--;
+            }else {
+                this.isShowLeft =false;
+            }
+        },
+          next:function (){
+              this.isShowLeft =true;
+              if(this.index<6){
+                  this.index++;
+              }else {
+                  this.isShowRight =false;
+              }
+          }
       }
   })
 </script>

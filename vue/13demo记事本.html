@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .new-todo{
+            border: 1px solid red;
+        }
+        .distroy{
+            /*display: none;*/
+            background: rgba(255, 255, 255, 0.5);
+            border:0px;
+        }
+        .show{
+            display: block;
+            border:0px;
+        }
+    </style>
+</head>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<body >
+<section id = "app">
+    <header class="header"></header>
+    <h1>aron记事本</h1>
+    <input v-model="inputValue" @keyup.enter="add" autofocus = "autofocus" autocomplete="off" placeholder="please input" class="new-todo">
+<!--    列表区域-->
+    <section class="main">
+        <ul class="todo-list" >
+            <li v-for="(item,index) in list" onmousemove="">
+                <div>
+                    <span>{{index+1}}.</span>
+                    <label>{{item}}</label>
+                    <button class="distroy" v-show="isShow" @click="remove(index)">x</button>
+                </div>
+            </li>
+        </ul>
+    </section>
+<!--    统计和清空-->
+    <footer class="footer">
+        <span v-if="list.length!=0">
+            <strong>{{ list.length }}items</strong>
+        </span>
+        <button @click="clear" v-show="list.length!=0">clear</button>
+    </footer>
+
+
+
+
+
+</section>
+
+<script>
+  let app =new Vue({
+    el:"#app",
+    data:{
+      list:["写代码","吃饭饭","睡觉睡觉"],
+        inputValue:"好好学习，天天向上",
+        isShow:true
+    },
+      methods:{
+         add:function (){
+            this.list.push(this.inputValue);
+         },
+          changeButton:function (){
+              // this.style = show;
+          },
+          remove:function (index){
+            // console.log(index)
+              this.list.splice(index,1);
+          },
+            clear:function (){
+             this.list=[];
+            }
+      },
+  })
+</script>
+
+</body>
+</html>
