@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vue/img/08.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ navigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ navigation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/.gitignore" beforeDir="false" />
@@ -62,8 +64,7 @@
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/img/ui_new_yktnav_sprite.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/17demo音乐播放器.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/17demo音乐播放器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/css/17demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/css/17demo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/09vue本地应用bind图片切换.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/09vue本地应用bind图片切换.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +100,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue/css",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -109,11 +110,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/img" />
       <recent name="$PROJECT_DIR$/vue/css" />
       <recent name="$PROJECT_DIR$/vue" />
       <recent name="$PROJECT_DIR$/js实战/20js经典案例" />
       <recent name="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images" />
-      <recent name="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/vue/img" />
@@ -123,8 +124,8 @@
       <recent name="$PROJECT_DIR$/js实战/jsDemo/Images/ablum" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="15axios+vue.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/15axios+vue.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.09vue本地应用bind图片切换.html">
+    <configuration name="09vue本地应用bind图片切换.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/09vue本地应用bind图片切换.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="16demo天知道.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/16demo天知道.html" useBuiltInWebServerPort="true">
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.09vue本地应用bind图片切换.html" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.17demo音乐播放器.html" />
         <item itemvalue="JavaScript Debug.16demo天知道.html" />
         <item itemvalue="Node.js.16demo.js" />
-        <item itemvalue="JavaScript Debug.15axios+vue.html" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +167,7 @@
       <workItem from="1661138497747" duration="1063000" />
       <workItem from="1661145866583" duration="72432000" />
       <workItem from="1661762662278" duration="48158000" />
-      <workItem from="1661995106995" duration="21929000" />
+      <workItem from="1661995106995" duration="22257000" />
     </task>
     <servers />
   </component>
