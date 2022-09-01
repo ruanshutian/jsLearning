@@ -18,7 +18,7 @@
         </div>
         <div class="form_group">
             <input type="text" v-model="city" @keyup.enter="searchWeather" placeholder="请输入查询的天气">
-            <button>搜索</button>
+            <button @click="initialize">搜索</button>
         </div>
         <div class="hotkey">
             <a  @click="changeCity('北京')">北京</a>
@@ -47,13 +47,22 @@
     </ul>
 
 
-<!--    <p>{{message}}</p>-->
-
 </div>
 
 
 
 <script src="16demo.js"></script>
+
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.2.4/jquery.js"></script>
+<script>
+
+    function testJson(obj) {
+        console.log(obj);
+        console.log("省["+obj.pro+"] 市["+obj.city+"] 区["+obj.region+"]");
+    }
+</script>
+<script src="http://whois.pconline.com.cn/ipJson.jsp?callback=testJson&ip=220.248.226.226"></script>
+
 
 
 </body>

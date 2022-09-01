@@ -5,6 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vue/17demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/17demo音乐播放器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/css/17demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/disc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/line01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/line02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/person01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/player_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/player_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/shutoff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/img/images/zoom.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ navigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ navigation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/.gitignore" beforeDir="false" />
@@ -93,60 +111,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/AronRuan/Desktop/jsLearning/vue&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue/css",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/css" />
       <recent name="$PROJECT_DIR$/vue" />
       <recent name="$PROJECT_DIR$/js实战/20js经典案例" />
       <recent name="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/images" />
       <recent name="$PROJECT_DIR$/js实战/jsDemo/Images/3DChangimg/img" />
-      <recent name="$PROJECT_DIR$/js_info" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/img" />
+      <recent name="$PROJECT_DIR$/vue/css" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/vue" />
       <recent name="$PROJECT_DIR$/js实战/jsDemo/Images/ablum" />
-      <recent name="$PROJECT_DIR$/axios/简单仿写axios" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.16demo天知道.html">
-    <configuration name="12vue本地应用mode.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/12vue本地应用mode.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="13demo记事本.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/13demo记事本.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="14axios基本使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/14axios基本使用.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.17demo音乐播放器.html">
     <configuration name="15axios+vue.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/15axios+vue.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="16demo天知道.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/16demo天知道.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="axios拦截器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/axios/02axios使用/axios拦截器.html" useBuiltInWebServerPort="true">
+    <configuration name="17demo音乐播放器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/17demo音乐播放器.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="16demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/vue/16demo.js" working-dir="$PROJECT_DIR$/vue">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.17demo音乐播放器.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.16demo天知道.html" />
+        <item itemvalue="Node.js.16demo.js" />
         <item itemvalue="JavaScript Debug.15axios+vue.html" />
-        <item itemvalue="JavaScript Debug.14axios基本使用.html" />
-        <item itemvalue="JavaScript Debug.13demo记事本.html" />
-        <item itemvalue="JavaScript Debug.12vue本地应用mode.html" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +184,7 @@
       <workItem from="1661138497747" duration="1063000" />
       <workItem from="1661145866583" duration="72432000" />
       <workItem from="1661762662278" duration="48158000" />
-      <workItem from="1661995106995" duration="391000" />
+      <workItem from="1661995106995" duration="20999000" />
     </task>
     <servers />
   </component>

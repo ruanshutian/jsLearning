@@ -7,8 +7,13 @@ let app = new Vue({
     },
     methods:{
         initialize:function(){
-            console.log('11')
-        },
+            axios.get('http://pv.sohu.com/cityjson')
+                .then(res=>{
+                    console.log(res);
+                },err=>{
+                    console.log(err);
+                })
+            },
         searchWeather:function (){
             console.log(this.weatherList);
             let that = this;
