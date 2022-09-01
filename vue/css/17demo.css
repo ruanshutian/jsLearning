@@ -350,52 +350,8 @@ dd {
     top: 50%;
     z-index: 995;
 }
-
-/*.player_con{*/
-/*    background-color: blue;*/
-/*    width: 400px;*/
-/*    height: 400px;*/
-/*    position: absolute;*/
-/*    left: 200px;*/
-/*    top: 0px;*/
-/*}*/
-/*@keyframes Rotate {*/
-/*    from{*/
-/*        transform:rotatez(0);*/
-/*    }*/
-/*    to{*/
-/*        transform:rotatez(360deg);*/
-/*    }*/
-/*}*/
-/*.autoRate{*/
-/*    animation-name: Rotate;*/
-/*    animation-iteration-count: infinite;*/
-/*    animation-play-state: paused;*/
-/*    animation-timing-function: linear;*/
-/*    animation-duration: 5s;*/
-/*}*/
-/*.cover {*/
-/*    position: absolute;*/
-/*    left: 125px;*/
-/*    top: 112px;*/
-/*    width: 150px;*/
-/*    height: 150px;*/
-/*    border-radius: 75px;*/
-/*    z-index: 8;*/
-/*}*/
-/*.play_bar {*/
-/*    position: absolute;*/
-/*    left: 200px;*/
-/*    top: -10px;*/
-/*    z-index: 10;*/
-/*    transform: rotate(-25deg);*/
-/*    transform-origin: 12px 12px;*/
-/*    transition: 1s;*/
-/*}*/
-/*.disc {*/
-/*    position: absolute;*/
-/*    left: 73px;*/
-/*    top: 60px;*/
-/*    z-index: 9;*/
-/*}*/
+.mylogo{
+    color: white;
+    text-align: center;
+}
 
