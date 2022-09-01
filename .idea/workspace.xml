@@ -5,21 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/10vue本地应用for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/11vue本地应用on补充.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/12vue本地应用mode.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/13demo记事本.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/14axios基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/15axios+vue.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/16demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/16demo天知道.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/img/01.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/img/02.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/img/03.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/img/04.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/img/05.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/img/06.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/img/07.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/.gitignore" beforeDir="false" />
@@ -77,7 +62,8 @@
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/img/ui_new_yktnav_sprite.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/09vue本地应用bind图片切换.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/09vue本地应用bind图片切换.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/16demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/16demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/16demo天知道.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/16demo天知道.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,20 +93,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/AronRuan/Desktop/jsLearning/vue&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/vue" />
@@ -180,7 +166,8 @@
       <workItem from="1661135280388" duration="3160000" />
       <workItem from="1661138497747" duration="1063000" />
       <workItem from="1661145866583" duration="72432000" />
-      <workItem from="1661762662278" duration="46858000" />
+      <workItem from="1661762662278" duration="48158000" />
+      <workItem from="1661995106995" duration="391000" />
     </task>
     <servers />
   </component>

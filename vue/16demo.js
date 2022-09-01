@@ -6,6 +6,9 @@ let app = new Vue({
         weatherList:[]
     },
     methods:{
+        initialize:function(){
+            console.log('11')
+        },
         searchWeather:function (){
             console.log(this.weatherList);
             let that = this;
@@ -19,6 +22,10 @@ let app = new Vue({
                     }
                 )
 
+        },
+        changeCity:function (city){
+            this.city=city;
+            this.searchWeather();
         }
     }
 })

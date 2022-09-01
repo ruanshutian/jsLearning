@@ -21,10 +21,10 @@
             <button>搜索</button>
         </div>
         <div class="hotkey">
-            <a href="javascipt:;">北京</a>
-            <a href="javascipt:;">上海</a>
-            <a href="javascipt:;">广州</a>
-            <a href="javascipt:;">深圳</a>
+            <a  @click="changeCity('北京')">北京</a>
+            <a  @click="changeCity('上海')">上海</a>
+            <a  @click="changeCity('广州')">广州</a>
+            <a  @click="changeCity('深圳')">深圳</a>
         </div>
     </div>
 
@@ -47,43 +47,14 @@
     </ul>
 
 
-    <p>{{message}}</p>
+<!--    <p>{{message}}</p>-->
 
 </div>
 
 
 
 <script src="16demo.js"></script>
-<!--<script>-->
 
-
-
-<!--    let app = new Vue({-->
-<!--        el:"#app",-->
-<!--        data:{-->
-<!--            message:"message",-->
-<!--            city:'',-->
-<!--            weatherList:[]-->
-<!--        },-->
-<!--        methods:{-->
-<!--            searchWeather:function (){-->
-<!--                // console.log(this.city)-->
-<!--                let that = this;-->
-
-<!--                axios.get('http://wthrcdn.etouch.cn/weather_mini?city='+this.city)-->
-<!--                    .then(-->
-<!--                        res=>{-->
-<!--                            console.log(res.data.data.forecast);-->
-<!--                            that.weatherList = res.data.data.forecast;-->
-<!--                        }-->
-<!--                    )-->
-
-<!--            }-->
-<!--        }-->
-<!--    })-->
-
-
-<!--</script>-->
 
 </body>
 </html>
