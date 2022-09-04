@@ -5,63 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs/03http.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section01/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section02/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section02/img/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section02/img/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section02/img/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section02/img/test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section02/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section02/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/love.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/menu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/mess.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/off.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/on.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/qq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/qqqun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/star.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/img/t21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section03/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section04/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section04/img/off.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section04/img/on.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section04/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section04/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/img/nav_qrcode.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/img/ui_new_yktnav_sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/JavaScript-Example-100/chapter01/section05/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/03http.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/03http.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,11 +66,8 @@
       <recent name="$PROJECT_DIR$/js实战/jsDemo/Images/ablum" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.02fs.js">
+  <component name="RunManager" selected="Node.js.03http.js">
     <configuration name="09vue本地应用bind图片切换.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/09vue本地应用bind图片切换.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="17demo音乐播放器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/17demo音乐播放器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
@@ -134,16 +76,18 @@
     <configuration name="02fs.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/02fs.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
+    <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
+      <method v="2" />
+    </configuration>
     <configuration name="appTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/appTest.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.02fs.js" />
         <item itemvalue="Node.js.appTest.js" />
+        <item itemvalue="Node.js.02fs.js" />
         <item itemvalue="JavaScript Debug.09vue本地应用bind图片切换.html" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.17demo音乐播放器.html" />
       </list>
     </recent_temporary>
   </component>
@@ -166,6 +110,7 @@
       <workItem from="1661762662278" duration="48158000" />
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
+      <workItem from="1662177169483" duration="3768000" />
     </task>
     <servers />
   </component>
