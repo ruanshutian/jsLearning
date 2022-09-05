@@ -52,8 +52,11 @@ eye.onclick = function (){
 }
 
 //登陆
-let login_dl_button = document.getElementById('dl');
-dl.onclick = ()=>{
-
+let login_dl = document.getElementById('dl');
+let login_success = true;
+login_dl.onclick = ()=>{
+    if(login_success){
+        login_dl.href = 'page/main.html';
+    }
 }
 
