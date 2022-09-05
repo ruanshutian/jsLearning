@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+
+<body>
+
+<div id="demo" index="q">
+
+</div>
+<script>
+
+let div = document.querySelector('div');
+console.log(div.id);
+console.log(div.getAttribute('id'));
+console.log(div.getAttribute('index'))
+
+div.id = "test";
+div.setAttribute("index",2);
+
+div.removeAttribute('index');
+
+</script>
+
+</body>
+
+</html>
