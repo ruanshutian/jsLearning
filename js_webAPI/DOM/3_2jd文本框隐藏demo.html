@@ -4,13 +4,30 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
+<style>
+    .change{
+        background-color: pink;
+        color: #1eacda;
+        font-size: 100px;
+        margin-top: 200px;
+    }
+</style>
 
 <body>
 
-<div>
+<div >
     <input type="text" id="input" value="phone" style="color: #999">
+    <div>
+        <p>hello</p>
+    </div>
 </div>
 <script>
+
+    let p =document.querySelector('p');
+    p.onclick =function (){
+        p.className = 'change';
+    }
+
     let text = document.getElementById('input');
     text.onfocus =function (){
         console.log("get focus");

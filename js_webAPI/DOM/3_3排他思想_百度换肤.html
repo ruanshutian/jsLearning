@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .change{
+        background-color: pink;
+        color: #1eacda;
+        font-size: 100px;
+        margin-top: 200px;
+    }
+</style>
+
+<body>
+
+<div >
+    <ul id ="selector">
+        <li>
+            <img src="../img/jd_1.png">
+        </li>
+        <li>
+            <img src="../img/jd_open.png">
+        </li>
+        <li>
+            <img src="../img/ldh.png">
+        </li>
+        <li>
+            <img src="../img/zxy.png">
+        </li>
+    </ul>
+</div>
+<script>
+
+    let imgs = document.getElementById('selector').getElementsByTagName('img');
+    console.log(imgs);
+    for(let i =0;i<imgs.length;i++){
+        imgs[i].onclick = ()=>{
+            // console.log(imgs[i].src);
+            document.body.style.backgroundImage = 'url('+imgs[i].src+')';
+        }
+    }
+
+</script>
+
+</body>
+
+</html>

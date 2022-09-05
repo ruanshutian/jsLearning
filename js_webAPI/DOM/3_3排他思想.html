@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .change{
+        background-color: pink;
+        color: #1eacda;
+        font-size: 100px;
+        margin-top: 200px;
+    }
+</style>
+
+<body>
+
+<div >
+    <button>button1</button>
+    <button>button1</button>
+    <button>button1</button>
+    <button>button1</button>
+    <button>button1</button>
+    <button>button1</button>
+</div>
+<script>
+
+    let btns = document.getElementsByTagName('button');
+    for(let i =0;i<btns.length;i++){
+        btns[i].onclick = ()=>{
+
+            for(let j=0;j<btns.length;j++){
+                btns[j].style.backgroundColor ="";
+            }
+
+            btns[i].style.backgroundColor = 'pink';
+        }
+    }
+
+</script>
+
+</body>
+
+</html>
