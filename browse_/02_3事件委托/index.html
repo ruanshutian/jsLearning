@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+    body *{
+        margin: 10px;
+        border: 1px solid blue;
+    }
+</style>
+<body >
+
+<!--<div id ='menu'>-->
+<!--    <button data-action="hello">hello</button>-->
+<!--    <button data-action="save">Save</button>-->
+<!--    <button data-action="load">Load</button>-->
+<!--    <button data-action="search">Search</button>-->
+<!--</div>-->
+
+<!--<script>-->
+<!--    class Menu{-->
+<!--        constructor(elem) {-->
+<!--            this._elem =elem;-->
+<!--            elem.onclick = this.onClick.bind(this);-->
+<!--        }-->
+<!--        hello(){-->
+<!--            alert("hello test");-->
+<!--        }-->
+
+<!--        save(){-->
+<!--            alert("saving");-->
+<!--        }-->
+<!--        load(){-->
+<!--            alert("loading");-->
+<!--        }-->
+<!--        search(){-->
+<!--            alert("searching");-->
+<!--        }-->
+<!--        onClick(event){-->
+<!--            let action= event.target.dataset.action;-->
+<!--            // console.log(event);-->
+<!--            // console.log(event.target);-->
+<!--            // console.log(event.target.dataset);-->
+<!--            // console.log(action);-->
+<!--            if(action){-->
+<!--                // console.log(this[action]);-->
+<!--                this[action]();-->
+<!--            }-->
+<!--        }-->
+<!--    }-->
+<!--    new Menu(menu);-->
+<!--</script>-->
+
+<!--行为：切换器-->
+
+<button data-toggle-id="subscribe-mail">
+    Show the subscription form
+</button>
+
+<form id="subscribe-mail" hidden>
+    Your mail: <input type="email">
+</form>
+
+<script>
+    document.addEventListener('click', function(event) {
+        let id = event.target.dataset.toggleId;
+        console.log(event.target);
+        console.log(event.target.dataset);
+        console.log(event.target.dataset.toggleId);
+        if (!id) return;
+
+        let elem = document.getElementById(id);
+
+        elem.hidden = !elem.hidden;
+    });
+</script>
+
+</body>
+</html>

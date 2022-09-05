@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<!--<style>-->
+<!--    body *{-->
+<!--        margin: 10px;-->
+<!--        border: 1px solid blue;-->
+<!--    }-->
+<!--</style>-->
+<body >
+
+<!--阻止浏览器行为-->
+<a href="/" onclick="return false">click here</a>
+<a href="/" onclick="event.preventDefault()">here</a>
+
+<!--示例：菜单-->
+<ul id="menu" class="menu">
+    <li><a href="/html">HTML</a></li>
+    <li><a href="/javascript">JavaScript</a></li>
+    <li><a href="/css">CSS</a></li>
+</ul>
+<script>
+    menu.click = function (event){
+        if(event.target.nodeName != "A")return;
+        let href = event.target.getAttribute('href');
+        alert(href);
+        return false;
+    }
+</script>
+
+<!--处理程序选项 “passive”-->
+<!--event.defaultPrevented-->
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<style>
+    body *{
+        margin: 10px;
+        border: 1px solid blue;
+    }
+</style>
+<body onclick="alert(`the bubbling doesn't reach here`)">
+<!--冒泡-->
+<!--当一个事件发生在一个元素上，它会首先运行在该元素上的处理程序，然后运行其父元素上的处理程序，然后一直向上到其他祖先上的处理程序。-->
+<form onclick="alert('form');console.log(event.target);">form
+    <div onclick="alert('div');console.log(event.target);event.stopImmediatePropagation()">div
+        <button onclick="console.log('click');event.stopImmediatePropagation()">click me</button>
+        <p onclick="alert('p');console.log(event.target);">
+            p
+        </p>
+    </div>
+</form>
+<!--event.target-->
+<!--停止冒泡-->
+<!--捕获-->
+<script>
+    for(let elem of document.querySelectorAll('*')) {
+        elem.addEventListener("click", e => alert(`Capturing: ${elem.tagName}`), true);
+        elem.addEventListener("click", e => alert(`Bubbling: ${elem.tagName}`));
+    }
+</script>
+
+</body>
+</html>
