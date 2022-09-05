@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+<div>
+    <input type="text" id="input" value="phone" style="color: #999">
+</div>
+<script>
+    let text = document.getElementById('input');
+    text.onfocus =function (){
+        console.log("get focus");
+        if(this.value ==="phone"){
+            this.value ="";
+        }
+        this.style.color ="#333";
+    }
+    text.onblur =function (){
+        console.log("onblur ")
+        if(this.value===""){
+            this.value ='phone';
+        }
+        this.style.color ='#999';
+    }
+</script>
+
+</body>
+
+</html>

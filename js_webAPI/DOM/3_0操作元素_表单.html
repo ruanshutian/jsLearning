@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button>按钮</button>
+<input type="text" value="输入内容">
+
+</body>
+<script>
+let btn = document.querySelector('button');
+let input = document.querySelector('input');
+btn.onclick = function ( ){
+
+    input.value = 'input的text已经改变了';
+
+    // btn.disabled = true;
+
+    this.disabled = true;
+
+
+
+}
+
+</script>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button>
+click
+</button>
+<div>
+  xxxx
+</div>
+<p>
+  1234
+  <span>span</span>
+</p>
+<p>
+  1234
+  <span>span</span>
+</p>
+
+<button id ='ldh'>ldh</button>
+<button id ='zxy'>zxy</button>
+<img src="../img/ldh.png" alt="" title="ldh">
+
+</body>
+<script>
+  // innerText
+  let btn = document.querySelector('button');
+  let div = document.querySelector('div');
+  btn.onclick = function (){
+    div.innerText ='2020';
+  }
+  let p= document.querySelector('p');
+  p.innerText = '22222';
+
+  // innerHtml
+  btn.onclick = function (){
+    div.innerHTML ='<strong>2020</strong>';
+  }
+
+  let ldh = document.getElementById('ldh');
+  let zxy =document.getElementById('zxy');
+  let img = document.querySelector('img');
+  ldh.onclick = function (){
+    img.src = '../img/ldh.png';
+    img.title = 'ldh';
+  }
+  zxy.onclick = function (){
+    img.src = '../img/zxy.png';
+    img.title = 'zxy'
+  }
+
+
+</script>
+</html>

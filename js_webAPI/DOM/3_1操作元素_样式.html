@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div{
+        width: 200px;
+        height: 200px;
+        background-color: pink;
+    }
+</style>
+<body>
+
+<div>
+
+</div>
+<script>
+    let div_pink = document.querySelector('div');
+    div_pink.onclick = function (){
+        // div_pink.style
+        this.style.backgroundColor = 'purple';
+        this.style.width ='300px';
+    }
+</script>
+
+</body>
+
+</html>

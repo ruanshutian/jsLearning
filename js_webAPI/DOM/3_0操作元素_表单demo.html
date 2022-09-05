@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .box{
+        position: relative;
+        width: 400px;
+        border-bottom: 1px solid #ccc;
+        margin: 100px auto;
+    }
+    .box input{
+        width: 370px;
+        height: 30px;
+        border: 0;
+        outline: none;
+    }
+    .box img{
+        /*height: 30px;*/
+        position: absolute;
+        top:2px;
+        right: 2px;
+        width: 24px;
+
+    }
+</style>
+<body>
+
+<div class="box">
+    <label for =''>
+        <img src="../img/jd_1.png" alt="" id ='eye'>
+    </label>
+    <input type="password" name="" id="pwd">
+</div>
+
+</body>
+<script>
+
+    let img =document.getElementById('eye');
+    let input=document.getElementById('pwd') ;
+    let flag =0;
+    img.onclick =function (){
+        input.type = 'text';
+        if(flag ==0){
+            input.type = 'text';
+            img.src='../img/jd_open.png';
+            flag =1;
+        }else{
+            input.type = 'password';
+            img.src='../img/jd_1.png';
+            flag =0;
+        }
+
+    }
+
+</script>
+</html>

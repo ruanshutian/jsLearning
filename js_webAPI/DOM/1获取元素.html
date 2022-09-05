@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id ='id'>
+  2022
+</div>
+<div>
+  <ul>
+    <li>here</li>
+    <li>here</li>
+    <li>here</li>
+    <li>here</li>
+    <li>here</li>
+  </ul>
+  <ol id='ol'>
+    <li>hereol</li>
+    <li>hereol</li>
+    <li>hereol</li>
+    <li>hereol</li>
+    <li>hereol</li>
+    <li>hereol</li>
+    <li>hereol</li>
+  </ol>
+</div>
+
+<div class="class1">
+  class1
+</div>
+<div class="class1">
+  class11
+</div>
+<div class="class1">
+  class12
+</div>
+<div class="class1">
+  class13
+</div>
+<div class="class2">
+  class2
+</div>
+<div class="class3">
+  class3
+</div>
+
+</body>
+
+<script>
+
+  // all
+
+  let id = document.getElementById('id');
+  console.log(id);
+  console.log(typeof id);
+  console.dir(id);
+
+  let li = document.getElementsByTagName('li');
+  console.log(li);
+
+  let ol =document.getElementById('ol');
+  let ol_li = ol.getElementsByTagName('li');
+  console.log(ol_li);
+
+  //h5 >=ie9
+
+  console.log("类名");
+  let class1 = document.getElementsByClassName('class1');
+  console.log(class1);
+
+  console.log("返回指定元素");
+  let class11 = document.querySelector('.class1');
+  let id11=document.querySelector('#id');
+  let li11=document.querySelector('li');
+  console.log(class11);
+  console.log(id11);
+  console.log(li11);
+  let class_all = document.querySelectorAll('.class1');
+  console.log(class_all);
+
+  let li_all=document.querySelectorAll('li');
+  console.log(li_all)
+
+  //html body
+  let body =document.body;
+  console.log(body);
+  let html=document.documentElement;
+  console.log(html);
+
+</script>
+</html>

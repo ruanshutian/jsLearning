@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style> body { color: red; margin: 5px } </style>
+</head>
+<body class="main page">
+
+<div id ='div'>
+    <button id="button">
+        Alt+shift+click on me!
+    </button>
+    <input onmousemove="this.value=event.clientX+':'+event.clientY" value="Mouse over me">
+    <span ondblclick="alert('dblclick')">Double-click me</span>
+</div>
+<script>
+    button.onclick=function (event){
+        if(event.altKey && event.shiftKey){
+            console.log("1111111");
+        }
+    }
+</script>
+
+<script src="script.js"></script>
+</body>
+
+
+</html>
