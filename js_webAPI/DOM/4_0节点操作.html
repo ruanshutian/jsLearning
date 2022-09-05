@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+
+<body>
+
+<div id="demo" >
+    <span class = "erweima"></span>
+    <div></div>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+</div>
+<script>
+
+    // let erweima =document.querySelector('.erweima');
+    // console.log(erweima.parentNode);
+    //
+    // let ul =document.querySelector('ul');
+    // console.log(ul.childNodes);
+    // console.log(ul.childNodes[0].nodeType);
+    // console.log(ul.childNodes[1].nodeType);
+    //
+    // //非标准但是实际常用
+    // console.log(ul.children);
+    //
+    // console.log(ul.firstChild);
+    // console.log(ul.lastChild);
+    //
+    // //ie9
+    // console.log(ul.firstElementChild);
+    // console.log(ul.lastElementChild);
+    //
+    // //实际开发
+    // console.log(ul.children[0]);
+    // console.log(ul.children[ul.children.length-1])
+    //
+    // //下一个兄弟节点
+    // console.log(erweima.nextSibling)
+    // console.log(erweima.previousSibling);
+    //
+    // //ie9
+    // console.log(erweima.nextElementSibling);
+    // console.log(erweima.previousElementSibling);
+
+    // 创建节点
+    let li = document.createElement('li');
+    //添加节点
+    let ul =document.querySelector('ul');
+    ul.appendChild(li);
+
+    let lili = document.createElement('li');
+    ul.insertBefore(lili,ul.children[0]);
+
+</script>
+
+</body>
+
+</html>

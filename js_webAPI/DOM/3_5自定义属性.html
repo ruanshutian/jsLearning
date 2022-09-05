@@ -8,7 +8,7 @@
 
 <body>
 
-<div id="demo" index="q">
+<div id="demo" index="q" data-name="rst" data-last-name="ruan">
 
 </div>
 <script>
@@ -22,6 +22,11 @@ div.id = "test";
 div.setAttribute("index",2);
 
 div.removeAttribute('index');
+
+//h5
+console.log(div.dataset);
+console.log(div.dataset.name);
+console.log(div.dataset.lastName);
 
 </script>
 
