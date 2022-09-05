@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aron QQ</title>
+</head>
+<style>
+    .box{
+        position: relative;
+        width: 400px;
+        /*border-bottom: 1px solid #ccc;*/
+        margin: 100px auto;
+        /*background-color: #1eacda;*/
+    }
+
+    #qq{
+        /*position: absolute;*/
+        width: 400px;
+        /*background-color: #3c763d;*/
+    }
+    #id{
+        color: #999;
+        width: 400px;
+        height: 40px;
+        outline: none;
+        border: 0px;
+    }
+    #pwd{
+        /*position: absolute;*/
+        color: #999;
+        width: 378px;
+        height: 40px;
+        outline: none;
+        border: 0px;
+    }
+    #eye{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 0px;
+        top:70px;
+    }
+    #login{
+        /*background-color: #3c763d;*/
+        /*height: 1000px;*/
+    }
+    #login #zc{
+        /*position: absolute;*/
+        left: 0px;
+        border: 0px;
+        background-color: white;
+    }
+    #login #dl{
+        position: absolute;
+        /*right: 0px;*/
+        border: 0px;
+        background-color: white;
+    }
+</style>
+<body>
+<h1>欢迎登陆</h1>
+<div class="box">
+    <div id = 'qq'>
+          <input type="text" value="账号" id="id">
+          <br>
+          <br>
+          <input type="text" value="密码" name="" id="pwd">
+          <img src="img/open.png" id="eye">
+    </div>
+    <div id ="login">
+        <button id="zc">注册</button>
+        <button id="dl">登陆</button>
+    </div>
+
+</div>
+
+</body>
+<script src="js/index.js"></script>
+</html>

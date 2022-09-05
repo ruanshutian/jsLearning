@@ -76,13 +76,13 @@ for(let i=0;i< link.length;i++){
 //
 //     for( var i = 0; i<link.length; i++ ){
 //
-//     link[i].index = i;
+//     link[i].page = i;
 //     //点击图片显示大图
 //     link[i].onclick = function(){
 //
 //     var src = this.href;
 //
-//     cur = this.index;
+//     cur = this.page;
 //
 //     black.style.display = "block";
 //     big.style.display = "block";

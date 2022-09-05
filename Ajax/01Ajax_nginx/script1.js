@@ -16,6 +16,6 @@
  *
  * 50x.html
  *
- * index.html
+ * page.html
  *
  */

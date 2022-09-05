@@ -5,20 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/browse_/03_1鼠标事件/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browse_/03_1鼠标事件/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/1获取元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/2事件处理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/3_0操作元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/3_0操作元素_表单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/3_0操作元素_表单demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/3_1操作元素_样式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/3_2jd文本框隐藏demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/img/jd_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/img/jd_open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/img/ldh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/img/zxy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/qq/img/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/qq/img/open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/qq/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/qq/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ajax/01Ajax_nginx/script1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Ajax/01Ajax_nginx/script1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/jsDemo/Images/ablum/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/10vue本地应用for.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/10vue本地应用for.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/11vue本地应用on补充.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/11vue本地应用on补充.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/13demo记事本.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/13demo记事本.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -54,7 +50,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js_webAPI/DOM",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js实战/qq/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,28 +60,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js实战/qq/img" />
       <recent name="$PROJECT_DIR$/js_webAPI/DOM" />
       <recent name="$PROJECT_DIR$/browse_" />
       <recent name="$PROJECT_DIR$/vue/img" />
       <recent name="$PROJECT_DIR$/vue/css" />
-      <recent name="$PROJECT_DIR$/vue" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js实战/qq/img" />
+      <recent name="$PROJECT_DIR$/js实战/qq" />
       <recent name="$PROJECT_DIR$/js_webAPI/img" />
       <recent name="$PROJECT_DIR$/vue/img" />
       <recent name="$PROJECT_DIR$/vue/css" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/vue" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.3_2jd文本框隐藏demo.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="3_0操作元素_表单.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/3_0操作元素_表单.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="3_0操作元素_表单demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/3_0操作元素_表单demo.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="3_0操作元素.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/3_0操作元素.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="3_1操作元素_样式.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/3_1操作元素_样式.html" useBuiltInWebServerPort="true">
@@ -94,16 +87,19 @@
     <configuration name="3_2jd文本框隐藏demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/3_2jd文本框隐藏demo.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/qq/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.3_0操作元素_表单demo.html" />
         <item itemvalue="JavaScript Debug.3_2jd文本框隐藏demo.html" />
         <item itemvalue="JavaScript Debug.3_1操作元素_样式.html" />
-        <item itemvalue="JavaScript Debug.3_0操作元素_表单demo.html" />
         <item itemvalue="JavaScript Debug.3_0操作元素_表单.html" />
-        <item itemvalue="JavaScript Debug.3_0操作元素.html" />
       </list>
     </recent_temporary>
   </component>
