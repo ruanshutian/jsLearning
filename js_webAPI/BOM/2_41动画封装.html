@@ -6,7 +6,7 @@
 </head>
 <style>
     .father{
-        position: relative;
+        position: absolute;
         background-color: blueviolet;
         width: 200px;
         height: 200px;
@@ -43,6 +43,9 @@
         };
         let action = document.querySelector('.action');
         animate(action,400);
+
+        let father =document.querySelector('.father');
+        animate(father,500);
 
     });
 </script>
