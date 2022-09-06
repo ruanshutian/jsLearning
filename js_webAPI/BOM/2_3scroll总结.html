@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .father{
+        position: relative;
+        background-color: blueviolet;
+        width: 200px;
+        height: 200px;
+        margin: 150px;
+    }
+    .son{
+        width: 100px;
+        height: 100px;
+        background-color: #333333;
+        margin: 45px;
+    }
+    .w{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 150px;
+        padding: 10px;
+        border: 20px solid blue;
+        overflow: auto;
+    }
+</style>
+<body>
+<script>
+
+    //offsetWidth  自身+padding+边框+内容区的宽度     元素位置
+    //clientWidth  自身+padding+内容宽度（不含边框）   元素大小
+    //scrollWidth  自身实际宽度（不含边框）            滚动距离
+    //页面滚动 window.pageXOffset
+
+
+    window.addEventListener('load',()=>{
+        //scrollHeight
+        let w =document.querySelector('.w');
+        console.log(w.scrollHeight);
+        console.log(w.clientHeight);
+
+        w.addEventListener('scroll',()=>{
+            console.log('11111')
+        })
+
+    });
+</script>
+<div class="father">
+
+    <div class="son">
+
+    </div>
+
+</div>
+<div class="w">
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+    111111
+</div>
+
+</body>
+</html>
