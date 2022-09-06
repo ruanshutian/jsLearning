@@ -14,17 +14,13 @@
 <body>
 <script>
         window.addEventListener('load',()=>{
-            console.log(location);
+            console.log(navigator);
+            console.log(navigator.userAgent);
 
             let btn =document.querySelector('button');
             btn.addEventListener('click',()=>{
-                //assign跳转  可以后退
-                // location.assign('http://ww.baidu.com');
-                //replace 不记录浏览历史，不可以后退
-                location.replace('http://ww.baidu.com');
-
-                // location.reload();
-
+                // history.forward();
+                history.go(1);
             })
 
         })
@@ -32,6 +28,7 @@
 <button>
     click
 </button>
+<a href="1_6navicator.html">gogoggogo</a>
 <div>
 
 </div>
