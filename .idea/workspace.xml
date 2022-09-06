@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/2_31mouseenterAndmouseover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/2_3scroll.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/2_3scroll总结.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_webAPI/BOM/2_3立即执行函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/js_webAPI/BOM/2_2client立即执行函数.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_webAPI/BOM/2_40动画.html" beforeDir="false" afterPath="$PROJECT_DIR$/js_webAPI/BOM/2_40动画.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +66,7 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2_31mouseenterAndmouseover.html">
-    <configuration name="1_7history.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/1_7history.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.2_40动画.html">
     <configuration name="2_1offset.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_1offset.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -85,16 +79,19 @@
     <configuration name="2_3scroll.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_3scroll.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="2_40动画.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_40动画.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.2_40动画.html" />
         <item itemvalue="JavaScript Debug.2_31mouseenterAndmouseover.html" />
         <item itemvalue="JavaScript Debug.2_3scroll.html" />
         <item itemvalue="JavaScript Debug.2_2client立即执行函数.html" />
         <item itemvalue="JavaScript Debug.2_1offset.html" />
-        <item itemvalue="JavaScript Debug.1_7history.html" />
       </list>
     </recent_temporary>
   </component>
