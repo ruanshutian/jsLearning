@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .father{
+        width: 100px;
+        height: 100px;
+        background-color:crimson;
+    }
+    .son{
+        width: 50px;
+        height: 50px;
+        background-color: #1eacda;
+    }
+</style>
+
+
+<body>
+        <p>xxxxxx我是一段不愿意分享的文字</p>
+
+
+<script>
+    //
+    // document.onkeyup = ()=>{
+    //     console.log("11");
+    // }
+    document.addEventListener('keyup',()=>{
+        console.log("key up");
+    })
+
+    //keydown按键按下的时候触发，能识别功能键比如  ctrl、shift 左右箭头
+    document.addEventListener('keydown',()=>{
+        console.log('keydown');
+    })
+
+    //keypress按键按下的时候触发，不能识别功能键比如  ctrl、shift 左右箭头
+    document.addEventListener('keypress',()=>{
+        console.log('press');
+    })
+
+    // 事件执行顺序 keydown  -> keypress ->keyup
+
+
+
+</script>
+
+</body>
+
+</html>

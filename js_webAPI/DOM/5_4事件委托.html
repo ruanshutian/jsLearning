@@ -19,28 +19,25 @@
 
 
 <body>
-
+        <ul>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+            <li>1</li>
+        </ul>
 
 
 <script>
 
         // 委托、代理、委派
         // 原理：不是每个自节点单独设置事件监听器，而是事件监听器设置在其父节点上，然后利用冒泡原理影响设置每个自节点
-        let son =document.querySelector('.son');
-        son.addEventListener('click',function (){
-            alert('son');
-            // event.stopPropagation();//停止冒泡  >=ie9
-            event.cancelBubble =true;
-        });
-
-        let father =document.querySelector('.father');
-        father.addEventListener('click',function (){
-            alert('father');
-        });
-
-        document.addEventListener('click',function (){
-            alert('document');
+        let ul = document.querySelector('ul');
+        ul.addEventListener('click',(e)=>{
+            e.target.style.backgroundColor = 'pink';
         })
+
 
 
 </script>
