@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+
+<body>
+
+<div >
+
+    <button>11</button>
+    <button>22</button>
+    <button>33</button>
+    <div>1</div>
+    <br>
+    <div>2</div>
+    <br>
+    <div>3</div>
+
+</div>
+
+<script>
+    // let div = document.querySelectorAll('div');
+    // div[0].onclick = ()=>{
+    //     alert('11');
+    //     // div[0].onclick =null;
+    // }
+    //
+    // div[1].addEventListener('click',fn);
+    // function fn(){
+    //     alert('22');
+    //     // div[1].removeEventListener('click',fn);
+    // }
+
+    let button = document.querySelectorAll('button');
+    button[0].onclick = ()=>{
+        alert('11');
+        button[0].onclick =null;
+    }
+    // removeEventListener
+    button[1].addEventListener('click',fn);
+    function fn(){
+        alert('22');
+        button[1].removeEventListener('click',fn);
+    }
+    // detachEvent
+    button[2].addEventListener('click',f2);
+    function f2(){
+        alert('33');
+        // button[2].detachEvent('click',f2);
+    }
+
+
+
+</script>
+
+</body>
+
+</html>

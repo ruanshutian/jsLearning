@@ -52,15 +52,24 @@
 
     // 创建节点
     let li = document.createElement('li');
+    li.innerText = 'sssss'
     //添加节点
     let ul =document.querySelector('ul');
     ul.appendChild(li);
 
     let lili = document.createElement('li');
+    lili.innerText='222222'
     ul.insertBefore(lili,ul.children[0]);
 
     //删除节点
     ul.removeChild(li);
+
+    //复制节点
+    ul.appendChild(lili.cloneNode());
+    ul.appendChild(lili.cloneNode());
+    ul.appendChild(lili.cloneNode());
+    ul.appendChild(lili.cloneNode(true));
+    ul.appendChild(lili.cloneNode(true));
 
 
 </script>

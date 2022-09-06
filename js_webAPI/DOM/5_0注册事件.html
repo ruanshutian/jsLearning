@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+
+<body>
+
+<div >
+
+    <button>传统onclick</button>
+    <button>方法监听注册方式</button>
+    <button>方法监听注册方式</button>
+
+</div>
+
+<script>
+    let btns = document.querySelectorAll('button');
+    btns[0].onclick = ()=>{
+        alert('hi');
+    }
+
+    // addEventListener
+    btns[1].addEventListener('click',function (){
+        alert(22);
+    })
+    btns[1].addEventListener('click',function (){
+        alert(33);
+    })
+
+    // attachEvent <ie9支持 一般不使用 （了解）
+
+    // function 封装
+
+
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+
+<body>
+
+<div >
+
+    <button>点击</button>
+    <p>
+        abc
+    </p>
+    <div class="create">
+
+    </div>
+
+</div>
+
+<script>
+        // // document.write
+        // let btn = document.getElementsByTagName('button');
+        // console.log(btn);
+        // btn[0].onclick= function (){
+        //     console.log(1);
+        //     document.write('<div>1234</div>');
+        // }
+        // btn[0].onclick = ()=>{
+        //     // console.log(1111)
+        //     document.write('<div>1234</div>');
+        // }
+
+        // document.write('<div>1234</div>');
+        // let div = document.querySelector('div');
+        //
+        // let d1 = new Date();
+        // // div.innerHTML = 'text';
+        // let arr =[];
+        // for(let i =0;i<100;i++){
+        //     arr.push('<a href="x">link</a>');
+        // }
+        // div.innerHTML = arr;
+        //
+        // let d2 =new Date();
+        //
+        // console.log(d2-d1);
+
+        //
+        // let create = document.querySelector('.create');
+        // d1 = +new Date();
+        // for(let i =0;i<1000;i++){
+        //     let temp = document.createElement('a');
+        //     create.appendChild(temp);
+        // }
+        // console.log(create)
+        //
+        // d2=+new Date();
+        // console.log(d2-d1);
+
+        // innerHTML 效率更高
+        function f1(){
+            let d1 = +new Date();
+            let array = [];
+            for(let i =0;i<10000;i++){
+                array.push('<div style = "width:100px;height:2px;border:1px solid blue;"></div>');
+            }
+            document.body.innerHTML = array.join('');
+            let d2 =+new Date();
+            console.log(d2-d1);
+        }
+        f1();
+        function f2(){
+            let d1 = +new Date();
+            for(let i =0;i<10000;i++){
+                let div =document.createElement('div');
+                div.style.width ='100px';
+                div.style.height='2px';
+                div.style.border ='1px solid red';
+                document.body.appendChild(div);
+            }
+            let d2 =+new Date();
+            console.log(d2-d1);
+        }
+        f2();
+
+
+
+
+</script>
+
+</body>
+
+</html>

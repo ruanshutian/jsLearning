@@ -5,6 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/4_1创建元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_0注册事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_1解绑（删除）事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_2dom事件流.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_3事件对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_3事件对象_属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_3事件对象_阻止冒泡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_4事件委托.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js_webAPI/DOM/4_0节点操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/js_webAPI/DOM/4_0节点操作.html" afterDir="false" />
     </list>
@@ -66,20 +74,20 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.4_0节点操作.html">
-    <configuration name="3_3排他思想_百度换肤.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/3_3排他思想_百度换肤.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.5_4事件委托.html">
+    <configuration name="5_2dom事件流.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/5_2dom事件流.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="3_5自定义属性.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/3_5自定义属性.html" useBuiltInWebServerPort="true">
+    <configuration name="5_3事件对象_属性.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/5_3事件对象_属性.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="4_0节点操作.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/4_0节点操作.html" useBuiltInWebServerPort="true">
+    <configuration name="5_3事件对象_阻止冒泡.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/5_3事件对象_阻止冒泡.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/qq/index.html" useBuiltInWebServerPort="true">
+    <configuration name="5_3事件对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/5_3事件对象.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/qq/page/main.html" useBuiltInWebServerPort="true">
+    <configuration name="5_4事件委托.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/5_4事件委托.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
@@ -87,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.4_0节点操作.html" />
-        <item itemvalue="JavaScript Debug.3_5自定义属性.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.main.html" />
-        <item itemvalue="JavaScript Debug.3_3排他思想_百度换肤.html" />
+        <item itemvalue="JavaScript Debug.5_4事件委托.html" />
+        <item itemvalue="JavaScript Debug.5_3事件对象_阻止冒泡.html" />
+        <item itemvalue="JavaScript Debug.5_3事件对象_属性.html" />
+        <item itemvalue="JavaScript Debug.5_3事件对象.html" />
+        <item itemvalue="JavaScript Debug.5_2dom事件流.html" />
       </list>
     </recent_temporary>
   </component>
