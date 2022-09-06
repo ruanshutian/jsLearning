@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div{
+        background-color: #1eacda;
+        width: 300px;
+        height: 300px;
+    }
+</style>
+<body>
+<script>
+    window.addEventListener('load',()=>{
+        // setTimeout
+        let timer = setTimeout(()=>{
+            console.log("time out");
+        },2000);
+        let btn = document.querySelector('button');
+        btn.addEventListener('click',()=>{
+            console.log('stop');
+            clearTimeout(timer);
+        });
+
+
+        let intval = setInterval(()=>{
+            console.log('go on');
+        },1000);
+
+        btn.addEventListener('click',()=>{
+            console.log('stop');
+            clearInterval(intval);
+        });
+
+        function f(){
+            console.log('---'+this);
+        }
+        f();
+
+    })
+
+
+
+</script>
+<button>
+    click
+</button>
+<div>
+
+</div>
+</body>
+</html>

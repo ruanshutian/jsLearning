@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_5鼠标事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_5鼠标事件_mousemoveDemo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_6键盘事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_7键盘事件对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/1_0BOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/1_1window对象事件_加载事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/1_2window对象调整窗口事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/1_3定时器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/1_4js执行机制.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/1_5location对象.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_webAPI/DOM/5_4事件委托.html" beforeDir="false" afterPath="$PROJECT_DIR$/js_webAPI/DOM/5_4事件委托.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js_webAPI/DOM",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js_webAPI/BOM",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,11 +57,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js_webAPI/BOM" />
       <recent name="$PROJECT_DIR$/js_webAPI/DOM" />
       <recent name="$PROJECT_DIR$/js实战/qq/img" />
       <recent name="$PROJECT_DIR$/browse_" />
       <recent name="$PROJECT_DIR$/vue/img" />
-      <recent name="$PROJECT_DIR$/vue/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js实战/qq/img" />
@@ -70,20 +71,20 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.5_7键盘事件对象.html">
-    <configuration name="5_4事件委托.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/5_4事件委托.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.1_5location对象.html">
+    <configuration name="1_0BOM.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/1_0BOM.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="5_5鼠标事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/5_5鼠标事件.html" useBuiltInWebServerPort="true">
+    <configuration name="1_1window对象事件_加载事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/1_1window对象事件_加载事件.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="5_5鼠标事件_mousemoveDemo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/5_5鼠标事件_mousemoveDemo.html" useBuiltInWebServerPort="true">
+    <configuration name="1_2window对象调整窗口事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/1_2window对象调整窗口事件.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="5_6键盘事件.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/5_6键盘事件.html" useBuiltInWebServerPort="true">
+    <configuration name="1_3定时器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/1_3定时器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="5_7键盘事件对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/DOM/5_7键盘事件对象.html" useBuiltInWebServerPort="true">
+    <configuration name="1_5location对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/1_5location对象.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
@@ -91,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.5_7键盘事件对象.html" />
-        <item itemvalue="JavaScript Debug.5_6键盘事件.html" />
-        <item itemvalue="JavaScript Debug.5_5鼠标事件_mousemoveDemo.html" />
-        <item itemvalue="JavaScript Debug.5_5鼠标事件.html" />
-        <item itemvalue="JavaScript Debug.5_4事件委托.html" />
+        <item itemvalue="JavaScript Debug.1_5location对象.html" />
+        <item itemvalue="JavaScript Debug.1_3定时器.html" />
+        <item itemvalue="JavaScript Debug.1_2window对象调整窗口事件.html" />
+        <item itemvalue="JavaScript Debug.1_1window对象事件_加载事件.html" />
+        <item itemvalue="JavaScript Debug.1_0BOM.html" />
       </list>
     </recent_temporary>
   </component>

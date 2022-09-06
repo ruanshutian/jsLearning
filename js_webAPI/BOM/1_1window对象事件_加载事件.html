@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+
+    // window.onload=()=>{
+    //
+    // }
+
+    window.addEventListener('load',()=>{
+        let button =document.querySelector('button');
+        button.addEventListener("click",()=>{
+            alert("click");
+        })
+    });
+
+    window.addEventListener(('load'),()=>{
+        alert('load');
+    })
+
+    document.addEventListener('DOMContentLoaded',()=>{
+        alert('DOMContentLoaded');
+    })
+
+    //load 等页面内容加载完毕，包含页面dom元素、图片 、flash、 css等等
+    //domcontentLoaded 是dom加载完毕，不包含、图片 、flash、 css就可以执行，加载速度比load更快一些
+
+</script>
+<button>
+    click
+</button>
+</body>
+</html>
