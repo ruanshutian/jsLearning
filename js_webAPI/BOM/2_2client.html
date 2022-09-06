@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .father{
+        position: relative;
+        background-color: blueviolet;
+        width: 200px;
+        height: 200px;
+        margin: 150px;
+    }
+    .son{
+        width: 100px;
+        height: 100px;
+        background-color: #333333;
+        margin: 45px;
+    }
+    .w{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 150px;
+        padding: 10px;
+        border: 20px solid blue;
+    }
+</style>
+<body>
+<script>
+    //client
+    window.addEventListener('load',()=>{
+        let father = document.querySelector('.father');
+        let son = document.querySelector('.son');
+        let w = document.querySelector('.w');
+        console.log(father.offsetTop);
+        console.log(father.offsetLeft);
+        console.log(son.offsetLeft);
+
+        //包含padding+border+width
+        console.log(w.offsetWidth);
+        console.log(w.offsetHeight);
+
+        //
+        console.log(son.offsetParent);//返回有定位的父亲，否则返回的事body
+        console.log(son.parentNode);//返回父亲  是进一级的父亲，亲爹，不管有没有定位
+
+        //offset_获取元素
+        //style 可以读写，可以赋值
+
+
+        //client 和offetWidth最大区别就是  ：不包含边框
+        console.log(father.clientWidth);
+
+        console.log(father.clientTop);
+
+
+    })
+</script>
+<div class="father">
+
+    <div class="son">
+
+    </div>
+
+</div>
+<div class="w">
+
+</div>
+
+</body>
+</html>

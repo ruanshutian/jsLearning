@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .father{
+        position: relative;
+        background-color: blueviolet;
+        width: 200px;
+        height: 200px;
+        margin: 150px;
+    }
+    .son{
+        width: 100px;
+        height: 100px;
+        background-color: #333333;
+        margin: 45px;
+    }
+    .w{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 150px;
+        padding: 10px;
+        border: 20px solid blue;
+    }
+</style>
+<body>
+<script>
+    //立即执行函数
+    (function (a,b){
+        // alert('立即执行1');
+        console.log('立即执行1');
+        console.log(a+b);
+    })(1,2);
+
+    (function (){
+        // alert('立即执行2');
+        console.log('立即执行');
+    }());
+
+    window.addEventListener('load',()=>{
+        //
+
+    });
+</script>
+<div class="father">
+
+    <div class="son">
+
+    </div>
+
+</div>
+<div class="w">
+
+</div>
+
+</body>
+</html>
