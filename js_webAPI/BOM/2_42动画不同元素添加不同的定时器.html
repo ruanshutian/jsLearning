@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .father{
+        position: absolute;
+        background-color: blueviolet;
+        width: 200px;
+        height: 200px;
+        margin: 200px;
+    }
+    .son{
+        width: 100px;
+        height: 100px;
+        background-color: #333333;
+        margin: 45px;
+    }
+    .action{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        padding: 10px;
+        border: 20px solid blue;
+        overflow: auto;
+        margin-left: 50px;
+    }
+</style>
+<body>
+<script>
+
+    window.addEventListener('load',()=>{
+
+        let animate = (obj,target)=>{
+            clearInterval(obj.timer);
+            obj.timer = setInterval(function (){
+                if(obj.offsetLeft>=target){
+                    clearInterval(obj.timer);
+                }
+                obj.style.left = obj.offsetLeft +5 +'px';
+            },300);
+
+            // let acting = ()=>{
+            //     if(obj.offsetLeft>=target){
+            //         clearInterval(timer);
+            //     }
+            //     obj.style.left = obj.offsetLeft +5 +'px';
+            // };
+
+        };
+
+
+        let father =document.querySelector('.father');
+        animate(father,500);
+
+        let btn = document.querySelector('button');
+        btn.addEventListener('click',()=>{
+            let action = document.querySelector('.action');
+            animate(action,400);
+        });
+
+    });
+</script>
+<div class="father">
+
+    <div class="son">
+
+    </div>
+
+</div>
+<div class="action">
+
+</div>
+<div>
+    <button>click</button>
+</div>
+
+</body>
+</html>
