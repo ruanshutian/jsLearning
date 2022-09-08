@@ -3,6 +3,36 @@
 let id = document.querySelector('#id');
 let pwd = document.querySelector('#pwd');
 let zc = document.querySelector('.zc');
+
+id.onfocus = ()=>{
+    if(id.value === "账号") {
+        id.value = "";
+    }
+    id.style.color ='#333';
+}
+id.onblur = ()=>{
+    id.style.color ='#999';
+    if(id.value === ""){
+        id.value = "账号";
+    }
+
+}
+
+pwd.onfocus =()=>{
+    if(pwd.value === '密码'){
+        pwd.value ="";
+        pwd.type ="password";
+    }
+
+}
+pwd.onblur =()=>{
+    if(pwd.value ===""){
+        pwd.value ="密码";
+        pwd.type = "text";
+    }
+}
+
+
 zc.addEventListener('click',()=>{
     let id_value = id.value;
     let pwd_value = pwd.value;

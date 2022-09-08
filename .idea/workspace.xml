@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js实战/qq/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/qq/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js实战/qq/js/zc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/qq/js/zc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
