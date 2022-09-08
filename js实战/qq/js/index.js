@@ -51,17 +51,45 @@ eye.onclick = function (){
     }
 }
 
+let id_pwd_list={
+    'rst':'rst',
+};
+
 //注册
 let login_zc = document.querySelector('.zc')
 login_zc.addEventListener('click',()=>{
     console.log('sss');
     login_zc.href = 'page/zc.html';
 });
+id_pwd_list[localStorage.getItem('id')] = localStorage.getItem('pwd');
 
 //登陆
 let login_dl = document.querySelector('.dl');
-let login_success = true;
-login_dl.onclick = ()=>{
+login_dl.onclick = (e)=>{
+    let login_success = false;
+    // console.log(id_pwd_list);
+    // if(id.value=='账号' || pwd.value=='密码'){
+    //     alert('登陆失败，账号密码不得为空');
+    //     login_success = false;
+    //     e.preventDefault();
+    //     // return;
+    // }
+    if(!id_pwd_list.hasOwnProperty(id.value)){
+        alert('账号不存在');
+        login_success = false;
+        e.preventDefault();
+        // return;
+    }
+    else if(id_pwd_list[id.value]!=pwd.value){
+        alert('密码错误');
+        login_success = false;
+        e.preventDefault();
+        // return;
+    }
+    else {
+        login_success =true;
+    }
+    console.log(login_success);
     if(login_success){
         login_dl.href = 'page/main.html';
     }

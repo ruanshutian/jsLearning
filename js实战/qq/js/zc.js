@@ -12,6 +12,8 @@ zc.addEventListener('click',()=>{
         alert('注册失败，账号密码不得为空');
         return;
     }
+    localStorage.setItem('id', id_value);
+    localStorage.setItem('pwd', pwd_value);
     zc.href = '../index.html';
 
 });
