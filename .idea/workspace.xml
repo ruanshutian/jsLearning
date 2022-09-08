@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs/04http_url响应内容.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/05时钟web服务器.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -66,10 +67,7 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.04http_url响应内容.js">
-    <configuration name="2_43缓动画_回调.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_43缓动画_回调.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.05时钟web服务器.js">
     <configuration name="3_2本地存储sessionStorage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/3_2本地存储sessionStorage.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -85,13 +83,16 @@
     <configuration name="04http_url响应内容.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/04http_url响应内容.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
+    <configuration name="05时钟web服务器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/05时钟web服务器.js" working-dir="$PROJECT_DIR$/nodejs">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.05时钟web服务器.js" />
         <item itemvalue="Node.js.04http_url响应内容.js" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.3_2本地存储sessionStorage.html" />
-        <item itemvalue="JavaScript Debug.2_43缓动画_回调.html" />
       </list>
     </recent_temporary>
   </component>
