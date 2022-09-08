@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/js实战/qq/js/zc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/qq/js/zc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/04http_url响应内容.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js_webAPI/BOM",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/nodejs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -51,11 +52,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nodejs" />
       <recent name="$PROJECT_DIR$/js_webAPI/BOM" />
       <recent name="$PROJECT_DIR$/js_webAPI/DOM" />
       <recent name="$PROJECT_DIR$/js实战/qq/img" />
       <recent name="$PROJECT_DIR$/browse_" />
-      <recent name="$PROJECT_DIR$/vue/img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js实战/qq/img" />
@@ -65,10 +66,7 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
-    <configuration name="2_43缓动画2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_43缓动画2.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.04http_url响应内容.js">
     <configuration name="2_43缓动画_回调.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_43缓动画_回调.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -84,13 +82,16 @@
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
+    <configuration name="04http_url响应内容.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/04http_url响应内容.js" working-dir="$PROJECT_DIR$/nodejs">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.04http_url响应内容.js" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.3_2本地存储sessionStorage.html" />
         <item itemvalue="JavaScript Debug.2_43缓动画_回调.html" />
-        <item itemvalue="JavaScript Debug.2_43缓动画2.html" />
       </list>
     </recent_temporary>
   </component>
