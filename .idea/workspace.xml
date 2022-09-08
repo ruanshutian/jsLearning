@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs/20nodejs模块化.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/20nodejs模块化_07.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/21nodejs模块化作用域.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/22nodejs模块共享.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/22nodejs模块共享test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/23exports.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/23exportsTest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/311时间格式化Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/311时间格式化传统包.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/31包和npm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,32 +68,32 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.23exportsTest.js">
+  <component name="RunManager" selected="Node.js.312时间格式化npm.js">
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
-      <method v="2" />
-    </configuration>
-    <configuration name="20nodejs模块化_07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/20nodejs模块化_07.js" working-dir="$PROJECT_DIR$/nodejs">
-      <method v="2" />
-    </configuration>
-    <configuration name="21nodejs模块化作用域.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/21nodejs模块化作用域.js" working-dir="$PROJECT_DIR$/nodejs">
-      <method v="2" />
-    </configuration>
-    <configuration name="22nodejs模块共享.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/22nodejs模块共享.js" working-dir="$PROJECT_DIR$/nodejs">
-      <method v="2" />
-    </configuration>
-    <configuration name="22nodejs模块共享test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/22nodejs模块共享test.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
     <configuration name="23exportsTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/23exportsTest.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
+    <configuration name="311时间格式化Test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/311时间格式化Test.js" working-dir="$PROJECT_DIR$/nodejs">
+      <method v="2" />
+    </configuration>
+    <configuration name="311时间格式化传统包.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/311时间格式化传统包.js" working-dir="$PROJECT_DIR$/nodejs">
+      <method v="2" />
+    </configuration>
+    <configuration name="312时间格式化npm.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/312时间格式化npm.js" working-dir="$PROJECT_DIR$/nodejs">
+      <method v="2" />
+    </configuration>
+    <configuration name="31包和npm.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/31包和npm.js" working-dir="$PROJECT_DIR$/nodejs">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.312时间格式化npm.js" />
+        <item itemvalue="Node.js.311时间格式化Test.js" />
+        <item itemvalue="Node.js.311时间格式化传统包.js" />
+        <item itemvalue="Node.js.31包和npm.js" />
         <item itemvalue="Node.js.23exportsTest.js" />
-        <item itemvalue="Node.js.22nodejs模块共享test.js" />
-        <item itemvalue="Node.js.22nodejs模块共享.js" />
-        <item itemvalue="Node.js.21nodejs模块化作用域.js" />
-        <item itemvalue="Node.js.20nodejs模块化_07.js" />
       </list>
     </recent_temporary>
   </component>
