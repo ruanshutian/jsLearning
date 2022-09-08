@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs/05时钟web服务器.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/20nodejs模块化.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/20nodejs模块化_07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/21nodejs模块化作用域.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/22nodejs模块共享.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/22nodejs模块共享test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/23exports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/23exportsTest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -67,32 +72,32 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.05时钟web服务器.js">
-    <configuration name="3_2本地存储sessionStorage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/3_2本地存储sessionStorage.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/qq/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.23exportsTest.js">
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
-    <configuration name="04http_url响应内容.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/04http_url响应内容.js" working-dir="$PROJECT_DIR$/nodejs">
+    <configuration name="20nodejs模块化_07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/20nodejs模块化_07.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
-    <configuration name="05时钟web服务器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/05时钟web服务器.js" working-dir="$PROJECT_DIR$/nodejs">
+    <configuration name="21nodejs模块化作用域.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/21nodejs模块化作用域.js" working-dir="$PROJECT_DIR$/nodejs">
+      <method v="2" />
+    </configuration>
+    <configuration name="22nodejs模块共享.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/22nodejs模块共享.js" working-dir="$PROJECT_DIR$/nodejs">
+      <method v="2" />
+    </configuration>
+    <configuration name="22nodejs模块共享test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/22nodejs模块共享test.js" working-dir="$PROJECT_DIR$/nodejs">
+      <method v="2" />
+    </configuration>
+    <configuration name="23exportsTest.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/23exportsTest.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.05时钟web服务器.js" />
-        <item itemvalue="Node.js.04http_url响应内容.js" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.3_2本地存储sessionStorage.html" />
+        <item itemvalue="Node.js.23exportsTest.js" />
+        <item itemvalue="Node.js.22nodejs模块共享test.js" />
+        <item itemvalue="Node.js.22nodejs模块共享.js" />
+        <item itemvalue="Node.js.21nodejs模块化作用域.js" />
+        <item itemvalue="Node.js.20nodejs模块化_07.js" />
       </list>
     </recent_temporary>
   </component>
