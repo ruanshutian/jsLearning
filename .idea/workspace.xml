@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/2_43缓动画2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/2_43缓动画_回调.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/3_1本地存储localStorage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/3_2本地存储sessionStorage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js_webAPI/BOM/2_43缓动画.html" beforeDir="false" afterPath="$PROJECT_DIR$/js_webAPI/BOM/2_43缓动画.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,14 +68,14 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.2_43缓动画2.html">
-    <configuration name="2_42动画不同元素添加不同的定时器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_42动画不同元素添加不同的定时器.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.3_2本地存储sessionStorage.html">
     <configuration name="2_43缓动画2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_43缓动画2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="2_43缓动画.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_43缓动画.html" useBuiltInWebServerPort="true">
+    <configuration name="2_43缓动画_回调.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_43缓动画_回调.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="3_2本地存储sessionStorage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/3_2本地存储sessionStorage.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/20js经典案例/1支付倒计时10s/index.html" useBuiltInWebServerPort="true">
@@ -88,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.3_2本地存储sessionStorage.html" />
+        <item itemvalue="JavaScript Debug.2_43缓动画_回调.html" />
         <item itemvalue="JavaScript Debug.2_43缓动画2.html" />
         <item itemvalue="JavaScript Debug.success.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="JavaScript Debug.2_43缓动画.html" />
-        <item itemvalue="JavaScript Debug.2_42动画不同元素添加不同的定时器.html" />
       </list>
     </recent_temporary>
   </component>

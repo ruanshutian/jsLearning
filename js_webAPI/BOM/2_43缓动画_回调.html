@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .father{
+        position: absolute;
+        background-color: blueviolet;
+        width: 200px;
+        height: 200px;
+        margin: 200px;
+    }
+    .son{
+        width: 100px;
+        height: 100px;
+        background-color: #333333;
+        margin: 45px;
+    }
+    .action{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        /*padding: 10px;*/
+        /*border: 20px solid blue;*/
+        /*overflow: auto;*/
+        /*margin-left: 100px;*/
+    }
+    .b500{
+        position: absolute;
+        margin-top: 300px;
+    }
+    .b800{
+        position: absolute;
+        margin-top: 300px;
+        margin-left: 100px;
+    }
+</style>
+<body>
+<script>
+
+    window.addEventListener('load',()=>{
+
+        let animate = (obj,target,f)=>{
+            clearInterval(obj.timer);
+            obj.timer = setInterval(function (){
+                let d = (target - obj.offsetLeft )/10;
+                d = d>0?Math.ceil(d):Math.floor(d);
+                if(obj.offsetLeft == target){
+                    console.log("stop!!")
+                    clearInterval(obj.timer);
+                    if(f){
+                        f();
+                    }
+                }
+                // else{
+                //     obj.style.left = obj.offsetLeft + d + 'px';
+                // }
+                console.log('obj.style.left 1= ', obj.style.left);
+                console.log('obj.offsetLeft 11= ', obj.offsetLeft);
+                obj.style.left = obj.offsetLeft + d + 'px';
+                console.log(d);
+                // console.log('obj.style.left 2= ',obj.style.left);
+            },30);
+
+        };
+        let btn500 = document.querySelector('.b500');
+
+        let btn800= document.querySelector('.b800');
+
+
+        btn500.addEventListener('click',()=>{
+                let action = document.querySelector('.action');
+                animate(action,500,function (){
+                    action.style.backgroundColor = "blue";
+                });
+        });
+        btn800.addEventListener('click',()=>{
+            let action = document.querySelector('.action');
+            animate(action,800,function (){
+                action.style.backgroundColor = "black";
+            });
+        });
+
+    });
+</script>
+<div class="father">
+
+    <div class="son">
+
+    </div>
+
+</div>
+<div class="action">
+
+</div>
+<div>
+    <button class="b500">click</button>
+    <button class="b800">click</button>
+</div>
+
+</body>
+</html>

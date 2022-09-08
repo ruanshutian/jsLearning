@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" >
+<button class="set">存储数据</button>
+<button class="get">获取数据</button>
+<button class="remove">删除数据</button>
+<button class="clean">清空所有数据</button>
+
+</body>
+<script>
+    /**本地存储 ：
+     *  存储在浏览器
+     *  sessionStorage = 5M
+     *  localStorage = 20M
+     *  只能存储字符串，可以将JSON,stringify()编码后存储
+     */
+
+    /**
+     * winodw.localStorage
+     * 生命周期——永久（除非手动删除）
+     * 多个窗口的数据共享
+     * 键值对存储
+     */
+    let ipt = document.querySelector('input');
+    let set = document.querySelector('.set');
+    let get =document.querySelector('.get');
+    let remove =document.querySelector('.remove');
+    let clean =document.querySelector('.clean');
+
+    set.addEventListener('click',()=>{
+        console.log('1111');
+        localStorage.setItem('key',ipt.value);
+        localStorage.setItem('key2',ipt.value);
+       // sessionStorage.setItem('ss', ipt.value);
+       //  sessionStorage.setItem('password', ipt.value);
+    });
+    get.addEventListener('click',()=>{
+        let  v = localStorage.getItem('key');
+       // let  v = sessionStorage.getItem('ss');
+       console.log(v);
+    });
+    remove.addEventListener('click',()=>{
+        // sessionStorage.removeItem('ss');
+        localStorage.removeItem('key');
+    });
+    clean.addEventListener('click',()=>{
+        // sessionStorage.clear();
+        localStorage.clear();
+    });
+
+
+
+</script>
+</html>
