@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/2_43缓动画_回调.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/3_1本地存储localStorage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_webAPI/BOM/3_2本地存储sessionStorage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/qq/js/zc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/qq/page/zc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ navigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ navigation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js实战/qq/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/qq/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js实战/qq/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/qq/js/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -68,7 +70,7 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.3_2本地存储sessionStorage.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="2_43缓动画2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/2_43缓动画2.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -78,10 +80,10 @@
     <configuration name="3_2本地存储sessionStorage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_webAPI/BOM/3_2本地存储sessionStorage.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/20js经典案例/1支付倒计时10s/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="success.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/20js经典案例/1支付倒计时10s/success.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/qq/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
@@ -89,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.3_2本地存储sessionStorage.html" />
         <item itemvalue="JavaScript Debug.2_43缓动画_回调.html" />
         <item itemvalue="JavaScript Debug.2_43缓动画2.html" />
-        <item itemvalue="JavaScript Debug.success.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>

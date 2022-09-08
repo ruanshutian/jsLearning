@@ -51,8 +51,15 @@ eye.onclick = function (){
     }
 }
 
+//注册
+let login_zc = document.querySelector('.zc')
+login_zc.addEventListener('click',()=>{
+    console.log('sss');
+    login_zc.href = 'page/zc.html';
+});
+
 //登陆
-let login_dl = document.getElementById('dl');
+let login_dl = document.querySelector('.dl');
 let login_success = true;
 login_dl.onclick = ()=>{
     if(login_success){
