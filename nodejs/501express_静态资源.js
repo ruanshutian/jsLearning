@@ -6,8 +6,13 @@ const express =require('express');
 
 const  app = express();
 
-app.use(express.static('../navigation'));
+// app.use(express.static('../navigation'));
 // app.use(express.static('./test'));
+// app.use(express.static('./'));
+
+app.use("/test2",express.static("./test2"));
+app.use("/",express.static("test"));
+
 
 
 app.listen(80,()=>{

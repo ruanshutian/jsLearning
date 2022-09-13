@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs/501express_静态资源.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/test/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/test2/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/501express_静态资源.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/501express_静态资源.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/test/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/nodejs/test",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/nodejs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,8 +55,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/nodejs/test" />
       <recent name="$PROJECT_DIR$/nodejs" />
+      <recent name="$PROJECT_DIR$/nodejs/test" />
       <recent name="$PROJECT_DIR$/js_webAPI/BOM" />
       <recent name="$PROJECT_DIR$/js_webAPI/DOM" />
       <recent name="$PROJECT_DIR$/js实战/qq/img" />
