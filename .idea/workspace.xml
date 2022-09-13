@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs/500express_创建服务器.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/501express_静态资源.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/test/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/500express.html" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/500express.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/nodejs",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/nodejs/test",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,11 +55,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nodejs/test" />
       <recent name="$PROJECT_DIR$/nodejs" />
       <recent name="$PROJECT_DIR$/js_webAPI/BOM" />
       <recent name="$PROJECT_DIR$/js_webAPI/DOM" />
       <recent name="$PROJECT_DIR$/js实战/qq/img" />
-      <recent name="$PROJECT_DIR$/browse_" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js实战/qq/img" />
@@ -71,7 +69,7 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.500express_创建服务器.js">
+  <component name="RunManager" selected="Node.js.501express_静态资源.js">
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
@@ -84,19 +82,19 @@
     <configuration name="312时间格式化npm.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/312时间格式化npm.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
-    <configuration name="31包和npm.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/31包和npm.js" working-dir="$PROJECT_DIR$/nodejs">
+    <configuration name="500express_创建服务器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/500express_创建服务器.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
-    <configuration name="500express_创建服务器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/500express_创建服务器.js" working-dir="$PROJECT_DIR$/nodejs">
+    <configuration name="501express_静态资源.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/501express_静态资源.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.501express_静态资源.js" />
         <item itemvalue="Node.js.500express_创建服务器.js" />
         <item itemvalue="Node.js.312时间格式化npm.js" />
         <item itemvalue="Node.js.311时间格式化Test.js" />
         <item itemvalue="Node.js.311时间格式化传统包.js" />
-        <item itemvalue="Node.js.31包和npm.js" />
       </list>
     </recent_temporary>
   </component>
