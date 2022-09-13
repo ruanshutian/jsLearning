@@ -1,0 +1,39 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <button class="get">
+        get
+    </button>
+    <button class="post">
+        post
+    </button>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+    let getButton = document.querySelector(".get");
+
+    let postButton = document.querySelector(".post");
+
+    getButton.addEventListener("click",()=>{
+        axios({
+            method:"GET",
+            url:"http://127.0.0.1/api/get",
+        }).then(response=>{
+            console.log(response);
+        });
+    });
+
+</script>
+</html>

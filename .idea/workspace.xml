@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs/540express写接口.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/541路由模块.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/542跨域.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/542跨域.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/543cors跨域相应头.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/540express写接口.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/540express写接口.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nodejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,14 +73,14 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.501express_静态资源.js">
+  <component name="RunManager" selected="JavaScript Debug.542跨域.html">
+    <configuration name="542跨域.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/nodejs/542跨域.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
     <configuration name="311时间格式化Test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/311时间格式化Test.js" working-dir="$PROJECT_DIR$/nodejs">
-      <method v="2" />
-    </configuration>
-    <configuration name="311时间格式化传统包.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/311时间格式化传统包.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
     <configuration name="312时间格式化npm.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/312时间格式化npm.js" working-dir="$PROJECT_DIR$/nodejs">
@@ -89,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.542跨域.html" />
         <item itemvalue="Node.js.501express_静态资源.js" />
         <item itemvalue="Node.js.500express_创建服务器.js" />
         <item itemvalue="Node.js.312时间格式化npm.js" />
         <item itemvalue="Node.js.311时间格式化Test.js" />
-        <item itemvalue="Node.js.311时间格式化传统包.js" />
       </list>
     </recent_temporary>
   </component>

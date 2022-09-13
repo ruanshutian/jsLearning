@@ -11,6 +11,9 @@ app.use(express.urlencoded({
     extended:false
 }));
 
+const cors = require('cors');
+app.use(cors());
+
 const router = require('./541路由模块');
 
 app.use('/api',router);
