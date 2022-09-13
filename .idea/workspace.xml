@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs/test2/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/501express_静态资源.js" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/501express_静态资源.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/test/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/test/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/502nodemon工具.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
