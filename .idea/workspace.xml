@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs/600操作数据库.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nodejs/700web前后端.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nodejs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/nodejs/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
