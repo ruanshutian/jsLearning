@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js_es6/尚硅谷es6/12_set.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_es6/尚硅谷es6/13_map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,14 +67,11 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.12_set.js">
+  <component name="RunManager" selected="JavaScript Debug.13_map.html">
+    <configuration name="13_map.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_es6/尚硅谷es6/13_map.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
-      <method v="2" />
-    </configuration>
-    <configuration name="09_生成器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js_es6/尚硅谷es6/09_生成器.js" working-dir="$PROJECT_DIR$/js_es6/尚硅谷es6">
-      <method v="2" />
-    </configuration>
-    <configuration name="10_生成器函数参数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js_es6/尚硅谷es6/10_生成器函数参数.js" working-dir="$PROJECT_DIR$/js_es6/尚硅谷es6">
       <method v="2" />
     </configuration>
     <configuration name="11_Promise_catch.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js_es6/尚硅谷es6/11_Promise_catch.js" working-dir="$PROJECT_DIR$/js_es6/尚硅谷es6">
@@ -86,13 +83,16 @@
     <configuration name="12_set.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js_es6/尚硅谷es6/12_set.js" working-dir="$PROJECT_DIR$/js_es6/尚硅谷es6">
       <method v="2" />
     </configuration>
+    <configuration name="13_map.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js_es6/尚硅谷es6/13_map.js" working-dir="$PROJECT_DIR$/js_es6/尚硅谷es6">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.13_map.js" />
+        <item itemvalue="JavaScript Debug.13_map.html" />
         <item itemvalue="Node.js.12_set.js" />
         <item itemvalue="Node.js.11_Promise_catch.js" />
         <item itemvalue="Node.js.11_Promise.js" />
-        <item itemvalue="Node.js.10_生成器函数参数.js" />
-        <item itemvalue="Node.js.09_生成器.js" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +116,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="28518000" />
+      <workItem from="1663211507467" duration="28833000" />
     </task>
     <servers />
   </component>
