@@ -21,3 +21,5 @@ function date(a, b ,...args){
     console.log(args);
 }
 date(1,2,3,4,5,6,7,8);
+
+
