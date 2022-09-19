@@ -4,30 +4,29 @@
  * class
  */
 
-// function Phone(brand,price){
-//     this.brand = brand ;
-//     this.price = price;
-// }
+// function Phone(){
 //
-// Phone.prototype.call = function (){
-//     console.log(" i can call");
 // }
+// Phone.name = "rst";
+// Phone.change = function (){
+//     console.log(" i can change the world");
+// }
+// Phone.prototype.size = '3.14';
 //
-// let huawei = new Phone("huazi",5999);
-// huawei.call();
-// console.log(huawei);
+// let test =new Phone();
+// console.log(test.name);
+// console.log(test.size);
 
 
 class Phone{
-    constructor(brand,price) {
-        this.brand = brand;
-        this.price =price;
+    static name ="rst";
+    static change(){
+        console.log("i can change");
     }
-    // 
-     call(){
-         console.log("i can call you");
-     }
 }
-let oneplus = new Phone("1+",1999);
-console.log(oneplus);
-oneplus.call()
+let test =new Phone();
+console.log(Phone.name);
+console.log(test.name);
+/**
+ * static 静态变量属于类的属性，不属于实例对象的属性！
+ */

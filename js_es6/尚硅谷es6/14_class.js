@@ -23,7 +23,7 @@ class Phone{
         this.brand = brand;
         this.price =price;
     }
-    // 
+    //
      call(){
          console.log("i can call you");
      }
