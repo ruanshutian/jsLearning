@@ -5,10 +5,10 @@
  */
 
  const xiyou = ["aron","孙悟空","唐僧","猪八戒","沙僧"];
-
- for(let v of xiyou){
-     console.log(v);
- }
+ //
+ // for(let v of xiyou){
+ //     console.log(v);
+ // }
 
 
 /**
@@ -18,18 +18,48 @@
  * 接下来不断调用next方法，指针一直往后移动，直到指向最后一个成员
  * 每调用next方法返回一个包含value和done属性的对象
  */
-let iterator =  xiyou[Symbol.iterator]();
-console.log(iterator);
-
-console.log(iterator.next());
-console.log(iterator.next());
-console.log(iterator.next());
-console.log(iterator.next());
-console.log(iterator.next());
-
-
-
+// let iterator =  xiyou[Symbol.iterator]();
+// console.log(iterator);
+//
+// console.log(iterator.next());
+// console.log(iterator.next());
+// console.log(iterator.next());
+// console.log(iterator.next());
+// console.log(iterator.next());
+// console.log(iterator.next());
 
 
+
+
+//应用
+
+const a1 = {
+    name :"rst",
+    stus :[
+        '1','2','3','4','5'
+    ],
+    [Symbol.iterator](){
+        let index = 0;
+        let _this = this;
+        return{
+            next :function (){
+                if(index <_this.stus.length){
+                    const result = {
+                        value:_this.stus[index],
+                        done:false
+                    };
+                    index++;
+                    return result;
+                }else{
+                    return {value: undefined,done: true};
+                }
+            }
+        }
+    }
+};
+
+for(let v of a1){
+    console.log(v);
+}
 
 
