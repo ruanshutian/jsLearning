@@ -43,7 +43,7 @@
 // console.log(me);
 
 /**
- * 3 、不能使用arguments 变量
+ * 3 、不能使用arguments 
  */
 
 // let fn =()=>{
