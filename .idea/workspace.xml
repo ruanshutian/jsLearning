@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js_es6/尚硅谷es6/09_生成器.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js_es6/尚硅谷es6/10_生成器函数参数.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_es6/尚硅谷es6/09_生成器.js" beforeDir="false" afterPath="$PROJECT_DIR$/js_es6/尚硅谷es6/09_生成器.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +68,7 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.09_生成器.js">
-    <configuration name="05_扩展运算符.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_es6/尚硅谷es6/05_扩展运算符.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.10_生成器函数参数.js">
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
@@ -86,13 +84,16 @@
     <configuration name="09_生成器.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js_es6/尚硅谷es6/09_生成器.js" working-dir="$PROJECT_DIR$/js_es6/尚硅谷es6">
       <method v="2" />
     </configuration>
+    <configuration name="10_生成器函数参数.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js_es6/尚硅谷es6/10_生成器函数参数.js" working-dir="$PROJECT_DIR$/js_es6/尚硅谷es6">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.10_生成器函数参数.js" />
         <item itemvalue="Node.js.09_生成器.js" />
         <item itemvalue="Node.js.08_迭代器.js" />
         <item itemvalue="Node.js.07_symbol使用.js" />
         <item itemvalue="Node.js.06_symbol.js" />
-        <item itemvalue="JavaScript Debug.05_扩展运算符.html" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +117,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="25242000" />
+      <workItem from="1663211507467" duration="25951000" />
     </task>
     <servers />
   </component>

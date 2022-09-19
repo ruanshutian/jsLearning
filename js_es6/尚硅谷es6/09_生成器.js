@@ -30,3 +30,6 @@ console.log(iterator.next());
 // for(let v of gen()){
 //     console.log(v);
 // }
+
+
+
