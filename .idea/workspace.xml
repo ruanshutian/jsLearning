@@ -5,52 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ navigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ navigation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/01vueTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/01vueTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/02.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/03.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/03.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/04vue本地应用text.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/04vue本地应用text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/05vue本地应用html.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/05vue本地应用html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/06vue本地应用on.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/06vue本地应用on.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/06vue本地应用on计数器.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/06vue本地应用on计数器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/07vue本地应用show.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/07vue本地应用show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/08vue本地应用if.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/08vue本地应用if.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/09vue本地应用bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/09vue本地应用bind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/09vue本地应用bind图片切换.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/09vue本地应用bind图片切换.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/10vue本地应用for.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/10vue本地应用for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/11vue本地应用on补充.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/11vue本地应用on补充.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/12vue本地应用mode.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/12vue本地应用mode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/13demo记事本.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/13demo记事本.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/14axios基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/14axios基本使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/15axios+vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/15axios+vue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/16demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/16demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/16demo天知道.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/16demo天知道.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/17demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/17demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/17demo音乐播放器.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/17demo音乐播放器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/css/17demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/css/17demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/08.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/disc.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/disc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/line01.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/line01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/line02.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/line02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/person.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/person.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/person01.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/person01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/play.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/player_bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/player_bar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/player_title.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/player_title.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/shutoff.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/shutoff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/table.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/table.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/img/images/z.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/img/images/z.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue速成/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue学习/001webpack.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue学习/001webpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/vue_cli/hello-woeld/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/vue_cli/hello-woeld/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vueDemo/vue_test/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/vue_test/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js_es6/尚硅谷es6",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue/vue学习",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -97,11 +56,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/vue学习" />
       <recent name="$PROJECT_DIR$/js_es6/尚硅谷es6" />
       <recent name="$PROJECT_DIR$/js_es6" />
       <recent name="$PROJECT_DIR$/nodejs" />
       <recent name="$PROJECT_DIR$/nodejs/test" />
-      <recent name="$PROJECT_DIR$/js_webAPI/BOM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/vue/vue速成" />
@@ -111,7 +70,7 @@
       <recent name="$PROJECT_DIR$/js实战/qq" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vueDemo/vue_cli/hello-woeld/public/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -135,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.main.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="Node.js.main.js" />
-        <item itemvalue="JavaScript Debug.index.html (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +122,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="47195000" />
+      <workItem from="1663211507467" duration="47709000" />
     </task>
     <servers />
   </component>
