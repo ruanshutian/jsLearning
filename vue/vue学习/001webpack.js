@@ -17,7 +17,7 @@
  * package.json
  *
  * {
- *   "name": "webpack_test",
+ *   "name": "webpack_test_save",
  *   "version": "1.0.0",
  *   "description": "",
  *   "main": "index.js",
@@ -72,7 +72,35 @@
  *
  */
 
-
+/**
+ *
+ *  webpack中的插件
+ *  npm install webpack-dev-server@3.11.2 -D
+ *  "dev": "webpack server"
+ *
+ * {
+ *   "name": "webpack_test_save",
+ *   "version": "1.0.0",
+ *   "description": "",
+ *   "main": "index.js",
+ *   "scripts": {
+ *     "test": "echo \"Error: no test specified\" && exit 1",
+ *     "dev": "webpack server"
+ *   },
+ *   "keywords": [],
+ *   "author": "",
+ *   "license": "ISC",
+ *   "dependencies": {
+ *     "jquery": "^3.6.1"
+ *   },
+ *   "devDependencies": {
+ *     "webpack": "^5.42.1",
+ *     "webpack-cli": "^4.7.2",
+ *     "webpack-dev-server": "^3.11.2"
+ *   }
+ * }
+ *
+ */
 
 
 
