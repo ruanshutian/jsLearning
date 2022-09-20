@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vueDemo/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueDemo/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueDemo/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueDemo/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ navigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ navigation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,14 +59,17 @@
       <recent name="$PROJECT_DIR$/js_webAPI/BOM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vueDemo/vue_test" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js实战/qq/img" />
       <recent name="$PROJECT_DIR$/js实战/qq" />
       <recent name="$PROJECT_DIR$/js_webAPI/img" />
-      <recent name="$PROJECT_DIR$/vue/img" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.main.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vueDemo/vue_cli/hello-woeld/public/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue实战/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -92,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.main.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
-        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +118,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="45903000" />
+      <workItem from="1663211507467" duration="46603000" />
     </task>
     <servers />
   </component>
