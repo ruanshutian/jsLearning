@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js_es6/尚硅谷es6/20_模块化.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js_es6/尚硅谷es6/20_模块化.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/17demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/17demo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +67,8 @@
       <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.20_模块化.html">
-    <configuration name="18_对象扩展方法.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_es6/尚硅谷es6/18_对象扩展方法.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.17demo音乐播放器.html">
+    <configuration name="17demo音乐播放器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/17demo音乐播放器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="19_模块化.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_es6/尚硅谷es6/19_模块化.html" useBuiltInWebServerPort="true">
@@ -78,10 +77,10 @@
     <configuration name="20_模块化.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_es6/尚硅谷es6/20_模块化.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="18_对象扩展方法.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js_es6/尚硅谷es6/18_对象扩展方法.js" working-dir="$PROJECT_DIR$/js_es6/尚硅谷es6">
+    <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
     <configuration name="19_模块化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js_es6/尚硅谷es6/19_模块化.js" working-dir="$PROJECT_DIR$/js_es6/尚硅谷es6">
@@ -89,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.17demo音乐播放器.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.20_模块化.html" />
         <item itemvalue="JavaScript Debug.19_模块化.html" />
         <item itemvalue="Node.js.19_模块化.js" />
-        <item itemvalue="JavaScript Debug.18_对象扩展方法.html" />
-        <item itemvalue="Node.js.18_对象扩展方法.js" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +116,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="39427000" />
+      <workItem from="1663211507467" duration="42002000" />
     </task>
     <servers />
   </component>

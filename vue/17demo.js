@@ -16,11 +16,12 @@ let app =new Vue({
         searchMusic:function (){
             let that =this;
             axios.get("https://autumnfish.cn/search?keywords="+this.query)
+            // axios.get(`http://music.163.com/api/search/get/web?csrf_token=hlpretag=&hlposttag=&s=${this.query}&type=1&offset=0&total=true&limit=20`)
                 .then(res=>{
                     that.musicList = res.data.result.songs;
                     console.log(that.musicList);
                 },err=>{
-
+                    console.log('err')
                 });
         },
         playMusic:function (musicId){
