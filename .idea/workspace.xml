@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue学习/001webpack.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue学习/001webpack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueDemo/vue_cli/hello-woeld/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/vue_cli/hello-woeld/babel.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vueDemo/vue_test/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vueDemo/vue_test/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue学习/001webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/001webpack.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,11 +70,11 @@
       <recent name="$PROJECT_DIR$/js实战/qq" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="Node.js.main.js (1)">
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vueDemo/vue_cli/hello-woeld/public/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue实战/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue学习/webpack_test/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
@@ -89,16 +89,16 @@
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/vueDemo/vue_test/js/main.js" working-dir="$PROJECT_DIR$/vueDemo/vue_test/js">
+    <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/vue/vue学习/webpack_test/dist/main.js" working-dir="$PROJECT_DIR$/vue/vue学习/webpack_test/dist">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js (1)" />
+        <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.main.html" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
-        <item itemvalue="Node.js.main.js" />
       </list>
     </recent_temporary>
   </component>
@@ -122,7 +122,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="47709000" />
+      <workItem from="1663211507467" duration="50086000" />
     </task>
     <servers />
   </component>
