@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vueDemo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ navigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ navigation/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/17demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/17demo.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -60,39 +64,39 @@
       <recent name="$PROJECT_DIR$/js_webAPI/BOM" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/js实战/qq/img" />
       <recent name="$PROJECT_DIR$/js实战/qq" />
       <recent name="$PROJECT_DIR$/js_webAPI/img" />
       <recent name="$PROJECT_DIR$/vue/img" />
-      <recent name="$PROJECT_DIR$/vue/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.17demo音乐播放器.html">
-    <configuration name="17demo音乐播放器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/17demo音乐播放器.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="19_模块化.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_es6/尚硅谷es6/19_模块化.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="20_模块化.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js_es6/尚硅谷es6/20_模块化.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.main.html">
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue实战/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vueDemo/vue_test/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vueDemo/vue_test/main.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
       <method v="2" />
     </configuration>
-    <configuration name="19_模块化.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js_es6/尚硅谷es6/19_模块化.js" working-dir="$PROJECT_DIR$/js_es6/尚硅谷es6">
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/vueDemo/vue_test/js/main.js" working-dir="$PROJECT_DIR$/vueDemo/vue_test/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.17demo音乐播放器.html" />
+        <item itemvalue="JavaScript Debug.main.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.20_模块化.html" />
-        <item itemvalue="JavaScript Debug.19_模块化.html" />
-        <item itemvalue="Node.js.19_模块化.js" />
       </list>
     </recent_temporary>
   </component>
@@ -116,7 +120,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="42002000" />
+      <workItem from="1663211507467" duration="45903000" />
     </task>
     <servers />
   </component>
