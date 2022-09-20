@@ -14,6 +14,8 @@
  */
 
 /**
+ * package.json
+ *
  * {
  *   "name": "webpack_test",
  *   "version": "1.0.0",
@@ -34,5 +36,43 @@
  *   }
  * }
  */
+
+/**
+ * package.json
+ *
+ *   "scripts": {
+ *     "dev": "webpack"
+ *   },
+ *
+ *   使用 npm run dev  => npm run webpack命令
+ *   默认找 src/index.js
+ *
+ *   module.exports = {
+ *     // mode:'development'
+ *     //production    or   development
+ *     mode:'production'
+ * }
+ *
+ *  mode ： production  —— 速度慢+ 占内存小   ——  上线的时候
+ *  mode ：development  —— 速度块+ 占内存大   ——  开发的时候
+ *
+ *  如果要不想找默认路径，可以修改这里的配置
+ *  webpack.config.js
+ *  // mode:'development'
+ *     //production    or   development
+ *     mode:'production',
+ *     //指定处理文件的路径
+ *     entry:path.join(__dirname,'./src/index.js'),
+ *     //指定生存文件路径
+ *     output:{
+ *         path:path.join(__dirname, './dist'),
+ *         filename:"bundle.js"
+ *     }
+ *
+ *
+ */
+
+
+
 
 
