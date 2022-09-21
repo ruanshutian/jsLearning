@@ -5,6 +5,9 @@ import $ from 'jquery';
 import './css/index.css'
 import './css/index.less'
 
+import test from './images/test.png'
+$('.box').attr('src' , test);
+
 $(function (){
 
     //实现奇偶行的变色
@@ -20,3 +23,12 @@ $(function (){
 function log() {
     console.log('hellbbbbbbßo log')
 }
+
+function info(target){
+    target.info = "Person info "
+}
+
+@info
+class Person{}
+
+console.log(Person.info);

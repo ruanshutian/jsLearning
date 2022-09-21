@@ -19,7 +19,16 @@ module.exports = {
             //定义了不同模块对应的loader
             {test:/\.css/,use:['style-loader', 'css-loader']},
             //处理less的loader
-            {test:/\.less/,use:['style-loader', 'css-loader','less-loader']}
+            {test:/\.less/,use:['style-loader', 'css-loader','less-loader']},
+            //处理图片文件
+            {
+                test: /\.ipg|png|gif$/,use: ['url-loader']
+            },
+            //处理高级js,
+            //配置babel-loader的时候，一定要排除node_modules目录中的js文件，因为第三方包中的js兼容性，不需要关心
+            {
+                test: /\.js$/,use:['babel-loader'],exclude:/node_mudules/
+            }
         ]
     }
 }

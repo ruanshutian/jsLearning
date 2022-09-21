@@ -184,3 +184,30 @@
  *
  *
  */
+
+
+/**
+ * 处理图片
+ * npm i url-loader file-loader -D
+ *
+ */
+
+/**
+ *
+ * npm i babel-loader @babel/core @babel/plugin-proposal-decorators -D
+ *
+ *             //处理高级js,
+ *             //配置babel-loader的时候，一定要排除node_modules目录中的js文件，因为第三方包中的js兼容性，不需要关心
+ *             {
+ *                 test: /\.js$/,use:['babel-loader'],exclude:/node_mudules/
+ *             }
+ *
+ * 新建babel.config.js文件
+ * https://babeljs.io/docs/en/babel-plugin-proposal-decorators
+ *
+ * {
+ *   "plugins": ["@babel/plugin-proposal-decorators"]
+ * }
+ *
+ *
+ */

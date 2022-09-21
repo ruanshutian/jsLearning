@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/css/index.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/images/test.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue学习/001webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/001webpack.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/webpack.config.js" afterDir="false" />
     </list>
@@ -67,11 +68,11 @@
       <recent name="$PROJECT_DIR$/nodejs/test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/vue学习/webpack_test/src/images" />
       <recent name="$PROJECT_DIR$/vue/vue学习/webpack_test/src/css" />
       <recent name="$PROJECT_DIR$/vue/vue速成" />
       <recent name="$PROJECT_DIR$/vueDemo/vue_test" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/js实战/qq/img" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
@@ -136,7 +137,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="62173000" />
+      <workItem from="1663211507467" duration="66549000" />
     </task>
     <servers />
   </component>
