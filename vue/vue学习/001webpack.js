@@ -103,4 +103,10 @@
  */
 
 
+/**
+ *
+ * npm i html-webpack-plugin
+ *
+ */
+
 
