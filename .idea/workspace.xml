@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/babel.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/images/test.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue学习/001webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/001webpack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/dist/main.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue学习/webpack_test/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue学习/webpack_test/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +70,10 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue学习/webpack_test/dist/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue学习/webpack_test/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -103,6 +101,7 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="Node.js.03http.js" />
       <item itemvalue="Node.js.index.js" />
       <item itemvalue="Node.js.main.js (1)" />
@@ -110,6 +109,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.index.js" />
         <item itemvalue="Node.js.main.js (1)" />
@@ -137,17 +137,12 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="66549000" />
+      <workItem from="1663211507467" duration="67563000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/vue/vue学习/webpack_test2/node_modules/fastest-levenshtein/test.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

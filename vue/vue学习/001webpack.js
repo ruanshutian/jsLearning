@@ -211,3 +211,40 @@
  *
  *
  */
+
+
+/**
+ * build 项目发布
+ *   "scripts": {
+ *     "dev": "webpack serve",//开发命令中运行
+ *     "build": "webpack --mode production"//项目发布的时候，运行命令
+ *   },
+ */
+
+/**
+ *
+ * 指定output文件路径
+ *
+ * module.exports = {
+ *     mode: 'development',
+ *     entry:path.join(__dirname, './src/index.js'),
+ *     output:{
+ *         path:path.join(__dirname, 'dist'),
+ *         filename:'js/bundle.js'
+ *     },
+ *
+ *             {
+ *                 test: /\.ipg|png|gif$/,use: ['url-loader?limit=1000&outputPath=images']
+ *             },
+ *
+ */
+
+/**
+ * 每次发布自动删除之前的
+ * clean-webpack-plugin插件
+ *
+ * https://www.npmjs.com/package/clean-webpack-plugin
+ *
+ */
+
+
