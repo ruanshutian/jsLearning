@@ -1,7 +1,7 @@
-// import Vue from 'vue学习';
+// import Vue from 'webpack';
 // import ElementUI from 'element-ui';
 // import 'element-ui/lib/theme-chalk/index.css';
-// import App from './App.vue学习';
+// import App from './App.webpack';
 
 // Vue.use(ElementUI);
 //
