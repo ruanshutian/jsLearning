@@ -107,6 +107,26 @@
  *
  * npm i html-webpack-plugin
  *
+ * const HtmlWebpackPlugin = require('html-webpack-plugin');
+ *
+ * const  htmlPlugin = new HtmlWebpackPlugin({
+ *     template:'./src/index.html',
+ *     filename:'./index.html'
+ * })
+ *
+ * module.exports = {
+ *     mode: 'development',
+ *     plugins:[htmlPlugin]
+ * }
+ *
+ * template 复制到  8080   filename:'./index.html'内存里面
+ * 所以打开8080就可以看到index.html页面
+ *
+ * html-webpack-plugin
+ * 1 复制页面到根目录内存
+ * 2 添加scrip脚本  <script src = "xxx.js"></script>  连接到指定js渲染这个index.html
+ *
  */
+
 
 
