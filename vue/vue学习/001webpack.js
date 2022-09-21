@@ -248,3 +248,34 @@
  */
 
 
+/**
+ *
+ * Source Map
+ * 信息文件，存储的是位置信息   添加  devtool:"eval-source-map",
+ *     devtool:"eval-source-map",
+ *
+ * 在发布的时候，为了安全性，将devtool:"eval-source-map",注释，防止定位代码。
+ *
+ */
+
+/**
+ *
+ * 只暴露行号，不暴露源码怎么实现：
+ * 设置devtool如下
+ *
+ * devtool:"nosources-source-map",
+ *
+ */
+
+
+/**
+ * 配置@代替'./src'目录位置
+ *
+ *     resolve:{
+ *         alias:{
+ *             '@':path.join(__dirname,'./src')
+ *         }
+ *     },
+ *
+ *
+ */

@@ -10,6 +10,12 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
     mode: 'development',
+    resolve:{
+        alias:{
+            '@':path.join(__dirname,'./src')
+        }
+    },
+    devtool:"eval-source-map",
     entry:path.join(__dirname, './src/index.js'),
     output:{
         path:path.join(__dirname, 'dist'),
