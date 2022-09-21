@@ -128,5 +128,59 @@
  *
  */
 
+/**
+ *
+ * webpack处理
+ *
+ *                                                                                            ｜———>调用loader处理
+ *                                                                    ｜—————>是否配置了babel————
+ *                                          ｜————>是否包含高级js语法—————                        ｜———>报错
+ * 将要被webpack打包处理的文件模块——>是否为js模块—                           ｜—————>webpack进行处理
+ *                                          ｜
+ *                                          ｜                            ｜—————>调用loader处理
+ *                                          ｜————>是否配置了对应的loader—————
+ *                                                                         ｜—————>报错
+ *
+ *
+ * loader 调用过程
+ *
+ *
+ * npm i style-loader css-loader -D
+ *  webpack.config.js 的 module->rules数组
+ *
+ *      },
+ *     module:{
+ *         rules:[
+ *             //定义了不同模块对应的loader
+ *             {test:/\.css/,use:['style-loader', 'css-loader']}
+ *         ]
+ *     }
+ *
+ *
+ * 1、webpack默认只能打包处理js文件，处理不了别的
+ * 2、在js中发现css模块
+ * 3、webpack发现处理不了的css后，找webpack.config.js这个配置文件，看module.rules数组中，是否配置loader加载器
+ * 4、webpack把index.css这个文件，先转交给最后一个loader进行处理（先转交给css-loader)
+ * 5、把处理的结果转交给style-loader
+ * 6、当style-loader处理完毕之后，发现没有下一个loader了，于是就把处理的结果转交给webpack
+ * 7、webpack把style-loader处理的结果，合并到dist/bundle.js中，最终生成打包文件
+ *
+ */
 
 
+/**
+ *
+ * less
+ * npm i less-loader -D
+ *
+ *
+ *     module:{
+ *         rules:[
+ *             //定义了不同模块对应的loader
+ *             {test:/\.css/,use:['style-loader', 'css-loader','less-loader']}
+ *         ]
+ *     }
+ *
+ *
+ *
+ */
