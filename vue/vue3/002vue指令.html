@@ -210,7 +210,7 @@
     <div><-------------添加key-------------></div>
     <div>
         <input type="text" v-model="name">
-        <button @click="addUser">addUser</button>
+        <button @click="addUser(id)">addUser</button>
     </div>
     <ul>
         <li v-for="(user,index) in list" :key="user.id" >
@@ -290,10 +290,10 @@
                     this.f=!(this.f);
                 },
 
-                addUser(){
+                addUser(id){
                     let that = this;
-                    this.id++;
-                    this.list.unshift({ id:this.id, name:this.name});
+                    that.id++;
+                    that.list.unshift({ id:that.id, name:that.name});
                     console.log(that.list)
                 }
             }
