@@ -5,53 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/ navigation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ navigation/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/01vueTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/01vueTest.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/02.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/03.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/03.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/04vue本地应用text.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/04vue本地应用text.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/05vue本地应用html.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/05vue本地应用html.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/06vue本地应用on.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/06vue本地应用on.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/06vue本地应用on计数器.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/06vue本地应用on计数器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/07vue本地应用show.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/07vue本地应用show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/08vue本地应用if.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/08vue本地应用if.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/09vue本地应用bind.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/09vue本地应用bind.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/09vue本地应用bind图片切换.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/09vue本地应用bind图片切换.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/10vue本地应用for.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/10vue本地应用for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/11vue本地应用on补充.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/11vue本地应用on补充.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/12vue本地应用mode.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/12vue本地应用mode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/13demo记事本.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/13demo记事本.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/14axios基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/14axios基本使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/15axios+vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/15axios+vue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/16demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/16demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/16demo天知道.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/16demo天知道.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/17demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/17demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/17demo音乐播放器.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/17demo音乐播放器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/css/17demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/css/17demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/05.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/05.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/06.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/06.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/07.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/07.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/08.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/cover.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/cover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/disc.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/disc.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/line.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/line.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/line01.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/line01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/line02.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/line02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/person.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/person.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/person01.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/person01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/play.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/player_bar.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/player_bar.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/player_title.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/player_title.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/shutoff.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/shutoff.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/table.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/table.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/img/images/z.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/img/images/z.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue速成/test.png" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue2速成/test.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/001vue基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/001vue基本使用.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -112,7 +66,10 @@
       <recent name="$PROJECT_DIR$/vueDemo/vue_test" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.12vue本地应用mode.html">
+  <component name="RunManager" selected="JavaScript Debug.001vue基本使用.html">
+    <configuration name="001vue基本使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/001vue基本使用.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="12vue本地应用mode.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue速成/12vue本地应用mode.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -131,9 +88,6 @@
     <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/vue/vue学习/webpack_test_save/src/index.js" working-dir="$PROJECT_DIR$/vue/vue学习/webpack_test_save/src">
       <method v="2" />
     </configuration>
-    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/vue/vue学习/webpack_test_save/dist/main.js" working-dir="$PROJECT_DIR$/vue/vue学习/webpack_test_save/dist">
-      <method v="2" />
-    </configuration>
     <configuration name="webpac_dev_serve" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/vue/vue学习/webpack_test/package.json" />
       <command value="run" />
@@ -145,21 +99,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.001vue基本使用.html" />
       <item itemvalue="JavaScript Debug.12vue本地应用mode.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="Node.js.03http.js" />
       <item itemvalue="Node.js.index.js" />
-      <item itemvalue="Node.js.main.js (1)" />
       <item itemvalue="npm.webpac_dev_serve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.001vue基本使用.html" />
         <item itemvalue="JavaScript Debug.12vue本地应用mode.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="Node.js.index.js" />
-        <item itemvalue="Node.js.main.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +137,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="73031000" />
+      <workItem from="1663211507467" duration="73375000" />
     </task>
     <servers />
   </component>
