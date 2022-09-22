@@ -7,15 +7,25 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <body>
 <div id="app">
-{{username}}
+{{username}}{{age}}
 
 </div>
 </body>
 <script>
+
+    /**
+     * mvvm
+     * @type {Vue}
+     */
+
+    //ViewModel
     const app =new Vue({
+        //view
         el:'#app',
+        //model
         data:{
             username:"rst",
+            age:18
         }
     })
 </script>
