@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<style>
+    .title{
+        background-color: pink;
+    }
+    .outer{
+        background-color: #1eacda;
+        height: 100px;
+    }
+    .inner{
+        background-color: firebrick;
+        height: 40px;
+    }
+    .medium{
+        background-color: green;
+        height: 60px;
+    }
+
+</style>
+<body>
+<div id="app">
+
+    <-------------vue指令--------------->
+    <div class="title">
+        ### 1 内容渲染指令 ###
+    </div>
+    <-------------v-text-会覆盖默认值-------------->
+    <p v-text="username">name</p>
+    <p v-text="age">age =19</p>
+    <br>
+
+    <-------------{{}}-差值表达式： 不会覆盖元素默认值，在开发中更常用-------------->
+    <p v-text="age">name:{{username}}</p>
+    <p >age:{{age}}</p>
+    <br>
+
+    <-------------v-html--渲染包含h5标签------------->
+    <p v-text="html">{{html}}</p>
+    <p v-html="html"></p>
+
+    <div class="title">
+        ### 2 属性绑定指令 ###
+    </div>
+    <-------------v-bind--------------->
+    <br>
+    <input type="text" v-bind:placeholder="inputValue">
+    <img v-bind:src="imgSrc">
+    <br>
+
+    <input type="text" :placeholder="inputValue">
+    <img :src="imgSrc">
+    <br>
+
+    <-------------js表达式--------------->
+    <div>
+        <br>
+        {{age +10 }}
+        {{isTrue ? 'True' :'false'}}
+    </div>
+
+    <div class="title">
+        ### 3 事件绑定指令 ###
+    </div>
+    <br>
+    <-------------v-on---------------->
+    <br>    {{count}} <br>
+
+    <input type="button" value="add count" v-on:click="addCount">
+
+    <input type="button" value="add count easily" @click="count++">
+
+    <input type="button" value="change color event" v-on:click="addCountEvent">
+
+    <input type="button" value="add count with args" v-on:click="addCountArgs(2)">
+
+    <input type="button" value="add count with args" v-on:click="addCountEventAndArgs($event,2)">
+
+    <!--    <input type="button" value="{{info}}" v-on:monseenter="doIt">-->
+<!--    <input type="button" value="双击事件" v-on:dblclick="addCount">-->
+
+    <br><br>
+    <-------------.prevent：阻止链接的默认跳转---------------->
+    <div>
+        <a href="http://www.baidu.com" >百度</a>
+        <a href="http://www.baidu.com" @click.prevent>阻止去百度</a>
+        <a href="http://www.baidu.com" @click.prevent="baidu">阻止去百度</a>
+    </div>
+
+    <br><br>
+    <-------------.prevent：阻止链接的默认跳转---------------->
+    <div class="outer" @click="outerClick">
+            outer
+        <div class="inner" @click="innerClick">
+            innner  点击后冒泡到outer
+        </div>
+    </div>
+<!--    <-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;.prevent：阻止链接的默认跳转&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
+    <div class="outer" @click="outerClick">
+        outer
+        <div class="inner" @click.stop="innerClick">
+            innner   点击后不会冒泡到outer
+        </div>
+    </div>
+    <-------------.capture：捕获阶段发生的---------------->
+    <div class="outer" @click.capture="outerClick">
+        outer
+        <div class="inner" @click="innerClick">
+            innner   点击捕获outer事件
+        </div>
+    </div>
+    <-------------.once：自始自终只触发一次，触发一次之后就不会触发了---------------->
+    <div class="outer" @click.capture="outerClick">
+        outer
+        <div class="inner" @click="innerClick">
+            innner
+        </div>
+    </div>
+    <div class="outer" @click.once="outerClick">
+        outer
+        <div class="inner" @click.once="innerClick">
+            innner
+        </div>
+    </div>
+    <-------------.self：自始自终只触发一次，触发一次之后就不会触发了---------------->
+    <div class="outer" @click="outerClick">
+        outer
+        <div class="medium" @click.self="mediumClick">
+            medium 只有点meidum的时候，才触发，不通过冒泡触发
+            <div class="inner" @click="innerClick">
+                innner
+            </div>
+        </div>
+    </div>
+    <-------------按键修饰符---------------->
+    <br>
+    <input @keyup.enter="submit" @keyup.esc="clearInput">
+    <input @keyup.esc="clearInput">
+
+
+    <div class="title">
+        ### 4 双向数据绑定 ###
+    </div>
+
+    <div><-------------v-model--只能配合表单元素使用--------------></div>
+     <p>用户名：{{username}}</p>
+    <input type="text" v-model="username">
+
+    <hr/>
+    <p>选中的省份是：{{province}}</p>
+    <select v-model="province">
+        <option value="">请选择</option>
+        <option value="北京">北京</option>
+        <option value="安徽">安徽</option>
+        <option value="江苏">江苏</option>
+    </select>
+    <div><-------------v-model修饰符--------------></div>
+    <hr/>
+    <p>username 前面空格是无效的{{username}}</p>
+    <p>age只能是number: {{age}}</p>
+    <p>province 只在文本框失去焦点的时候更新数据  {{province}}</p>
+
+    <div><-------------.trim--------------></div>
+    <input type="text" v-model.trim="username">
+
+    <div><-------------.number--------------></div>
+    <input type="text" v-model.number="age">
+
+    <div><-------------.lazy-------------></div>
+    <input type="text" v-model.lazy="province">
+
+    <div class="title">
+        ### 5 条件渲染指令 ###
+    </div>
+    <hr/>
+    <p>频繁切换---->v-show</p>
+    <p>运行时条件很少改变---->v-if</p>
+    <button @click="isFlag">button</button>
+    <p v-if="this.f">v-if : 动态的创建或者移除DOM元素 切换开销大 </p>
+    <p v-show="this.f">v-show ： 添加或者移除style="display：none"样式  初始渲染开销</p>
+
+    <div><-------------v-if v-else-------------></div>
+    <input type="text" v-model="age">
+    <p v-if="age>20">age>20</p>
+    <p v-else>age<=20</p>
+
+    <input type="text" v-model="age">
+    <p v-if="age<20">age<20</p>
+    <p v-else-if="age>=20&&age<40">20<=age<40</p>
+    <p v-else-if="age>=40&&age<60">40<=age<60</p>
+    <p v-else="age">age>60</p>
+
+    <div class="title">
+        ### 6 列表渲染指令 ###
+    </div>
+    <div><-------------v-for-------------></div>
+    <ul>
+        <li v-for="item in list">name : {{item.name}} </li>
+    </ul>
+    <div><-------------v-for-------------></div>
+    <ul>
+        <li v-for="(item,index) in list">index:{{index}}   name : {{item.name}} </li>
+    </ul>
+    <div><-------------添加key-------------></div>
+    <div>
+        <input type="text" v-model="name">
+        <button @click="addUser">addUser</button>
+    </div>
+    <ul>
+        <li v-for="(user,index) in list" :key="user.id" >
+        <input type="checkbox"/>
+        name: {{user.name}}
+        </li>
+    </ul>
+
+
+</div>
+
+</body>
+<script>
+        //ViewModel
+    const app =new Vue({
+            //view
+            el:'#app',
+            //model
+            data:{
+                username:"rst",
+                name:"",
+                id:2,
+                age:18,
+                html:'<ul><li style="color: #1eacda">111</li><li>222</li><li>333</li></ul>',
+                inputValue:"请输入",
+                imgSrc:'./images/z.png',
+                isTrue:false,
+                count:0,
+                province:'',
+                f:true,
+                list:[
+                    {id:1 , name:"zs"},
+                    {id:2 , name: "ls"},
+                ],
+                userList:[
+                    "rst",
+                    "zs",
+                    "ls"
+                ]
+            },
+            methods:{
+                addCount(){
+                    this.count++;
+                },
+                addCountEvent(e){
+                    const nowColor = e.target.style.backgroundColor;
+                    e.target.style.backgroundColor= nowColor === 'red'? 'blue' :'red';
+                },
+                addCountArgs(step){
+                    this.count +=step;
+                },addCountEventAndArgs(e, step){
+                    const nowColor = e.target.style.backgroundColor;
+                    e.target.style.backgroundColor= nowColor === 'red'? 'blue' :'red';
+                    this.count +=step;
+                },
+                baidu(){
+                    alert("this is baidu");
+                },
+                outerClick(){
+                    alert('this is outer');
+                },
+                innerClick(){
+                    alert('this is inner');
+                },
+                mediumClick(){
+                    alert("this is medium");
+                },
+
+                submit(e) {
+                    alert("this enter, your value is "+e.target.value);
+                },
+                clearInput(e){
+                    e.target.value='';
+                },
+
+                isFlag(){
+                    this.f=!(this.f);
+                },
+
+                addUser(){
+                    let that = this;
+                    this.id++;
+                    this.list.unshift({ id:this.id, name:this.name});
+                    console.log(that.list)
+                }
+            }
+        })
+
+        /**
+         *
+         * ###内容渲染指令
+         *
+         * v-text
+         * 会覆盖默认值
+         *
+         * {{}}
+         *  差值表达式： 不会覆盖元素默认值，在开发中更常用
+         *
+         *  v-html
+         *  渲染包含h5标签
+         *
+         * ###属性绑定指令
+         *
+         * v-bind
+         * 绑定属性
+         *
+         * js表达式
+         *
+         * ###事件绑定指令
+         * methods写事件函数
+         *
+         * 事件对象event
+         *
+         *
+         * ###双向数据绑定
+         *
+         * ### 5 条件渲染指令 ###
+         *
+         *
+         * ### 6 列表渲染指令 ###
+         *
+         * v-for
+         * 当列表的数据变化的时候，默认情况下，vue尽可能复用已经存在的dom元素，从而提升渲染的性能，但是这种默认性能优化策略，会导致有状态的列表无法被正确的更新
+         *
+         * 添加key属性，保证有状态的列表被正确更新
+         *
+         *
+         */
+</script>
+</html>
