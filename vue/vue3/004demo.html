@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<body>
+<div id="app">
+    //卡片区域
+
+    <div class="card">
+        <h5 class="card-header">添加品牌</h5>
+        <div class="carf-body">
+            <form class="form">
+                <div>品牌名称</div>
+                <input type="text" class="from-control">
+
+                <button type="submit">添加品牌</button>
+            </form>
+        </div>
+    </div>
+
+    //品牌列表
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>品牌名称</th>
+                <th>状态</th>
+                <th>创建时间</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+<!--        表格的主题区域-->
+        <tbody>
+<!--        TODO:循环渲染表格的每一行数据-->
+            <tr v-for="(it,index) in brandList" :key="it.id">
+                <td>{{it.id}}</td>
+                <td>{{it.brandname}}</td>
+                <td>
+                    <input type="checkbox" :id="it.id" v-model="it.state">
+                    <label for="it.id" v-if="it.state">已启用</label>
+                    <label for="it.id" v-else>已弃用</label>
+<!--                    {{it.state}}-->
+                </td>
+                <td>{{it.addtime | dataFormat }}</td>
+                <td>
+                    <a href="#">删除</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
+</body>
+<script>
+    function padZero(n){
+        return n>9?n:'0'+n;
+    }
+    Vue.filter("dataFormat",(dateStr)=>{
+        const dt = new Date(dateStr);
+
+        const y = dt.getFullYear();
+        const m = dt.getMonth();
+        const d = dt.getDay();
+
+        const hh = padZero(dt.getHours());
+        const mm = padZero(dt.getMinutes());
+        const ss = padZero(dt.getSeconds());
+
+        return `${y}-${m}-${d} ${hh}:${mm}:${ss}`;
+    })
+    const vm=new Vue({
+        el:"#app",
+        data:{
+            brandList:[
+                {id:1, brandname:'宝马', state:true, addtime:new Date()},
+                {id:2, brandname:'宝马2', state:true, addtime:new Date()},
+                {id:3, brandname:'宝马3', state:true, addtime:new Date()},
+                {id:4, brandname:'宝马4', state:true, addtime:new Date()},
+
+            ]
+        }
+    })
+</script>
+</html>
