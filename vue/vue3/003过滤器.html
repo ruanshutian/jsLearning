@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<style>
+    .title{
+        background-color: pink;
+    }
+    .outer{
+        background-color: #1eacda;
+        height: 100px;
+    }
+    .inner{
+        background-color: firebrick;
+        height: 40px;
+    }
+    .medium{
+        background-color: green;
+        height: 60px;
+    }
+
+</style>
+<body>
+<div id="app">
+
+    <-------------vue过滤器--------------->
+    <-------------管道符   ：  ｜    进行调用-------------->
+    <div class="title">
+        ### 1 {{}}过滤器的使用 ###
+    </div>
+    <p :title="info">{{name }}</p>
+    <-------------使用过滤器后首字母大写-------------->
+    <p :title="info | capitalize">{{name | capitalize }}</p>
+
+    <div class="title">
+        ### 2 私有过滤器和全局过滤器 ###
+    </div>
+    <p><-------------私有过滤器:第二个vue实例不能使用--------------></p>
+
+</div>
+<div id="app2">
+    <-------------全局过滤器:第二个vue实例能使用-------------->
+    <p :title="info | capitalize">{{name | capitalize }}</p>
+
+    <div class="title">
+        ### 3 连续调用多个过滤器 ###
+    </div>
+    <p :title="info | capitalize">{{message | capitalize | maxLength}}</p>
+
+    <div class="title">
+        ### 4 过滤器穿参 ###
+    </div>
+    <p :title="info | capitalize">{{message | capitalize | maxLength2(5)}}</p>
+
+
+</div>
+
+</body>
+<script>
+    // 全局过滤器
+    Vue.filter('capitalize',(str)=>{
+        return str.charAt(0).toUpperCase()+str.slice(1);
+    })
+    Vue.filter('maxLength',(str)=>{
+        if(str.length <= 10)return str;
+        return str.slice(0,10)+"...";
+    })
+    Vue.filter('maxLength2',(str, n=10)=>{
+        if(str.length <=n)return str;
+        return str.slice(0,n)+"...";
+    })
+    //ViewModel
+    const app =new Vue({
+        //view
+        el:'#app',
+        //model
+        data:{
+            name:"rst",
+            id:2,
+            age:18,
+            message:"hellovue.js",
+            info:"title11 "
+        },
+        filters:{
+            // 私有过滤器
+            capitalize(str){
+                return str.charAt(0).toUpperCase()+str.slice(1)
+            }
+        }
+        ,
+        methods:{
+            addCount(){
+
+            }
+        }
+    })
+    const app2 = new Vue({
+        el:'#app2',
+        data:{
+            name:"rst",
+            id:2,
+            age:18,
+            message:"hellovue.js",
+            info:"title11 "
+        },
+    })
+
+
+
+    /**
+     *
+     * ### 过滤器 ：常用于文本的格式化  比如：hello->Hello
+     *         filters:{
+     *             // 私有过滤器
+     *             capitalize(str){
+     *                 return str.charAt(0).toUpperCase()+str.slice(1)
+     *             }
+     *         }
+     *         {{name | capitalize }}
+     *
+     *
+     * 过滤器的兼容：
+     * 过滤器仅在vue2.x 和vue1.x使用，
+     * vue3.x版本剔除了过滤器相关功能，用计算属性或者方法代替
+     *
+     *
+     *
+     */
+</script>
+
+</html>
