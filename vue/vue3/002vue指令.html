@@ -214,10 +214,13 @@
     </div>
     <ul>
         <li v-for="(user,index) in list" :key="user.id" >
+<!--        <li v-for="(user,index) in list" :key="user" >-->
         <input type="checkbox"/>
         name: {{user.name}}
         </li>
     </ul>
+
+
 
 
 </div>
@@ -337,7 +340,14 @@
          *
          * 添加key属性，保证有状态的列表被正确更新
          *
+         * key的注意事项：
+         * 1 key的值必须是数字或者字符串
+         * 2 key的值不能重复，必须保证唯一性
+         * 2 建议吧id当作key的值
+         * 4 index的值不可以作为key
+         * 5 建议使用v-for的时候一定要指定key的值，（提升性能且又防止列表状态紊乱）
          *
+         * 
          */
 </script>
 </html>
