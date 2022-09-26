@@ -8,21 +8,21 @@
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <body>
 <div id="app">
-    //卡片区域
+<!--    //卡片区域-->
 
     <div class="card">
         <h5 class="card-header">添加品牌</h5>
         <div class="carf-body">
             <form class="form">
                 <div>品牌名称</div>
-                <input type="text" class="from-control">
+                <input type="text" class="from-control"v-model.trim="brandName" @keyup.esc="brandName=''" @keyup.enter="addBrand">
 
-                <button type="submit">添加品牌</button>
+                <button type="submit" @click="addBrand">添加品牌</button>
             </form>
         </div>
     </div>
 
-    //品牌列表
+<!--    //品牌列表-->
     <table class="table">
         <thead>
             <tr>
@@ -47,7 +47,7 @@
                 </td>
                 <td>{{it.addtime | dataFormat }}</td>
                 <td>
-                    <a href="#">删除</a>
+                    <a href="#" @click.prevent="deleteBrand(it.id)">删除</a>
                 </td>
             </tr>
         </tbody>
@@ -79,9 +79,24 @@
                 {id:1, brandname:'宝马', state:true, addtime:new Date()},
                 {id:2, brandname:'宝马2', state:true, addtime:new Date()},
                 {id:3, brandname:'宝马3', state:true, addtime:new Date()},
-                {id:4, brandname:'宝马4', state:true, addtime:new Date()},
+                // {id:4, brandname:'宝马4', state:true, addtime:new Date()},
 
-            ]
+            ],
+            nextId:4,
+            brandName:""
+        },
+        methods:{
+            addBrand:function (){
+                console.log(this.brandName);
+                this.brandList.push({
+                id:this.nextId, brandname:this.brandName, state:true, addtime:new Date()
+                });
+                this.nextId++;
+                this.brandName="";
+            },
+            deleteBrand:function (id){
+                this.brandList=this.brandList.filter(x=>x.id!==id)
+            }
         }
     })
 </script>
