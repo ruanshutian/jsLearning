@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<!-- 开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<body>
+<div id="app">
+
+</div>
+</body>
+<script>
+    /**
+     *
+     * 1、单页面程序 SPA————只有一个html
+     *
+     * 2、优点
+     * 良好的交互体验：
+     * 单页面应用内容的改变不需要重新加载整个页面；
+     * 获取数据也是通过Ajax异步获取
+     * 没有页面之间的跳转，不会白屏现象
+     *
+     * 良好的前后端工作分离模式：
+     * 后端专注于提供API接口，更容易实现AOI接口复用
+     * 前端专注于页面的渲染，更利于前端工程化的发展
+     *
+     * 减轻服务器的压力：
+     * 服务器只提供数据，不负责叶敏啊的合成与逻辑的处理，吞吐能力会提高几倍
+     *
+     * 3、缺点
+     * 首屏加载慢：
+     * 路由加载慢
+     * 代码压缩
+     * CDN加速
+     * 网络传输压缩
+     *
+     * 不利于SRO
+     * ssr服务器端渲染
+     *
+     * 4 创建vue的SPA项目
+     * 基于vite创建SPA项目：
+     * vue3.x
+     * 不基于webpack
+     *
+     * 基于vue-cli创建SPA项目：
+     * vue3.x和2.x
+     * 基于webpack
+     *
+     */
+
+    const vm=new Vue({
+        el:"#app",
+        data:{
+        },
+        methods:{
+
+        }
+    })
+</script>
+</html>
