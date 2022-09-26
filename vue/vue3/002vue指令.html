@@ -128,7 +128,7 @@
             innner
         </div>
     </div>
-    <-------------.self：自始自终只触发一次，触发一次之后就不会触发了---------------->
+    <-------------.self：只有点meidum的时候，才触发，不通过冒泡触发---------------->
     <div class="outer" @click="outerClick">
         outer
         <div class="medium" @click.self="mediumClick">
