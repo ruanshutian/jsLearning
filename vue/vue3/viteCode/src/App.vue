@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import Swiper from "./components/swiper.vue";
+import Swiper from "./components/002private/swiper.vue";
 export default {
   // 组件的名称
   name:"app",
