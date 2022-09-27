@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/005class&amp;style/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/005class&amp;style/Style.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/006demo/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/006demo/MyHeader.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" afterDir="false" />
     </list>
@@ -70,7 +70,10 @@
       <recent name="$PROJECT_DIR$/vue/vue学习/webpack_test/src/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.002vue指令.html">
+  <component name="RunManager" selected="JavaScript Debug.001vue基本使用.html (1)">
+    <configuration name="001vue基本使用.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue2/001vue基本使用.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="001vue基本使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/001vue基本使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -80,10 +83,7 @@
     <configuration name="003过滤器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/003过滤器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="004demo.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/004demo.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
+    <configuration name="006单页面程序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/006单页面程序.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
@@ -104,19 +104,19 @@
     </configuration>
     <list>
       <item itemvalue="JavaScript Debug.001vue基本使用.html" />
+      <item itemvalue="JavaScript Debug.001vue基本使用.html (1)" />
       <item itemvalue="JavaScript Debug.002vue指令.html" />
       <item itemvalue="JavaScript Debug.003过滤器.html" />
-      <item itemvalue="JavaScript Debug.004demo.html" />
-      <item itemvalue="JavaScript Debug.index.html (2)" />
+      <item itemvalue="JavaScript Debug.006单页面程序.html" />
       <item itemvalue="Node.js.03http.js" />
       <item itemvalue="npm.webpac_dev_serve" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.002vue指令.html" />
-        <item itemvalue="JavaScript Debug.004demo.html" />
+        <item itemvalue="JavaScript Debug.001vue基本使用.html (1)" />
         <item itemvalue="JavaScript Debug.003过滤器.html" />
-        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.006单页面程序.html" />
+        <item itemvalue="JavaScript Debug.002vue指令.html" />
         <item itemvalue="JavaScript Debug.001vue基本使用.html" />
       </list>
     </recent_temporary>
@@ -141,7 +141,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="128739000" />
+      <workItem from="1663211507467" duration="132485000" />
     </task>
     <servers />
   </component>
