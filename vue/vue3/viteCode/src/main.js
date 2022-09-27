@@ -12,7 +12,8 @@ import {createApp} from "vue";
 // import App from './components/003style冲突scoped/App.vue'
 // import App from './components/004props/App.vue'
 // import App from './components/005class&style/App.vue'
-import App from './components/006demo/App.vue'
+// import App from './components/006demo/App.vue'
+import App from './components/007props验证/App.vue'
 
 
 // 导入组件
