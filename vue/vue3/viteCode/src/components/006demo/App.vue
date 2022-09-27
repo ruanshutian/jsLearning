@@ -4,16 +4,18 @@
   <div>
 <!--    <div class="app-container">hello demo</div>-->
 
-    <my-header v-bind:title="title" :bgcolor="bgcolor" :color="color"></my-header>
+    <my-header v-bind:title="title" :bgcolor="bgcolor" :color="col"></my-header>
     <hr class="hr-container">
     <div >
       <form>
         <select >
-          <option v-for="(item) in list" v-model="color">{{item}}</option>
+          <option v-for="(item) in list" >{{item}}</option>
         </select>
       </form>
     </div>
-    <input v-model="color">
+    title:<input v-model="title">
+    bgcolor:<input v-model="bgcolor">
+    color:<input v-model="col">
 
   </div>
 
@@ -28,7 +30,7 @@ export default {
     return{
       title:'',
       bgcolor:"pink",
-      color:'yellow',
+      col:'yellow',
       list:[
           'red','green','blue'
         // {id:1, brandname:'宝马', state:true, addtime:new Date()},
