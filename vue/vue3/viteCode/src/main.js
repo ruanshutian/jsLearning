@@ -13,7 +13,10 @@ import {createApp} from "vue";
 // import App from './components/004props/App.vue'
 // import App from './components/005class&style/App.vue'
 // import App from './components/006demo/App.vue'
-import App from './components/007props验证/App.vue'
+// import App from './components/007props验证/App.vue'
+// import App from './components/008计算机属性/App.vue'
+// import App from './components/009自定义事件/App.vue'
+import App from './components/010v-model/App.vue'
 
 
 // 导入组件

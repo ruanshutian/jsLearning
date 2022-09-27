@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/007props验证/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/007props验证/Count.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/008计算机属性/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/008计算机属性/Count.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/009自定义事件/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/009自定义事件/Count.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/010v-model/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/010v-model/Count.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/todos/src/components/TodoButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/todos/src/components/TodoInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vueDemo/todos/src/components/TodoList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/008小结.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/008小结.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,11 +77,8 @@
       <recent name="$PROJECT_DIR$/vue/vue学习/webpack_test/src/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.001vue基本使用.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="001vue基本使用.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue2/001vue基本使用.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="001vue基本使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/001vue基本使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="002vue指令.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/002vue指令.html" useBuiltInWebServerPort="true">
@@ -87,7 +90,7 @@
     <configuration name="006单页面程序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/006单页面程序.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vueDemo/todos/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
@@ -104,21 +107,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.001vue基本使用.html" />
       <item itemvalue="JavaScript Debug.001vue基本使用.html (1)" />
       <item itemvalue="JavaScript Debug.002vue指令.html" />
       <item itemvalue="JavaScript Debug.003过滤器.html" />
       <item itemvalue="JavaScript Debug.006单页面程序.html" />
+      <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.03http.js" />
       <item itemvalue="npm.webpac_dev_serve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.001vue基本使用.html (1)" />
         <item itemvalue="JavaScript Debug.003过滤器.html" />
         <item itemvalue="JavaScript Debug.006单页面程序.html" />
         <item itemvalue="JavaScript Debug.002vue指令.html" />
-        <item itemvalue="JavaScript Debug.001vue基本使用.html" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +145,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="136109000" />
+      <workItem from="1663211507467" duration="148900000" />
     </task>
     <servers />
   </component>
