@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/008计算机属性/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/008计算机属性/Count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/009自定义事件/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/009自定义事件/Count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/010v-model/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/010v-model/Count.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueDemo/todos/src/components/TodoButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueDemo/todos/src/components/TodoInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vueDemo/todos/src/components/TodoList.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/008小结.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/008小结.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +136,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="148900000" />
+      <workItem from="1663211507467" duration="149357000" />
     </task>
     <servers />
   </component>
