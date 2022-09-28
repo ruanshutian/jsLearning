@@ -20,7 +20,8 @@ import {createApp} from "vue";
 // import App from './components/010v-model/App.vue'
 // import App from './components/011watch/App.vue'
 // import App from './components/012lifeCycle/App.vue'
-import App from './components/012lifeCycle/App.vue'
+// import App from './components/012lifeCycle/App.vue'
+import App from './components/013数据共享组件/App.vue'
 
 // 导入组件
 import HW  from "./components/HelloWorld.vue";

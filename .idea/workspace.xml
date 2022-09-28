@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/012lifeCycle/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/012lifeCycle/LifeCycle.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/013数据共享组件/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/013数据共享组件/SonToParents.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/013数据共享组件/sAndP.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/013数据共享组件/son.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/011watch/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/011watch/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue/vue3/viteCode/src/components/012lifeCycle",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue/vue3/viteCode/src/components/013数据共享组件",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -57,11 +58,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/013数据共享组件" />
+      <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/012lifeCycle" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/011watch" />
-      <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components" />
       <recent name="$PROJECT_DIR$/vue/vue3" />
-      <recent name="$PROJECT_DIR$/vue/vue学习" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/002private" />
@@ -139,7 +140,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="158639000" />
+      <workItem from="1663211507467" duration="164913000" />
     </task>
     <servers />
   </component>
