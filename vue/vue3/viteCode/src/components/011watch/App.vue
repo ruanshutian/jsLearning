@@ -11,6 +11,8 @@
 
     <MyWatchDeepOne></MyWatchDeepOne>
 
+    {{count}}
+
   </div>
 
 </template>

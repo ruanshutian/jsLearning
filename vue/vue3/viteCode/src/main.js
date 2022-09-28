@@ -9,6 +9,7 @@
 // 1 按需导入createApp函数
 import {createApp} from "vue";
 // 2 导入待渲染的App.vue组件
+// import App from "./App.vue";
 // import App from './components/003style冲突scoped/App.vue'
 // import App from './components/004props/App.vue'
 // import App from './components/005class&style/App.vue'
@@ -17,8 +18,9 @@ import {createApp} from "vue";
 // import App from './components/008计算机属性/App.vue'
 // import App from './components/009自定义事件/App.vue'
 // import App from './components/010v-model/App.vue'
-import App from './components/011watch/App.vue'
-
+// import App from './components/011watch/App.vue'
+// import App from './components/012lifeCycle/App.vue'
+import App from './components/012lifeCycle/App.vue'
 
 // 导入组件
 import HW  from "./components/HelloWorld.vue";
