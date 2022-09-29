@@ -27,9 +27,9 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
+<style lang="less" >
 h1{
-  color: #1eacda;
+  color: yellow;
 }
 p{
   color: pink;
