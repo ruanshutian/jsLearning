@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/left.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/right.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/evenBus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/left.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/left.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/right.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -139,7 +141,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="167985000" />
+      <workItem from="1663211507467" duration="169803000" />
     </task>
     <servers />
   </component>
