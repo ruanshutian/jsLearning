@@ -10,7 +10,7 @@
 import {createApp} from "vue";
 // 2 导入待渲染的App.vue组件
 // import App from "./App.vue";
-import App from './components/003style冲突scoped/App.vue'
+// import App from './components/003style冲突scoped/App.vue'
 // import App from './components/004props/App.vue'
 // import App from './components/005class&style/App.vue'
 // import App from './components/006demo/App.vue'
@@ -22,6 +22,7 @@ import App from './components/003style冲突scoped/App.vue'
 // import App from './components/012lifeCycle/App.vue'
 // import App from './components/012lifeCycle/App.vue'
 // import App from './components/013数据共享组件/App.vue'
+import App from './components/014brother/App.vue'
 
 // 导入组件
 import HW  from "./components/HelloWorld.vue";

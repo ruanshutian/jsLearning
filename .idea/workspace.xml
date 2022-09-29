@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/left.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/right.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/003style冲突scoped/test.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/003style冲突scoped/test.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/003style冲突scoped/test2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/003style冲突scoped/test2.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
       <recent name="$PROJECT_DIR$/vue/vue学习/webpack_test/src/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.001vue基本使用.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="001vue基本使用.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue2/001vue基本使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -110,8 +111,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.001vue基本使用.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.001vue基本使用.html" />
         <item itemvalue="JavaScript Debug.001vue基本使用.html (1)" />
         <item itemvalue="JavaScript Debug.003过滤器.html" />
         <item itemvalue="JavaScript Debug.006单页面程序.html" />
@@ -138,7 +139,7 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="167027000" />
+      <workItem from="1663211507467" duration="167985000" />
     </task>
     <servers />
   </component>
