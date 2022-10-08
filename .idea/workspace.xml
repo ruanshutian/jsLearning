@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/evenBus.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/015levelParentAndSon/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/015levelParentAndSon/level1.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/015levelParentAndSon/level2.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/015levelParentAndSon/level3.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/left.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/left.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/right.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/014brother/right.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="package.json" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -42,21 +42,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue/vue3/viteCode/src/components/013数据共享组件",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/AronRuan/Desktop/jsLearning/vue/vue3/viteCode/src/components/013数据共享组件&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/013数据共享组件" />
@@ -141,7 +141,8 @@
       <workItem from="1661995106995" duration="22530000" />
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
-      <workItem from="1663211507467" duration="169803000" />
+      <workItem from="1663211507467" duration="171776000" />
+      <workItem from="1665191983497" duration="1739000" />
     </task>
     <servers />
   </component>

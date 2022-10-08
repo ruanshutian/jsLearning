@@ -22,7 +22,8 @@ import {createApp} from "vue";
 // import App from './components/012lifeCycle/App.vue'
 // import App from './components/012lifeCycle/App.vue'
 // import App from './components/013数据共享组件/App.vue'
-import App from './components/014brother/App.vue'
+// import App from './components/014brother/App.vue'
+import App from './components/015levelParentAndSon/App.vue'
 
 // 导入组件
 import HW  from "./components/HelloWorld.vue";
