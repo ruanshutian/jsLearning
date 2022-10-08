@@ -93,10 +93,7 @@
       <recent name="$PROJECT_DIR$/vue/vue学习/webpack_test/src/images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
-    <configuration name="001vue基本使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/001vue基本使用.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html (3)">
     <configuration name="17demo音乐播放器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue2速成/17demo音乐播放器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -104,6 +101,9 @@
       <method v="2" />
     </configuration>
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/music/src/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (3)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/music/vue_music/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vueDemo/todos/index.html" useBuiltInWebServerPort="true">
@@ -126,18 +126,18 @@
       <item itemvalue="JavaScript Debug.17demo音乐播放器.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
-      <item itemvalue="JavaScript Debug.001vue基本使用.html" />
+      <item itemvalue="JavaScript Debug.index.html (3)" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.03http.js" />
       <item itemvalue="npm.webpac_dev_serve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
         <item itemvalue="JavaScript Debug.17demo音乐播放器.html" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.001vue基本使用.html" />
       </list>
     </recent_temporary>
   </component>

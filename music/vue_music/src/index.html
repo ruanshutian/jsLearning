@@ -29,13 +29,13 @@
                         <span v-show="item.mv!=0" @click="playMV(item.mv)"><i></i></span>
                     </li>
                 </ul>
-                <img src="../images/line.png" class="switch_btn">
+                <img src="../../images/line.png" class="switch_btn">
             </div>
             <!--            碟片-->
             <div class="player_con" :class="{playing:isPlaying}" >
-                <img src="../images/player_bar.png" class="play_bar" />
+                <img src="../../images/player_bar.png" class="play_bar" />
                 <!-- 黑胶碟片 -->
-                <img src="../images/disc.png" class="disc autoRotate" />
+                <img src="../../images/disc.png" class="disc autoRotate" />
                 <img :src="musicCover" class="cover autoRotate"/>
             </div>
             <!--            评论-->
@@ -48,7 +48,7 @@
                         <dd class="detail">{{item.content}}</dd>
                     </dl>
                 </div>
-                <img src="../images/line.png" class="right_line">
+                <img src="../../images/line.png" class="right_line">
             </div>
         </div>
 
