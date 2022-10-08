@@ -23,7 +23,8 @@ import {createApp} from "vue";
 // import App from './components/012lifeCycle/App.vue'
 // import App from './components/013数据共享组件/App.vue'
 // import App from './components/014brother/App.vue'
-import App from './components/015levelParentAndSon/App.vue'
+// import App from './components/015levelParentAndSon/App.vue'
+import App from './components/016Aios/App.vue'
 
 // 导入组件
 import HW  from "./components/HelloWorld.vue";
@@ -31,6 +32,7 @@ import TC from "./components/001globol/test-compenents.vue";
 import Test from "./components/003style冲突scoped/test.vue";
 import TestSecond from "./components/003style冲突scoped/test2.vue";
 import Article from "./components/004props/Article.vue"
+import axios from "axios";
 
 // 3 调用createApp函数，创建SPA应用实例
 const app =createApp(App)
@@ -43,6 +45,10 @@ app.component('my-TC',TC);
 app.component('Test',Test);
 app.component('TestSecond',TestSecond);
 app.component('Art',Article);
+
+
+axios.defaults.baseURL = "https://www.escook.cn"
+app.config.globalProperties.$http = axios
 
 
 // 4 调用mount()把App组件的模版结构，渲染到指定的el区域中
