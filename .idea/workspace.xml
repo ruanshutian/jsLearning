@@ -5,11 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/016Aios/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/016Aios/get.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/016Aios/post.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/disc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/line01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/line02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/person01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/play.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/player_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/player_title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/shutoff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/table.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/images/z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +40,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="Vue Single File Component" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -41,48 +62,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/AronRuan/Desktop/jsLearning/vue/vue3/viteCode/src/components/013数据共享组件&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/music",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/music" />
+      <recent name="$PROJECT_DIR$/music/images" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/013数据共享组件" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/012lifeCycle" />
-      <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/011watch" />
-      <recent name="$PROJECT_DIR$/vue/vue3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/music/images" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/002private" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/globol" />
       <recent name="$PROJECT_DIR$/vue/webpack" />
       <recent name="$PROJECT_DIR$/vue/vue学习/webpack_test/src/images" />
-      <recent name="$PROJECT_DIR$/vue/vue学习/webpack_test/src/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="001vue基本使用.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue2/001vue基本使用.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.index.html (2)">
     <configuration name="001vue基本使用.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/001vue基本使用.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="003过滤器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/003过滤器.html" useBuiltInWebServerPort="true">
+    <configuration name="17demo音乐播放器.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue2速成/17demo音乐播放器.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="006单页面程序.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vue/vue3/006单页面程序.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/ navigation/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/music/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/vueDemo/todos/index.html" useBuiltInWebServerPort="true">
@@ -102,21 +123,21 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.17demo音乐播放器.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
+      <item itemvalue="JavaScript Debug.index.html (2)" />
       <item itemvalue="JavaScript Debug.001vue基本使用.html" />
-      <item itemvalue="JavaScript Debug.001vue基本使用.html (1)" />
-      <item itemvalue="JavaScript Debug.003过滤器.html" />
-      <item itemvalue="JavaScript Debug.006单页面程序.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.03http.js" />
       <item itemvalue="npm.webpac_dev_serve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (2)" />
+        <item itemvalue="JavaScript Debug.17demo音乐播放器.html" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.001vue基本使用.html" />
-        <item itemvalue="JavaScript Debug.001vue基本使用.html (1)" />
-        <item itemvalue="JavaScript Debug.003过滤器.html" />
-        <item itemvalue="JavaScript Debug.006单页面程序.html" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +162,7 @@
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
       <workItem from="1663211507467" duration="171776000" />
-      <workItem from="1665191983497" duration="5575000" />
+      <workItem from="1665191983497" duration="14002000" />
     </task>
     <servers />
   </component>
