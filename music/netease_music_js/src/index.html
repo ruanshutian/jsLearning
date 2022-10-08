@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>netease_music</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<div class="header">
+<!--    <div class="search">-->
+<!--        <input type="text" autocomplete="off" >-->
+<!--    </div>-->
+    <div class="search_bar">
+        <!--            <img src="img/images/player_title.png">-->
+        <h1 class="mylogo">  Aron Music</h1>
+        <input type="text" autocomplete="off" v-model="query" @keyup.enter='searchMusic'>
+    </div>
+</div>
+<div class="body"></div>
+<div class="foot"></div>
+</body>
+<script src="../js/index.js"></script>
+</html>
