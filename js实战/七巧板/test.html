@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas class="canvas">
+
+</canvas>
+</body>
+<script>
+    window.onload = function (){
+        let canvas = document.querySelector('canvas');
+
+        canvas.width = 800;
+        canvas.height =800;
+
+        let context = canvas.getContext("2d");
+
+        //画三角形
+        draw_triangle(context)
+
+        //
+        draw_rectangle(context)
+
+        draw_round(context)
+    }
+    function draw_triangle(context){
+        context.beginPath();
+        context.strokeStyle = 'red'
+        context.moveTo(0,0)
+        context.lineTo(0,100)
+        context.lineTo(100,100)
+        context.stroke()
+        context.fillStyle="blue";
+        context.fill();
+        context.closePath();
+    }
+    function draw_rectangle(context){
+        context.beginPath();
+        context.strokeStyle = 'red'
+        context.moveTo(150,0)
+        context.lineTo(150,100)
+        context.lineTo(250,100)
+        context.lineTo(250,0)
+        context.stroke()
+        context.fillStyle="blue";
+        context.fill();
+        context.closePath();
+    }
+    function draw_round(context){
+        context.beginPath();
+        context.strokeStyle = 'red'
+        context.arc(350,50,50,0,2*Math.PI);
+        context.stroke()
+        context.fillStyle="blue";
+        context.fill();
+        context.closePath();
+    }
+</script>
+</html>
