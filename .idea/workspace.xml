@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/js实战/transition/物体运动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/netease_music_js/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/netease_music_js/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/music/netease_music_js/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/transition/002物体运动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/transition/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/transition/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/transition/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/transition/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/transition/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/transition/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js实战/transition/images/Thumbs.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/netease_music_js/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/music/netease_music_js/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/netease_music_js/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/music/netease_music_js/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js实战/transition/物体运动.html" beforeDir="false" afterPath="$PROJECT_DIR$/js实战/transition/001物体运动.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/music",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js实战/transition",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,11 +63,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js实战/transition" />
       <recent name="$PROJECT_DIR$/music" />
       <recent name="$PROJECT_DIR$/music/images" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/013数据共享组件" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components" />
-      <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/012lifeCycle" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/music/vue_music" />
@@ -74,8 +77,8 @@
       <recent name="$PROJECT_DIR$/vue/webpack" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (4)">
-    <configuration name="物体运动.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/transition/物体运动.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.001物体运动.html">
+    <configuration name="001物体运动.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/transition/001物体运动.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/jsDemo/Images/ablum/index.html" useBuiltInWebServerPort="true">
@@ -104,18 +107,18 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.001物体运动.html" />
       <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.index.html (4)" />
       <item itemvalue="JavaScript Debug.index.html (5)" />
-      <item itemvalue="JavaScript Debug.物体运动.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.03http.js" />
       <item itemvalue="npm.webpac_dev_serve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.001物体运动.html" />
         <item itemvalue="JavaScript Debug.index.html (4)" />
-        <item itemvalue="JavaScript Debug.物体运动.html" />
         <item itemvalue="JavaScript Debug.index.html (5)" />
         <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
@@ -143,7 +146,7 @@
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
       <workItem from="1663211507467" duration="171776000" />
-      <workItem from="1665191983497" duration="32354000" />
+      <workItem from="1665191983497" duration="33955000" />
     </task>
     <servers />
   </component>
