@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Element_UI/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/017ref/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/017ref/Counter.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue3/vue.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +20,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -44,7 +47,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/js实战/七巧板",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue/vue3/viteCode/src/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,11 +58,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components" />
       <recent name="$PROJECT_DIR$/js实战/七巧板" />
       <recent name="$PROJECT_DIR$/js实战/transition" />
       <recent name="$PROJECT_DIR$/music" />
       <recent name="$PROJECT_DIR$/music/images" />
-      <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/013数据共享组件" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/music/vue_music" />
@@ -138,7 +141,7 @@
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
       <workItem from="1663211507467" duration="171776000" />
-      <workItem from="1665191983497" duration="38740000" />
+      <workItem from="1665191983497" duration="41488000" />
     </task>
     <servers />
   </component>
