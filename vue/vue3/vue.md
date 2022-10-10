@@ -102,6 +102,8 @@ npm install vue-router@next -S
 
 路由重定向：用户在访问地址A的时候，强制用户跳转到地址C，从而展示特定的组件页面 
 
+## 编程式导航
 
-
+编程式导航：调用API实现导航的方式  location.href
+声明式导航：低钠基链接实现导航的方式  <a>链接、vue的<router-link>
 
