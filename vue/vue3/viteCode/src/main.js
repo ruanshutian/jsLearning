@@ -28,7 +28,8 @@ import {createApp} from "vue";
 // import App from './components/017ref/App.vue'
 // import App from './components/018动态组件/App.vue'
 // import App from './components/019插槽/App.vue'
-import App from './components/020自定义指令/App.vue'
+// import App from './components/020自定义指令/App.vue'
+import App from './components/021前端路由/App.vue'
 
 // 导入组件
 import HW  from "./components/HelloWorld.vue";
