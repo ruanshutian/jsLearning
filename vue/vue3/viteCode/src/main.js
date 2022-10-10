@@ -27,8 +27,8 @@ import {createApp} from "vue";
 // import App from './components/016Aios/App.vue'
 // import App from './components/017ref/App.vue'
 // import App from './components/018动态组件/App.vue'
-import App from './components/019插槽/App.vue'
-
+// import App from './components/019插槽/App.vue'
+import App from './components/020自定义指令/App.vue'
 
 // 导入组件
 import HW  from "./components/HelloWorld.vue";
@@ -41,6 +41,27 @@ import axios from "axios";
 // 3 调用createApp函数，创建SPA应用实例
 const app =createApp(App)
 
+//声明全局自定义指令
+// app.directive(
+//     'focus',{
+//         mounted(el){
+//             el.focus()
+//         },
+//         updated(el){
+//             console.log("updated")
+//             el.focus()
+//         }
+//     }
+// )
+app.directive(
+    //函数简写
+    'focus',(el)=>{
+        el.focus()
+    }
+)
+app.directive('color',(el, col)=>{
+    el.style.color=col.value;
+})
 
 
 // 添加组件
