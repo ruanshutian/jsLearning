@@ -29,7 +29,8 @@ import {createApp} from "vue";
 // import App from './components/018动态组件/App.vue'
 // import App from './components/019插槽/App.vue'
 // import App from './components/020自定义指令/App.vue'
-import App from './components/021前端路由/App.vue'
+// import App from './components/021前端路由/App.vue'
+import App from './components/022vue-router/App.vue'
 
 // 导入组件
 import HW  from "./components/HelloWorld.vue";
@@ -39,8 +40,14 @@ import TestSecond from "./components/003style冲突scoped/test2.vue";
 import Article from "./components/004props/Article.vue"
 import axios from "axios";
 
+//导入路由
+import router from "./components/022vue-router/router";
+
 // 3 调用createApp函数，创建SPA应用实例
 const app =createApp(App)
+
+//路由
+app.use(router)
 
 //声明全局自定义指令
 // app.directive(

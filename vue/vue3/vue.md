@@ -96,8 +96,11 @@ SPA指的是一个web网站只有唯一的一个html页面，所有组件的展�
 前端路由监听到hash地址的变化
 前端路由把当前hash地址对应的组件渲染到浏览器中
 
+##  vue-router 路由解决方案
+在vue3.0只能安装vue-router 4.x 
+npm install vue-router@next -S
 
-
+路由重定向：用户在访问地址A的时候，强制用户跳转到地址C，从而展示特定的组件页面 
 
 
 
