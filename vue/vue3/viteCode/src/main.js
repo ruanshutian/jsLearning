@@ -26,7 +26,8 @@ import {createApp} from "vue";
 // import App from './components/015levelParentAndSon/App.vue'
 // import App from './components/016Aios/App.vue'
 // import App from './components/017ref/App.vue'
-import App from './components/018动态组件/App.vue'
+// import App from './components/018动态组件/App.vue'
+import App from './components/019插槽/App.vue'
 
 
 // 导入组件
