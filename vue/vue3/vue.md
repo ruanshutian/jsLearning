@@ -107,3 +107,6 @@ npm install vue-router@next -S
 编程式导航：调用API实现导航的方式  location.href
 声明式导航：低钠基链接实现导航的方式  <a>链接、vue的<router-link>
 
+## 命名路由
+## 导航守卫——控制路由的访问权限
+

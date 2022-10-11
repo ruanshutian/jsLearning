@@ -6,6 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/022vue-router/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/022vue-router/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/022vue-router/MyHome.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/022vue-router/MyHome.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/022vue-router/MyMovie.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/022vue-router/MyMovie.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/022vue-router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/components/022vue-router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/viteCode/src/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue/vue3/vue.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue3/vue.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +49,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue/vue3/viteCode/src/components",
+    "last_opened_file_path": "/Users/AronRuan/Desktop/jsLearning/vue/vue3/viteCode/src/components/023vue-router",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,11 +60,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/023vue-router" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components" />
       <recent name="$PROJECT_DIR$/js实战/七巧板" />
       <recent name="$PROJECT_DIR$/js实战/transition" />
       <recent name="$PROJECT_DIR$/music" />
-      <recent name="$PROJECT_DIR$/music/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/music/vue_music" />
@@ -138,7 +143,7 @@
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
       <workItem from="1663211507467" duration="171776000" />
-      <workItem from="1665191983497" duration="61781000" />
+      <workItem from="1665191983497" duration="68082000" />
     </task>
     <servers />
   </component>

@@ -13,6 +13,10 @@
   <router-view>路由占位符</router-view>
   <router-view></router-view>
 
+  <router-link :to="{name:'mov',params:{id:2}}">go to movie - 2</router-link>
+
+  <button @click="goToMovie">go to movie - 1</button>
+
 </div>
 
 </template>
@@ -29,6 +33,16 @@ export default {
     }
   },
   components: {MyMovie, MyAbout, MyHome},
+  methods:{
+    goToMovie(){
+      this.$router.push({
+        name:'mov',
+        params:{
+          id:1
+        }
+      })
+    }
+  }
   // created() {
   //   window.onhashchange=()=>{
   //

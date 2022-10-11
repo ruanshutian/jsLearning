@@ -30,6 +30,7 @@ import {createApp} from "vue";
 // import App from './components/019插槽/App.vue'
 // import App from './components/020自定义指令/App.vue'
 // import App from './components/021前端路由/App.vue'
+// import App from './components/022vue-router/App.vue'
 import App from './components/022vue-router/App.vue'
 
 // 导入组件

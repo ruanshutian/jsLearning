@@ -5,6 +5,7 @@
     <li>this is MyMovie </li>
     <li>this is MyMovie</li>
     <li>this is MyMovie</li>
+    <button @click="goBack">back</button>
   </div>
 </template>
 
@@ -13,7 +14,12 @@ export default {
   name: "MyMovie",
   props:[
       'id'
-  ]
+  ],
+  methods:{
+    goBack(){
+        this.$router.go(-1);
+    }
+  }
 }
 </script>
 
