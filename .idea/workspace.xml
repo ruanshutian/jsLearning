@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TypeScript/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/001hello.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TypeScript/002basis.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,7 @@
         <option value="HTML File" />
         <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -50,6 +53,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/AronRuan/Desktop/jsLearning/vue/vue综合案例/vue-ui-proj-1/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,20 +73,20 @@
       <recent name="$PROJECT_DIR$/vue/webpack" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.test.html (1)">
-    <configuration name="001物体运动.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/transition/001物体运动.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.002basis.js">
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/七巧板/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html (4)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/music/netease_music_js/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="test.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/Element_UI/test.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="test.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/七巧板/test.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="001hello.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TypeScript/001hello.js" working-dir="$PROJECT_DIR$/TypeScript">
+      <method v="2" />
+    </configuration>
+    <configuration name="002basis.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TypeScript/002basis.js" working-dir="$PROJECT_DIR$/TypeScript">
       <method v="2" />
     </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
@@ -99,21 +103,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.001物体运动.html" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
-      <item itemvalue="JavaScript Debug.index.html (4)" />
       <item itemvalue="JavaScript Debug.test.html" />
       <item itemvalue="JavaScript Debug.test.html (1)" />
       <item itemvalue="Node.js.03http.js" />
+      <item itemvalue="Node.js.001hello.js" />
+      <item itemvalue="Node.js.002basis.js" />
       <item itemvalue="npm.webpac_dev_serve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.002basis.js" />
+        <item itemvalue="Node.js.001hello.js" />
         <item itemvalue="JavaScript Debug.test.html (1)" />
         <item itemvalue="JavaScript Debug.test.html" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.001物体运动.html" />
-        <item itemvalue="JavaScript Debug.index.html (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -138,12 +142,19 @@
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
       <workItem from="1663211507467" duration="171776000" />
-      <workItem from="1665191983497" duration="80486000" />
+      <workItem from="1665191983497" duration="82425000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/TypeScript/001hello.js" />
+        <option value="$PROJECT_DIR$/TypeScript/002basis.js" />
+        <option value="$PROJECT_DIR$/TypeScript/002basis.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
