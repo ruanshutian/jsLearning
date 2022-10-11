@@ -9,3 +9,17 @@
 # vue-cli
 快速生成vue工程化项目的工具
 https://cli.vuejs.org/zh/
+
+# 最常用的组件库
+## PC
+Element UI
+View UI
+## 移动端
+Mint UI
+Vant
+
+
+## Element UI
+https://element.eleme.io/#/zh-CN
+https://element-plus.org/zh-CN/#/zh-CN
+
