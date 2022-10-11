@@ -90,23 +90,40 @@ SPA指的是一个web网站只有唯一的一个html页面，所有组件的展�
 不同组件之间的切换需要通过前端路由来实现
 结论：在SPA项目中，不同的功能之间的切换，要依赖于前端路由来完成
 前端路由——hash地址与组件之间的对应关系
-## 前端路由工作的过程
+
+
+## vue中配置路由
+
+createRouter  \  app.use(router)
+### 前端路由工作的过程
 用户点击页面路由链接
 导致url地址栏中的hash地址变化
 前端路由监听到hash地址的变化
 前端路由把当前hash地址对应的组件渲染到浏览器中
-
-##  vue-router 路由解决方案
-在vue3.0只能安装vue-router 4.x 
+###  vue-router 路由解决方案
+在vue3.0只能安装vue-router 4.x
 npm install vue-router@next -S
 
-路由重定向：用户在访问地址A的时候，强制用户跳转到地址C，从而展示特定的组件页面 
+路由重定向：用户在访问地址A的时候，强制用户跳转到地址C，从而展示特定的组件页面
 
+## 如何使用嵌套路由
+通过children属性进行路由嵌套、子路由的hash地址不要以/开头
+## 实现动态路由
+冒号声明参数项。this.$router.params   props:true
 ## 编程式导航
-
+this.$router.push     this.$router.go(-1)
 编程式导航：调用API实现导航的方式  location.href
 声明式导航：低钠基链接实现导航的方式  <a>链接、vue的<router-link>
+命名路由
+## 在全局使用导航守卫  ——     控制路由的访问权限
+路由实例.beforeEach((to,from,next)=>{})
 
-## 命名路由
-## 导航守卫——控制路由的访问权限
+
+
+
+
+
+
+
+
 
