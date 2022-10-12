@@ -25,8 +25,18 @@ let c = false;
 
  c = true;
 
+/**
+ * js 不考虑参数的类型和个数的
+ *
+ */
 
-function sum(a:number , b:number ){
+//规定参数类型
+// function sum(a:number , b:number ){
+//     return a+b;
+// }
+
+//规定返回值类型
+function sum(a:number , b:number ):number{
     return a+b;
 }
 

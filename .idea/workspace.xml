@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vue/vue综合案例/project/src/components/UserDetail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue综合案例/project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue综合案例/project/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue综合案例/project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue综合案例/project/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue综合案例/project/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue综合案例/project/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue综合案例/project/src/components/UserList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue综合案例/project/src/components/UserList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue综合案例/project/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue综合案例/project/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue综合案例/project/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue综合案例/project/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/vue综合案例/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/vue/vue综合案例/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/002basis.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/002basis.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScript/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +141,7 @@
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
       <workItem from="1663211507467" duration="171776000" />
-      <workItem from="1665191983497" duration="98401000" />
+      <workItem from="1665191983497" duration="101099000" />
     </task>
     <servers />
   </component>

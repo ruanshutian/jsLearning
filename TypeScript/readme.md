@@ -17,6 +17,9 @@ ts --编译--> js
 npm i -g typescript
 tsc xxx 编译
 
+# 类型
+1 [规定变量类型](./002basis.ts)
+2 [规定函数参数类型，返回值](./002basis.ts)
 
 
 
