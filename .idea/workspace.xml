@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TypeScript/003types.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScript/002basis.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/002basis.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TypeScript/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +19,9 @@
       <list>
         <option value="package.json" />
         <option value="HTML File" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -72,10 +72,7 @@
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/globol" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.002basis.js">
-    <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/js实战/七巧板/index.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.003types.js">
     <configuration name="test.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/jsLearning/Element_UI/test.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -86,6 +83,9 @@
       <method v="2" />
     </configuration>
     <configuration name="002basis.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TypeScript/002basis.js" working-dir="$PROJECT_DIR$/TypeScript">
+      <method v="2" />
+    </configuration>
+    <configuration name="003types.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/TypeScript/003types.js" working-dir="$PROJECT_DIR$/TypeScript">
       <method v="2" />
     </configuration>
     <configuration name="03http.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/nodejs/03http.js" working-dir="$PROJECT_DIR$/nodejs">
@@ -102,21 +102,21 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.html (2)" />
       <item itemvalue="JavaScript Debug.test.html" />
       <item itemvalue="JavaScript Debug.test.html (1)" />
       <item itemvalue="Node.js.03http.js" />
       <item itemvalue="Node.js.001hello.js" />
       <item itemvalue="Node.js.002basis.js" />
+      <item itemvalue="Node.js.003types.js" />
       <item itemvalue="npm.webpac_dev_serve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.003types.js" />
         <item itemvalue="Node.js.002basis.js" />
         <item itemvalue="Node.js.001hello.js" />
         <item itemvalue="JavaScript Debug.test.html (1)" />
         <item itemvalue="JavaScript Debug.test.html" />
-        <item itemvalue="JavaScript Debug.index.html (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +141,7 @@
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
       <workItem from="1663211507467" duration="171776000" />
-      <workItem from="1665191983497" duration="101099000" />
+      <workItem from="1665191983497" duration="104859000" />
     </task>
     <servers />
   </component>
@@ -150,6 +150,7 @@
     <option name="exactExcludedFiles">
       <list>
         <option value="$PROJECT_DIR$/TypeScript/002basis.js" />
+        <option value="$PROJECT_DIR$/TypeScript/003types.js" />
       </list>
     </option>
   </component>
