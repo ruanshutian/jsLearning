@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de445e8-2917-4ba3-9627-0266730b3893" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/vue/vue综合案例/project/src/components/UserList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vue/vue综合案例/project/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScript/002basis.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScript/002basis.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +19,9 @@
       <list>
         <option value="package.json" />
         <option value="HTML File" />
-        <option value="Vue Single File Component" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -64,11 +65,11 @@
       <recent name="$PROJECT_DIR$/js实战/transition" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/vue/vue综合案例/project/src" />
       <recent name="$PROJECT_DIR$/music/vue_music" />
       <recent name="$PROJECT_DIR$/music/images" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/002private" />
       <recent name="$PROJECT_DIR$/vue/vue3/viteCode/src/components/globol" />
-      <recent name="$PROJECT_DIR$/vue/webpack" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.002basis.js">
@@ -140,7 +141,7 @@
       <workItem from="1662103799551" duration="5760000" />
       <workItem from="1662177169483" duration="3768000" />
       <workItem from="1663211507467" duration="171776000" />
-      <workItem from="1665191983497" duration="83385000" />
+      <workItem from="1665191983497" duration="87661000" />
     </task>
     <servers />
   </component>
@@ -148,8 +149,6 @@
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/TypeScript/001hello.js" />
-        <option value="$PROJECT_DIR$/TypeScript/002basis.js" />
         <option value="$PROJECT_DIR$/TypeScript/002basis.js" />
       </list>
     </option>
